@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-
+// the class for each eassy
 public class Essay {
 	private ArrayList<ArrayList<String>> content;
 	
