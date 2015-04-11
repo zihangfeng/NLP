@@ -46,7 +46,7 @@ public class Grammar {
 		double grammarScore = 0.0;
 		countNumWord(essay);
 		
-		// the less it is the more points it gets
+		// the less mistake it has the more points it gets
 		return (1 - grammarScore);
 	}
 	

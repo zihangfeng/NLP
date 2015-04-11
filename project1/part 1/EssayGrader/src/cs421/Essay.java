@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-// the class for each eassy
+// the class for each essay
 public class Essay {
 	private ArrayList<ArrayList<String>> content;
 	private EssayResult res;
@@ -47,6 +47,8 @@ public class Essay {
             	}
             	content.add(essay);
             }
+            
+            
 		}
         finally {
             if (inputStream != null) {
