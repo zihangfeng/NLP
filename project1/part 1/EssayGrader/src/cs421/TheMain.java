@@ -9,6 +9,7 @@ public class TheMain {
 		// TODO Auto-generated method stub
 		 File folder = null;
 	     File[] pathnames;
+	     EssayAnalysis grader=EssayAnalysis.getEAinstance();
 	     Essay essays = new Essay();
 	      try
 	      {      
@@ -26,6 +27,8 @@ public class TheMain {
 	      {
 	         e.printStackTrace();
 	      }
+	      
+	      
 	   }
 		
 

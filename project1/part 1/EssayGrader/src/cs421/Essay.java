@@ -9,10 +9,11 @@ import java.util.ArrayList;
 // the class for each eassy
 public class Essay {
 	private ArrayList<ArrayList<String>> content;
-	
+	private EssayResult res;
 	public Essay()
 	{
 		content = new ArrayList<ArrayList<String>>();
+		res= new EssayResult();
 	}
 	
 
