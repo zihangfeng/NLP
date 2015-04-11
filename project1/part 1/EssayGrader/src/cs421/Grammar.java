@@ -64,6 +64,8 @@ public class Grammar {
 	{
 		
 		SpellChecker spellchecker = new SpellChecker("textfiles");
+		
+		BasicDictionary dic = new 
 	}
 	
 	public void SubAgree(ArrayList<String> essay)

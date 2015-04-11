@@ -7,23 +7,37 @@ public class TheMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 File folder = null;
-	     File[] pathnames;
+		String[] folderPath = new String[3]; 
+		folderPath[0] = "P5\\P5-tokenized\\high";
+		folderPath[1] = "P5\\P5-tokenized\\medium";
+		folderPath[2] = "P5\\P5-tokenized\\low";
+		
+		String[] folderName = new String[3];
+		folderName[0] = "high";
+		folderName[1] = "medium";
+		folderName[2] = "low";
+		
 	     EssayAnalysis grader=EssayAnalysis.getEAinstance();
 	     ArrayList<Essay> essaySet = new ArrayList<Essay>();
 	      try
 	      {      
-	         folder = new File("testFileFolder");
-	         pathnames = folder.listFiles();
-	         for(File path : pathnames)
-	         {
-	        	 if(path.isFile())
-	        	 {   
-	        		 Essay essays = new Essay();
-	        		 essays.setEssay(path);
-	        		 essaySet.add(essays);
-	        	 }
-	         }
+	    	 for(int i = 0; i < 3; i++)
+	    	 {
+	    	 
+		         File folder = new File(folderPath[i]);
+		   
+		         File[] listFiles = folder.listFiles();
+		         
+		         for(File pathname : listFiles)
+		         {	 	        	
+			        if(pathname.isFile())
+			        	 {   
+			        		 Essay essays = new Essay();
+			        		 essays.setEssay(pathname, folderName[i]);
+			        		 essaySet.add(essays);
+			        	 }
+		         }
+	    	 }
 	      }
 	      catch(Exception e)
 	      {

@@ -2,6 +2,7 @@ package cs421;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.StringTokenizer;
 import java.io.FileReader;
 import java.io.IOException;
@@ -30,25 +31,22 @@ public class Essay {
         try {
             inputStream = new BufferedReader(new FileReader(file));
             
-            String theEssay = null;
+           
             String line = null;
 
             while ((line = inputStream.readLine()) != null) {
-                theEssay += line;
+            	if(line.length() != 0)
+            		essay.add(line);
             }
-            
-            // add a new essay to it
-            if(theEssay != null)
-            {
-            	StringTokenizer tokenline = new StringTokenizer(theEssay, ".");
-            	while(tokenline.hasMoreTokens())
-            	{
-            		essay.add(tokenline.nextToken());
-            	}
-            	content.add(essay);
-            }
-            
-            
+            content.add(essay); 
+		}
+		catch(FileNotFoundException e)
+		{
+			System.out.println("No files");
+		}
+		catch(IOException e)
+		{
+			System.out.println("Reading Error");
 		}
         finally {
             if (inputStream != null) {
