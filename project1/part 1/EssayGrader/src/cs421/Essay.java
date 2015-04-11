@@ -20,9 +20,10 @@ public class Essay {
 	
 	 
 
-	public void setEssay(File file) throws IOException
+	public void setEssay(File file, String level) throws IOException
 	{
 		// we also need to update the file's final result
+		markedResult = level;
 		BufferedReader inputStream = null;
 		ArrayList<String> essay = new ArrayList<String>();
 
