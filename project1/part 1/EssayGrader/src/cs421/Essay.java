@@ -11,6 +11,7 @@ public class Essay {
 	private ArrayList<ArrayList<String>> content;
 	private EssayResult res;
 	private String markedResult;
+	
 	public Essay()
 	{
 		content = new ArrayList<ArrayList<String>>();

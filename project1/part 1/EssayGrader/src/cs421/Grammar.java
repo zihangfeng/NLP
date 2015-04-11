@@ -1,13 +1,13 @@
 package cs421;
 
 
-import java.io.File;
 import java.util.ArrayList;
 
 import org.apache.lucene.search.spell.SpellChecker;
 
-
 public class Grammar {
+	private static final Grammar Grammarinstance= new Grammar();
+	 
 	private double SpellingScore;
 	private double SubAgreeScore;
 	private double VerbTenseScore;
@@ -15,7 +15,7 @@ public class Grammar {
 	private double GrammarScore;
 	private int wordCount;
 	
-	public Grammar()
+	private Grammar()
 	{
 		SpellingScore = 0.0;
 		SubAgreeScore = 0.0;
@@ -25,6 +25,9 @@ public class Grammar {
 		GrammarScore = 0.0;
 	}
 	
+	public static Grammar getInstance() {
+		return Grammarinstance;
+	}
 	public double getGrammarScore()
 	{
 		return GrammarScore;
