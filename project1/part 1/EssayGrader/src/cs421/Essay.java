@@ -36,7 +36,9 @@ public class Essay {
 
             while ((line = inputStream.readLine()) != null) {
             	if(line.length() != 0)
+            	{
             		essay.add(line);
+            	}
             }
             content.add(essay); 
 		}
