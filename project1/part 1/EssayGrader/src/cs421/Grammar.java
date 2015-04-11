@@ -4,6 +4,13 @@ package cs421;
 import java.util.ArrayList;
 
 import org.apache.lucene.search.spell.SpellChecker;
+/* we need to do some grammar check which includes
+ *  1.a  spelling mistakes
+ *  1.b  subject-verb agreement
+ *  1.c  verb tense
+ *  1.d sentence formation
+ *  
+ */
 
 public class Grammar {
 	private static final Grammar Grammarinstance= new Grammar();
@@ -28,6 +35,7 @@ public class Grammar {
 	public static Grammar getInstance() {
 		return Grammarinstance;
 	}
+	
 	public double getGrammarScore()
 	{
 		return GrammarScore;

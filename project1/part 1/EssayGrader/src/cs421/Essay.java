@@ -18,6 +18,7 @@ public class Essay {
 		res= new EssayResult();
 	}
 	
+	 
 
 	public void setEssay(File file) throws IOException
 	{
