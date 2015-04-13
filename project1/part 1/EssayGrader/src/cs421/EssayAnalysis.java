@@ -16,7 +16,6 @@ public class EssayAnalysis {
 	public void analysisGrammer(Essay essay){
 		Grammar grammarcheck= Grammar.getInstance();
 		
-		
 	}
 	
 	public void analysisSemantic(Essay essay){

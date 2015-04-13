@@ -16,7 +16,10 @@ import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 public class LengthAndWord {
 	private double LengthScores;
 	private static final LengthAndWord  LAWinstance= new LengthAndWord ();
-	private LengthAndWord(){}
+	MaxentTagger tagger;
+	private LengthAndWord(){
+		tagger =  ShareInstance.getTagger();
+	}
 	public static LengthAndWord getInstance() {
 		return LAWinstance;
 	}
@@ -51,7 +54,7 @@ public class LengthAndWord {
 	private double FindAdverbAdj(ArrayList<String> theEssay)
 	{
 
-		MaxentTagger tagger =  new MaxentTagger("english-left3words-distsim.tagger");
+	//	MaxentTagger tagger =  new MaxentTagger("english-left3words-distsim.tagger");
 		
 		int size = theEssay.size();
 		int j=0;

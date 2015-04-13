@@ -9,7 +9,7 @@ import org.languagetool.JLanguageTool;
 import org.languagetool.language.AmericanEnglish;
 import org.languagetool.rules.RuleMatch;
 
-
+import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 /* we need to do some grammar check which includes
  *  1.a  spelling mistakes
  *  1.b  subject-verb agreement
@@ -25,7 +25,7 @@ public class Grammar {
 	
 	private Grammar()
 	{
-		langTool = new JLanguageTool(new AmericanEnglish());
+		langTool = ShareInstance.getJLanguageTool();
 	}
 	
 	public static Grammar getInstance() {
@@ -33,25 +33,10 @@ public class Grammar {
 	}
 	
 
-	public double checkGarmmar(ArrayList<String> essay)
-	{
-		double grammarScore = 0.0;
-		countNumWord(essay);
-		
-		// the less mistake it has the more points it gets
-		return (1 - grammarScore);
-	}
+
 	
-	private void countNumWord(ArrayList<String> essay)
-	{
-		int numSen = essay.size();
-		int i;
-		for(i = 0; i < numSen; i++)
-		{
-		//	wordCount += essay.get(i).length();
-		}
-	}
-	
+
+	// score 1.a
 	public void SpellingCheck(String sentence) throws IOException
 	{
 		List<RuleMatch> matches = langTool.check(" He have all my documents .");
@@ -66,8 +51,24 @@ public class Grammar {
 		
 	}
 	
-	public void SubAgree(ArrayList<String> essay)
+	// score 1.b
+	public void SubAgree(String sentence)
 	{
+	 // make decision based on chunk and POS tag	
+		
+		
 		
 	}
+	
+	
+	
+	// score 1.c
+	
+	public void VerbCheck(String sentence) {
+		
+		
+	}
+	
+	
+	
 }
