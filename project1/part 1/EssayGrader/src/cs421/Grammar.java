@@ -51,11 +51,26 @@ public class Grammar {
 	}
 	
 
-
+    public void getGrammarScore(Essay essay){
+    	
+    }
 	
+    public void getSentenceScore(String sentence, EssayResult essayR) throws IOException{
+    	// using third part tool for spelling check
+    	this.SentenceSpellingCheck(sentence, essayR);
+    	// get the word POS tag, chunk information and Span information
+    	POSSample sentencePOS = null;
+		String[] sentenceChunk=null;
+		Span[] sentenceSpan=null;
+		this.getChunkPOS(sentence, sentencePOS, sentenceChunk, sentenceSpan );
+    	this.SentenceSubAgree(sentencePOS,sentenceChunk,sentenceSpan, essayR);
+    	this.SentenceVerbCheck(sentence, essayR);
+    }
+
+
 
 	// score 1.a
-	public void SentenceSpellingCheck(String sentence) throws IOException
+	public void SentenceSpellingCheck(String sentence, EssayResult essayR) throws IOException
 	{
 		List<RuleMatch> matches = langTool.check(" He have all my documents .");
 		 
@@ -70,25 +85,29 @@ public class Grammar {
 	}
 	
 	// score 1.b
-	public void SentenceSubAgree(String sentence)
-	{
-	 // make decision based on chunk and POS tag	
+	
+	public boolean SentenceSubAgree(POSSample sentencePOS,
+			String[] sentenceChunk, Span[] sentenceSpan, EssayResult essayR) {
+		
+		// TO check the sentence sub agreement 
 		
 		
 		
+		return true;
 	}
+ 
 	
 	
 	
 	// score 1.c
 	
-	public void SentenceVerbCheck(String sentence) {
+	public void SentenceVerbCheck(String sentence, EssayResult essayR) {
 		
 		
 	}
 	
 	
-	public static void getChunkPOS(String input) {
+	public static void getChunkPOS(String input, POSSample POSresult, String[] Chunkresult , Span[] sentenceSpan) {
 		InputStream is;
 		ChunkerModel cModel;
 		ChunkerME chunkerME;
@@ -113,22 +132,24 @@ public class Grammar {
 									.tokenize(line);
 							tags = tagger.tag(whitespaceTokenizerLine);
 					 
-							POSSample sample = new POSSample(whitespaceTokenizerLine, tags);
-							System.out.println(sample.toString());
+							 POSSample sample = new POSSample(whitespaceTokenizerLine, tags);
+							 POSresult=sample;
+						//	System.out.println(sample.toString());
+						//	System.out.println("POS end");
 								perfMon.incrementCounter();
 						}
-						perfMon.stopAndPrintFinalResult();
+					  //	perfMon.stopAndPrintFinalResult();
 					 
 					 
 						String result[] = chunkerME.chunk(whitespaceTokenizerLine, tags);
 						 
 						for (String s : result)
 							System.out.println(s);
-					 
+						//System.out.println("Result end ---------------------");
 						Span[] span = chunkerME.chunkAsSpans(whitespaceTokenizerLine, tags);
 						for (Span s : span)
 							System.out.println(s.toString());
-					 
+				        sentenceSpan=span;
 					 
 					 
 					 

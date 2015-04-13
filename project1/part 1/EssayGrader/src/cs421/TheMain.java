@@ -3,6 +3,9 @@ package cs421;
 import java.io.File;
 import java.util.*;
 
+import opennlp.tools.postag.POSSample;
+import opennlp.tools.util.Span;
+
 public class TheMain {
 
 	public static void main(String[] args) {
@@ -16,8 +19,11 @@ public class TheMain {
 		folderName[0] = "high";
 		folderName[1] = "medium";
 		folderName[2] = "low";
-		
-		Grammar.getInstance().getChunkPOS("Hi. How are you? This is Mike." );
+		POSSample sentencePOS = null;
+		String[] sentenceChunk=null;
+		Span[] sentenceSpan=null;
+	 
+		Grammar.getChunkPOS("I think these dogs under the tree is not good.", sentencePOS, sentenceChunk, sentenceSpan );
 	     EssayAnalysis grader=EssayAnalysis.getEAinstance();
 	     ArrayList<Essay> essaySet = new ArrayList<Essay>();
 	      try
