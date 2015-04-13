@@ -6,7 +6,7 @@ import java.util.*;
 public class TheMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//  
 		String[] folderPath = new String[3]; 
 		folderPath[0] = "P5\\P5-tokenized\\high";
 		folderPath[1] = "P5\\P5-tokenized\\medium";
@@ -17,6 +17,7 @@ public class TheMain {
 		folderName[1] = "medium";
 		folderName[2] = "low";
 		
+		Grammar.getInstance().getChunkPOS("Hi. How are you? This is Mike." );
 	     EssayAnalysis grader=EssayAnalysis.getEAinstance();
 	     ArrayList<Essay> essaySet = new ArrayList<Essay>();
 	      try
