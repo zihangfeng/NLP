@@ -1,7 +1,13 @@
 package cs421;
 
 
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
+
+import org.languagetool.JLanguageTool;
+import org.languagetool.language.AmericanEnglish;
+import org.languagetool.rules.RuleMatch;
 
 
 /* we need to do some grammar check which includes
@@ -14,12 +20,12 @@ import java.util.ArrayList;
 
 public class Grammar {
 	private static final Grammar Grammarinstance= new Grammar();
-	 
+	JLanguageTool langTool ;
 
 	
 	private Grammar()
 	{
-
+		langTool = new JLanguageTool(new AmericanEnglish());
 	}
 	
 	public static Grammar getInstance() {
@@ -46,8 +52,17 @@ public class Grammar {
 		}
 	}
 	
-	public void Spelling(ArrayList<String> essay)
+	public void SpellingCheck(String sentence) throws IOException
 	{
+		List<RuleMatch> matches = langTool.check(" He have all my documents .");
+		 
+		for (RuleMatch match : matches) {
+		  System.out.println("Potential error at line " +
+		      match.getLine() + ", column " +
+		      match.getColumn() + ": " + match.getMessage());
+		  System.out.println("Suggested correction: " +
+		      match.getSuggestedReplacements());
+		}
 		
 	}
 	
