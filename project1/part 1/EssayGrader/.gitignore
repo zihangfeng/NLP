@@ -1,3 +1,3 @@
-EssayGrader/target/*
-EssayGrader/.classpath
-EssayGrader/bin/
+/target/*
+/.classpath
+/bin/
