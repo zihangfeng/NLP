@@ -1,0 +1,10965 @@
+In addition , cars are may be the best way to get from one place to another : it is the cheapest way to travel , and you are free to decide where you want to go , even to change your opinion during the travel .
+
+(are can't followed by may)
+
+In_IN addition_NN ,_, cars_NNS are_VBP may_MD be_VB the_DT best_JJS way_NN to_TO get_VB from_IN one_CD place_NN to_TO another_DT :_: it_PRP is_VBZ the_DT cheapest_JJS way_NN to_TO travel_VB ,_, and_CC you_PRP are_VBP free_JJ to_TO decide_VB where_WRB you_PRP want_VBP to_TO go_VB ,_, even_RB to_TO change_VB your_PRP$ opinion_NN during_IN the_DT travel_NN ._.
+B-PP
+B-NP
+O
+B-NP
+B-VP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+O
+O
+B-NP
+B-VP
+B-ADJP
+B-VP
+I-VP
+B-ADVP
+B-NP
+B-VP
+I-VP
+I-VP
+O
+B-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) PP
+[1..2) NP
+[3..4) NP
+[4..5) VP
+[5..7) VP
+[7..10) NP
+[10..12) VP
+[12..13) PP
+[13..15) NP
+[15..16) PP
+[16..17) NP
+[18..19) NP
+[19..20) VP
+[20..23) NP
+[23..25) VP
+[27..28) NP
+[28..29) VP
+[29..30) ADJP
+[30..32) VP
+[32..33) ADVP
+[33..34) NP
+[34..37) VP
+[38..39) ADVP
+[39..41) VP
+[41..43) NP
+[43..44) PP
+[44..46) NP
+
+
+But cars do represent a big problem to our environment .
+
+(Fragment sentence)
+
+But_CC cars_NNS do_VBP represent_VB a_DT big_JJ problem_NN to_TO our_PRP$ environment_NN ._.
+O
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[1..2) NP
+[2..4) VP
+[4..7) NP
+[7..8) PP
+[8..10) NP
+
+
+Yes , there ir .
+
+(spelling mistake)
+
+Yes_UH ,_, there_RB ir_NN ._.
+B-INTJ
+O
+B-ADVP
+B-NP
+O
+[0..1) INTJ
+[2..3) ADVP
+[3..4) NP
+
+
+But the solution , unfortunately , has not been developed yet .
+
+(Fragment sentence)
+
+But_CC the_DT solution_NN ,_, unfortunately_RB ,_, has_VBZ not_RB been_VBN developed_VBN yet_RB ._.
+O
+B-NP
+I-NP
+O
+B-ADVP
+O
+B-VP
+I-VP
+I-VP
+I-VP
+B-PP
+O
+[1..3) NP
+[4..5) ADVP
+[6..10) VP
+[10..11) PP
+
+
+We need new ways of transport , such as vehicles that runs thanks to electricity instead of oil .
+
+(confusion)
+
+We_PRP need_VBP new_JJ ways_NNS of_IN transport_NN ,_, such_JJ as_IN vehicles_NNS that_WDT runs_VBZ thanks_NNS to_TO electricity_NN instead_RB of_IN oil_NN ._.
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+B-PP
+I-PP
+B-NP
+B-NP
+B-VP
+B-NP
+B-PP
+B-NP
+B-ADVP
+B-PP
+B-NP
+O
+[0..1) NP
+[1..2) VP
+[2..4) NP
+[4..5) PP
+[5..6) NP
+[7..9) PP
+[9..10) NP
+[10..11) NP
+[11..12) VP
+[12..13) NP
+[13..14) PP
+[14..15) NP
+[15..16) ADVP
+[16..17) PP
+[17..18) NP
+
+
+Global-warming is becoming a more of a reality because of cars .
+
+(fragmentation)
+
+Global-warming_NNP is_VBZ becoming_VBG a_DT more_JJR of_IN a_DT reality_NN because_IN of_IN cars_NNS ._.
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-PP
+I-PP
+B-NP
+O
+[0..1) NP
+[1..3) VP
+[3..5) NP
+[5..6) PP
+[6..8) NP
+[8..10) PP
+[10..11) NP
+
+
+Its time to throw away whats now useless and invent new things that will bring a better way to mankinds lives .
+
+(what's not whats, mandkind not mankinds)
+
+Its_PRP$ time_NN to_TO throw_VB away_RP whats_NNS now_RB useless_JJ and_CC invent_VB new_JJ things_NNS that_WDT will_MD bring_VB a_DT better_JJR way_NN to_TO mankinds_NNS lives_NNS ._.
+B-NP
+I-NP
+B-VP
+I-VP
+B-PRT
+B-NP
+B-ADVP
+B-VP
+O
+B-VP
+B-NP
+I-NP
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..2) NP
+[2..4) VP
+[4..5) PRT
+[5..6) NP
+[6..7) ADVP
+[7..8) VP
+[9..10) VP
+[10..12) NP
+[12..13) NP
+[13..15) VP
+[15..18) NP
+[18..19) PP
+[19..21) NP
+
+
+Indeed , in every countries , the citizens have polluted their beaches , their plains , their air etc .
+
+(every country)
+
+Indeed_RB ,_, in_IN every_DT countries_NNS ,_, the_DT citizens_NNS have_VBP polluted_VBN their_PRP$ beaches_NNS ,_, their_PRP$ plains_NNS ,_, their_PRP$ air_NN etc_NN ._.
+B-ADVP
+O
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+O
+B-NP
+I-NP
+I-NP
+O
+[0..1) ADVP
+[2..3) PP
+[3..5) NP
+[6..8) NP
+[8..10) VP
+[10..12) NP
+[13..15) NP
+[16..19) NP
+
+
+As a conclusion , I would say that I am convinced that there will indeed be fewer cars in about twenty years , whether it be for economic , political or environmental reasons : the domination of cars has come to an end !
+
+(is not be, have not has)
+
+As_IN a_DT conclusion_NN ,_, I_PRP would_MD say_VB that_IN I_PRP am_VBP convinced_VBN that_IN there_EX will_MD indeed_RB be_VB fewer_JJR cars_NNS in_IN about_IN twenty_CD years_NNS ,_, whether_IN it_PRP be_VB for_IN economic_JJ ,_, political_JJ or_CC environmental_JJ reasons_NNS :_: the_DT domination_NN of_IN cars_NNS has_VBZ come_VBN to_TO an_DT end_NN !_.
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-SBAR
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+B-SBAR
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+O
+[0..1) PP
+[1..3) NP
+[4..5) NP
+[5..7) VP
+[7..8) SBAR
+[8..9) NP
+[9..11) VP
+[11..12) SBAR
+[12..13) NP
+[13..16) VP
+[16..18) NP
+[18..19) PP
+[19..22) NP
+[23..24) SBAR
+[24..25) NP
+[25..26) VP
+[26..27) PP
+[27..33) NP
+[34..36) NP
+[36..37) PP
+[37..38) NP
+[38..40) VP
+[40..41) PP
+[41..43) NP
+
+
+The reasons for this shall either be with restrictions of governments or with peoples own choices .
+
+(people's not people)
+
+The_DT reasons_NNS for_IN this_DT shall_MD either_RB be_VB with_IN restrictions_NNS of_IN governments_NNS or_CC with_IN peoples_NNS own_JJ choices_NNS ._.
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+B-PP
+B-NP
+O
+B-SBAR
+B-NP
+I-NP
+I-NP
+O
+[0..2) NP
+[2..3) PP
+[3..4) NP
+[4..7) VP
+[7..8) PP
+[8..9) NP
+[9..10) PP
+[10..11) NP
+[12..13) SBAR
+[13..16) NP
+
+
+First of all the earth , which is the only proofed place that we can provide our livings , have been and continuing to be polluted a lot starting from the industrial development days .
+
+(proof not proofed)
+
+First_RB of_IN all_DT the_DT earth_NN ,_, which_WDT is_VBZ the_DT only_JJ proofed_NN place_NN that_IN we_PRP can_MD provide_VB our_PRP$ livings_NNS ,_, have_VBP been_VBN and_CC continuing_VBG to_TO be_VB polluted_VBN a_DT lot_NN starting_VBG from_IN the_DT industrial_JJ development_NN days_NNS ._.
+B-ADVP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+I-NP
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+B-VP
+I-VP
+O
+B-VP
+I-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-VP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) ADVP
+[1..2) PP
+[2..5) NP
+[6..7) NP
+[7..8) VP
+[8..12) NP
+[12..13) SBAR
+[13..14) NP
+[14..16) VP
+[16..18) NP
+[19..21) VP
+[22..26) VP
+[26..28) NP
+[28..29) VP
+[29..30) PP
+[30..34) NP
+
+
+Cars , which look like a must for most people , are results of those developmets .
+
+(developments not developmets)
+
+Cars_NNS ,_, which_WDT look_VBP like_IN a_DT must_MD for_IN most_JJS people_NNS ,_, are_VBP results_NNS of_IN those_DT developmets_NNS ._.
+B-NP
+O
+B-NP
+B-VP
+B-PP
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+O
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) NP
+[2..3) NP
+[3..4) VP
+[4..5) PP
+[5..6) NP
+[6..7) VP
+[7..10) NP
+[11..12) VP
+[12..13) NP
+[13..14) PP
+[14..16) NP
+
+
+Increase of car usage shall increase pollutions of gas and sound which I believe human beings shall not stand any more .
+
+(pollution not pollutions)
+
+Increase_NN of_IN car_NN usage_NN shall_MD increase_VB pollutions_NNS of_IN gas_NN and_CC sound_NN which_WDT I_PRP believe_VBP human_JJ beings_NNS shall_MD not_RB stand_VB any_DT more_JJR ._.
+B-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-NP
+B-NP
+B-VP
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..2) PP
+[2..4) NP
+[4..6) VP
+[6..7) NP
+[7..8) PP
+[8..11) NP
+[11..12) NP
+[12..13) NP
+[13..14) VP
+[14..16) NP
+[16..19) VP
+[19..21) NP
+
+
+I do n't think that there will be direct limitations depending on this topic but the gas prices shall increase day by day on such levels that people shall be forced to make such a decisions .
+
+(a decision no a decisions)
+
+I_PRP do_VBP n't_RB think_VB that_IN there_EX will_MD be_VB direct_JJ limitations_NNS depending_VBG on_IN this_DT topic_NN but_CC the_DT gas_NN prices_NNS shall_MD increase_VB day_NN by_IN day_NN on_IN such_JJ levels_NNS that_IN people_NNS shall_MD be_VB forced_VBN to_TO make_VB such_JJ a_DT decisions_NNS ._.
+B-NP
+B-VP
+I-VP
+I-VP
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-VP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+I-VP
+I-VP
+I-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+[0..1) NP
+[1..4) VP
+[4..5) SBAR
+[5..6) NP
+[6..8) VP
+[8..10) NP
+[10..11) VP
+[11..12) PP
+[12..14) NP
+[15..18) NP
+[18..20) VP
+[20..21) NP
+[21..22) PP
+[22..23) NP
+[23..24) PP
+[24..26) NP
+[26..27) PP
+[27..28) NP
+[28..33) VP
+[33..36) NP
+
+
+Additionally again with some dependency to the above mentioned population increase reason space on earth for each people is also getting decreased day by day .
+
+(fragmentation)
+
+Additionally_RB again_RB with_IN some_DT dependency_NN to_TO the_DT above_JJ mentioned_VBN population_NN increase_NN reason_NN space_NN on_IN earth_NN for_IN each_DT people_NNS is_VBZ also_RB getting_VBG decreased_VBN day_NN by_IN day_NN ._.
+B-ADVP
+I-ADVP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+[0..2) ADVP
+[2..3) PP
+[3..5) NP
+[5..6) PP
+[6..13) NP
+[13..14) PP
+[14..15) NP
+[15..16) PP
+[16..18) NP
+[18..21) VP
+[21..23) NP
+[23..24) PP
+[24..25) NP
+
+
+Spending most of their time sitting in a car and going no where in the traffic jam or again spending lots of time for trying to find a place for parking , are already making them unhappy and aggressive in todays world I believe increase of these spended times in each day shall make them worser and force them to decide not to have their own car or even sell the one they have .
+
+(spending not spended. worse not worser)
+
+Spending_VBG most_JJS of_IN their_PRP$ time_NN sitting_VBG in_IN a_DT car_NN and_CC going_VBG no_RB where_WRB in_IN the_DT traffic_NN jam_NN or_CC again_RB spending_VBG lots_NNS of_IN time_NN for_IN trying_VBG to_TO find_VB a_DT place_NN for_IN parking_NN ,_, are_VBP already_RB making_VBG them_PRP unhappy_JJ and_CC aggressive_JJ in_IN todays_DT world_NN I_PRP believe_VBP increase_NN of_IN these_DT spended_VBN times_NNS in_IN each_DT day_NN shall_MD make_VB them_PRP worser_JJR and_CC force_VB them_PRP to_TO decide_VB not_RB to_TO have_VB their_PRP$ own_JJ car_NN or_CC even_RB sell_VB the_DT one_NN they_PRP have_VBP ._.
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+B-VP
+B-PP
+B-NP
+I-NP
+O
+B-VP
+B-ADVP
+I-ADVP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+B-PP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+B-VP
+I-VP
+I-VP
+B-NP
+B-ADJP
+I-ADJP
+I-ADJP
+B-PP
+B-NP
+I-NP
+B-NP
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+B-ADJP
+O
+B-VP
+B-NP
+B-VP
+I-VP
+O
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+B-VP
+I-VP
+B-NP
+I-NP
+B-NP
+B-VP
+O
+[0..1) VP
+[1..2) NP
+[2..3) PP
+[3..5) NP
+[5..6) VP
+[6..7) PP
+[7..9) NP
+[10..11) VP
+[11..13) ADVP
+[13..14) PP
+[14..17) NP
+[18..20) VP
+[20..21) NP
+[21..22) PP
+[22..23) NP
+[23..24) PP
+[24..27) VP
+[27..29) NP
+[29..30) PP
+[30..31) NP
+[32..35) VP
+[35..36) NP
+[36..39) ADJP
+[39..40) PP
+[40..42) NP
+[42..43) NP
+[43..44) VP
+[44..45) NP
+[45..46) PP
+[46..49) NP
+[49..50) PP
+[50..52) NP
+[52..54) VP
+[54..55) NP
+[55..56) ADJP
+[57..58) VP
+[58..59) NP
+[59..61) VP
+[62..64) VP
+[64..67) NP
+[68..70) VP
+[70..72) NP
+[72..73) NP
+[73..74) VP
+
+
+Were there be more cars in the future comparing to the number of cars used today ?
+
+(will not were)
+
+Were_VBD there_RB be_VB more_JJR cars_NNS in_IN the_DT future_JJ comparing_NN to_TO the_DT number_NN of_IN cars_NNS used_VBN today_NN ?_.
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+B-NP
+O
+[0..3) VP
+[3..5) NP
+[5..6) PP
+[6..9) NP
+[9..10) PP
+[10..12) NP
+[12..13) PP
+[13..14) NP
+[14..15) VP
+[15..16) NP
+
+
+In today 's world , cars were used everywhere for the efficiency of transportation for people .
+
+(are not were)
+
+In_IN today_NN 's_POS world_NN ,_, cars_NNS were_VBD used_VBN everywhere_RB for_IN the_DT efficiency_NN of_IN transportation_NN for_IN people_NNS ._.
+B-PP
+B-NP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-ADVP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+O
+[0..1) PP
+[1..2) NP
+[2..4) NP
+[5..6) NP
+[6..8) VP
+[8..9) ADVP
+[9..10) PP
+[10..12) NP
+[12..13) PP
+[13..14) NP
+[14..15) PP
+[15..16) NP
+
+
+First , as what I 've mentioned previously , cars were an important usage for the people today .
+
+(are not were)
+
+First_RB ,_, as_IN what_WP I_PRP 've_VBP mentioned_VBN previously_RB ,_, cars_NNS were_VBD an_DT important_JJ usage_NN for_IN the_DT people_NNS today_NN ._.
+B-ADVP
+O
+B-SBAR
+B-NP
+B-NP
+B-VP
+I-VP
+B-ADVP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-NP
+O
+[0..1) ADVP
+[2..3) SBAR
+[3..4) NP
+[4..5) NP
+[5..7) VP
+[7..8) ADVP
+[9..10) NP
+[10..11) VP
+[11..14) NP
+[14..15) PP
+[15..17) NP
+[17..18) NP
+
+
+One car in this kind of family was definitely not enough .
+
+(is/were not was)
+
+One_CD car_NN in_IN this_DT kind_NN of_IN family_NN was_VBD definitely_RB not_RB enough_RB ._.
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+B-ADVP
+I-ADVP
+I-ADVP
+O
+[0..2) NP
+[2..3) PP
+[3..5) NP
+[5..6) PP
+[6..7) NP
+[7..8) VP
+[8..11) ADVP
+
+
+For example , one car could be used to drive children to school , while the other bigger car for family vacation .
+
+(fragmentation)
+
+For_IN example_NN ,_, one_CD car_NN could_MD be_VB used_VBN to_TO drive_VB children_NNS to_TO school_NN ,_, while_IN the_DT other_JJ bigger_JJR car_NN for_IN family_NN vacation_NN ._.
+B-PP
+B-NP
+O
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+O
+B-SBAR
+B-NP
+I-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) PP
+[1..2) NP
+[3..5) NP
+[5..8) VP
+[8..10) VP
+[10..11) NP
+[11..12) PP
+[12..13) NP
+[14..15) SBAR
+[15..19) NP
+[19..20) PP
+[20..22) NP
+
+
+Cars would grew their importance in this society , and people would begin to recognize their values .
+
+(grow not grew)
+
+Cars_NNS would_MD grew_VBD their_PRP$ importance_NN in_IN this_DT society_NN ,_, and_CC people_NNS would_MD begin_VB to_TO recognize_VB their_PRP$ values_NNS ._.
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+O
+B-NP
+B-VP
+I-VP
+I-VP
+I-VP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..3) VP
+[3..5) NP
+[5..6) PP
+[6..8) NP
+[10..11) NP
+[11..15) VP
+[15..17) NP
+
+
+It is possible thanks to the competition between car industries , there are greater competition now than before and I expect that will be the sams thing in the future through the globalization and the outsourcing in poor countries or in developing countries which decrease the price of cars > Secondly , in our days , the cars facilitate the life .
+
+(fragmentation)
+
+It_PRP is_VBZ possible_JJ thanks_NNS to_TO the_DT competition_NN between_IN car_NN industries_NNS ,_, there_EX are_VBP greater_JJR competition_NN now_RB than_IN before_RB and_CC I_PRP expect_VBP that_DT will_MD be_VB the_DT sams_NNS thing_NN in_IN the_DT future_NN through_IN the_DT globalization_NN and_CC the_DT outsourcing_NN in_IN poor_JJ countries_NNS or_CC in_IN developing_VBG countries_NNS which_WDT decrease_NN the_DT price_NN of_IN cars_NNS >_RB Secondly_RB ,_, in_IN our_PRP$ days_NNS ,_, the_DT cars_NNS facilitate_VBP the_DT life_NN ._.
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+B-ADVP
+B-PP
+B-NP
+O
+B-NP
+B-VP
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-PP
+B-VP
+B-NP
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-ADVP
+I-ADVP
+O
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-VP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..4) NP
+[4..5) PP
+[5..7) NP
+[7..8) PP
+[8..10) NP
+[11..12) NP
+[12..13) VP
+[13..15) NP
+[15..16) ADVP
+[16..17) PP
+[17..18) NP
+[19..20) NP
+[20..21) VP
+[21..22) NP
+[22..24) VP
+[24..27) NP
+[27..28) PP
+[28..30) NP
+[30..31) PP
+[31..33) NP
+[34..36) NP
+[36..37) PP
+[37..39) NP
+[40..41) PP
+[41..42) VP
+[42..43) NP
+[43..44) NP
+[44..45) VP
+[45..47) NP
+[47..48) PP
+[48..49) NP
+[49..51) ADVP
+[52..53) PP
+[53..55) NP
+[56..58) NP
+[58..59) VP
+[59..61) NP
+
+
+In order words , for example , I have a car and I can go everywhere that I want , I have not the constraints of waiting the public tranportation , to see at what time the transport vehicules will come .
+
+(don't have not have not)
+
+In_IN order_NN words_NNS ,_, for_IN example_NN ,_, I_PRP have_VBP a_DT car_NN and_CC I_PRP can_MD go_VB everywhere_RB that_IN I_PRP want_VBP ,_, I_PRP have_VBP not_RB the_DT constraints_NNS of_IN waiting_VBG the_DT public_JJ tranportation_NN ,_, to_TO see_VB at_IN what_WDT time_NN the_DT transport_NN vehicules_NNS will_MD come_VB ._.
+B-PP
+B-NP
+I-NP
+O
+B-PP
+B-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-ADVP
+B-SBAR
+B-NP
+B-VP
+O
+B-NP
+B-VP
+O
+B-NP
+I-NP
+B-PP
+B-VP
+B-NP
+I-NP
+I-NP
+O
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+O
+[0..1) PP
+[1..3) NP
+[4..5) PP
+[5..6) NP
+[7..8) NP
+[8..9) VP
+[9..11) NP
+[12..13) NP
+[13..15) VP
+[15..16) ADVP
+[16..17) SBAR
+[17..18) NP
+[18..19) VP
+[20..21) NP
+[21..22) VP
+[23..25) NP
+[25..26) PP
+[26..27) VP
+[27..30) NP
+[31..33) VP
+[33..34) PP
+[34..36) NP
+[36..39) NP
+[39..41) VP
+
+
+Because cars go fast the distance between you and your families , friends or people you want to see is shorter .
+
+(fragmentation)
+
+Because_IN cars_NNS go_VBP fast_RB the_DT distance_NN between_IN you_PRP and_CC your_PRP$ families_NNS ,_, friends_NNS or_CC people_NNS you_PRP want_VBP to_TO see_VB is_VBZ shorter_JJR ._.
+B-SBAR
+B-NP
+B-VP
+B-ADVP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+B-NP
+B-VP
+I-VP
+I-VP
+B-VP
+B-ADJP
+O
+[0..1) SBAR
+[1..2) NP
+[2..3) VP
+[3..4) ADVP
+[4..6) NP
+[6..7) PP
+[7..8) NP
+[9..15) NP
+[15..16) NP
+[16..19) VP
+[19..20) VP
+[20..21) ADJP
+
+
+To conclude , cars are a important tools of our life , you can use it for a lot of reason such as for going to work , to go to see people , to go to buy something while the public transportation is time over , you can use it to put things that you cannot take if you have not car like a big television .
+
+(are important, not are a important, and fragmentation)
+
+To_TO conclude_VB ,_, cars_NNS are_VBP a_DT important_JJ tools_NNS of_IN our_PRP$ life_NN ,_, you_PRP can_MD use_VB it_PRP for_IN a_DT lot_NN of_IN reason_NN such_JJ as_IN for_IN going_VBG to_TO work_VB ,_, to_TO go_VB to_TO see_VB people_NNS ,_, to_TO go_VB to_TO buy_VB something_NN while_IN the_DT public_JJ transportation_NN is_VBZ time_NN over_IN ,_, you_PRP can_MD use_VB it_PRP to_TO put_VB things_NNS that_IN you_PRP cannot_MD take_VB if_IN you_PRP have_VBP not_RB car_NN like_IN a_DT big_JJ television_NN ._.
+B-VP
+I-VP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+B-NP
+I-NP
+B-PP
+B-VP
+I-VP
+I-VP
+O
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+O
+B-VP
+I-VP
+B-VP
+I-VP
+B-NP
+B-SBAR
+B-NP
+I-NP
+I-NP
+B-VP
+B-NP
+B-SBAR
+O
+B-NP
+B-VP
+I-VP
+B-NP
+B-VP
+I-VP
+B-NP
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-SBAR
+B-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[0..2) VP
+[3..4) NP
+[4..5) VP
+[5..8) NP
+[8..9) PP
+[9..11) NP
+[12..13) NP
+[13..15) VP
+[15..16) NP
+[16..17) PP
+[17..19) NP
+[19..20) PP
+[20..21) NP
+[21..23) NP
+[23..24) PP
+[24..27) VP
+[28..30) VP
+[30..31) PP
+[31..33) NP
+[34..36) VP
+[36..38) VP
+[38..39) NP
+[39..40) SBAR
+[40..43) NP
+[43..44) VP
+[44..45) NP
+[45..46) SBAR
+[47..48) NP
+[48..50) VP
+[50..51) NP
+[51..53) VP
+[53..54) NP
+[54..55) SBAR
+[55..56) NP
+[56..58) VP
+[58..59) SBAR
+[59..60) NP
+[60..63) VP
+[63..64) PP
+[64..67) NP
+
+
+In the era of high technology that enables us to tranport longer distances easily using cars and ther means of transportation , we have received the considerable benefits in our daily life as well as the business activities .
+
+(the not ther)
+
+In_IN the_DT era_NN of_IN high_JJ technology_NN that_WDT enables_VBZ us_PRP to_TO tranport_VB longer_RB distances_NNS easily_RB using_VBG cars_NNS and_CC ther_DT means_NNS of_IN transportation_NN ,_, we_PRP have_VBP received_VBN the_DT considerable_JJ benefits_NNS in_IN our_PRP$ daily_JJ life_NN as_RB well_RB as_IN the_DT business_NN activities_NNS ._.
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-NP
+B-VP
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-ADVP
+I-ADVP
+B-SBAR
+B-NP
+I-NP
+I-NP
+O
+[0..1) PP
+[1..3) NP
+[3..4) PP
+[4..6) NP
+[6..7) NP
+[7..8) VP
+[8..9) NP
+[9..11) VP
+[11..13) NP
+[13..15) VP
+[15..16) NP
+[17..19) NP
+[19..20) PP
+[20..21) NP
+[22..23) NP
+[23..25) VP
+[25..28) NP
+[28..29) PP
+[29..32) NP
+[32..34) ADVP
+[34..35) SBAR
+[35..38) NP
+
+
+Secondly , due to the social movement to protect the environment , the government of a lot of nations are now trying to reduce the emmision of the CO2 in the air .
+
+(emission not emmision)
+
+Secondly_RB ,_, due_JJ to_TO the_DT social_JJ movement_NN to_TO protect_VB the_DT environment_NN ,_, the_DT government_NN of_IN a_DT lot_NN of_IN nations_NNS are_VBP now_RB trying_VBG to_TO reduce_VB the_DT emmision_NN of_IN the_DT CO2_NN in_IN the_DT air_NN ._.
+B-ADVP
+O
+B-PP
+I-PP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+I-VP
+I-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..4) PP
+[4..7) NP
+[7..9) VP
+[9..11) NP
+[12..14) NP
+[14..15) PP
+[15..17) NP
+[17..18) PP
+[18..19) NP
+[19..24) VP
+[24..26) NP
+[26..27) PP
+[27..29) NP
+[29..30) PP
+[30..32) NP
+
+
+Because cars are the main producers od CO2 and other harmful chemical components , the government from all over the world have made treaties which bind their use of CO2 .
+
+()
+
+Because_IN cars_NNS are_VBP the_DT main_JJ producers_NNS od_JJ CO2_NNP and_CC other_JJ harmful_JJ chemical_JJ components_NNS ,_, the_DT government_NN from_IN all_DT over_IN the_DT world_NN have_VBP made_VBN treaties_NNS which_WDT bind_VBP their_PRP$ use_NN of_IN CO2_NNP ._.
+B-SBAR
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+O
+B-NP
+I-NP
+I-NP
+I-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+[0..1) SBAR
+[1..2) NP
+[2..3) VP
+[3..8) NP
+[9..13) NP
+[14..16) NP
+[16..17) PP
+[17..18) NP
+[18..19) PP
+[19..21) NP
+[21..23) VP
+[23..24) NP
+[24..25) NP
+[25..26) VP
+[26..28) NP
+[28..29) PP
+[29..30) NP
+
+
+Although we need to pay attentino to the desire of the developing countries to enhance their economy , we have to propose different ways of boosting ecomnomies other than depending on using automobiles as their primary means of transportations .
+
+(attention not attentino)
+
+Although_IN we_PRP need_VBP to_TO pay_VB attentino_NN to_TO the_DT desire_NN of_IN the_DT developing_VBG countries_NNS to_TO enhance_VB their_PRP$ economy_NN ,_, we_PRP have_VBP to_TO propose_VB different_JJ ways_NNS of_IN boosting_VBG ecomnomies_NNS other_JJ than_IN depending_VBG on_IN using_VBG automobiles_NNS as_IN their_PRP$ primary_JJ means_NNS of_IN transportations_NNS ._.
+B-SBAR
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-VP
+B-NP
+B-ADJP
+B-PP
+B-VP
+B-PP
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+O
+[0..1) SBAR
+[1..2) NP
+[2..5) VP
+[5..6) NP
+[6..7) PP
+[7..9) NP
+[9..10) PP
+[10..13) NP
+[13..15) VP
+[15..17) NP
+[18..19) NP
+[19..22) VP
+[22..24) NP
+[24..25) PP
+[25..26) VP
+[26..27) NP
+[27..28) ADJP
+[28..29) PP
+[29..30) VP
+[30..31) PP
+[31..32) VP
+[32..33) NP
+[33..34) PP
+[34..37) NP
+[37..38) PP
+[38..39) NP
+
+
+Therefore , in twnty years or so , we will be living in a world where fewer cars are used as a results of reducing the use of cars which were harmful to the environment .
+
+(twenty not twnty)
+
+Therefore_RB ,_, in_IN twnty_CD years_NNS or_CC so_RB ,_, we_PRP will_MD be_VB living_VBG in_IN a_DT world_NN where_WRB fewer_JJR cars_NNS are_VBP used_VBN as_IN a_DT results_NNS of_IN reducing_VBG the_DT use_NN of_IN cars_NNS which_WDT were_VBD harmful_JJ to_TO the_DT environment_NN ._.
+B-ADVP
+O
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-NP
+I-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-NP
+B-VP
+B-ADJP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..3) PP
+[3..7) NP
+[8..9) NP
+[9..12) VP
+[12..13) PP
+[13..15) NP
+[15..16) ADVP
+[16..18) NP
+[18..20) VP
+[20..21) PP
+[21..23) NP
+[23..24) PP
+[24..25) VP
+[25..27) NP
+[27..28) PP
+[28..29) NP
+[29..30) NP
+[30..31) VP
+[31..32) ADJP
+[32..33) PP
+[33..35) NP
+
+
+Most industry is now based on the car for transportation of good .
+
+(most industries are not most industry is)
+
+Most_JJS industry_NN is_VBZ now_RB based_VBN on_IN the_DT car_NN for_IN transportation_NN of_IN good_JJ ._.
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+O
+[0..2) NP
+[2..5) VP
+[5..6) PP
+[6..8) NP
+[8..9) PP
+[9..10) NP
+[10..11) PP
+[11..12) NP
+
+
+However , there is some concerns rising due to the rising population of the car .
+
+(there are not there is)
+
+However_RB ,_, there_EX is_VBZ some_DT concerns_NNS rising_VBG due_JJ to_TO the_DT rising_VBG population_NN of_IN the_DT car_NN ._.
+B-ADVP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+B-VP
+B-ADJP
+B-PP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..3) NP
+[3..4) VP
+[4..6) NP
+[6..7) VP
+[7..8) ADJP
+[8..9) PP
+[9..12) NP
+[12..13) PP
+[13..15) NP
+
+
+On other hand , now in the world there are millions of people owns car and depend on its comfortness and ability .
+
+(cars not car)
+
+On_IN other_JJ hand_NN ,_, now_RB in_IN the_DT world_NN there_RB are_VBP millions_NNS of_IN people_NNS owns_VBZ car_NN and_CC depend_VB on_IN its_PRP$ comfortness_NN and_CC ability_NN ._.
+B-PP
+B-NP
+I-NP
+O
+B-ADVP
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-VP
+B-NP
+B-PP
+B-NP
+B-VP
+B-NP
+O
+B-VP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) PP
+[1..3) NP
+[4..5) ADVP
+[5..6) PP
+[6..8) NP
+[8..9) ADVP
+[9..10) VP
+[10..11) NP
+[11..12) PP
+[12..13) NP
+[13..14) VP
+[14..15) NP
+[16..17) VP
+[17..18) PP
+[18..22) NP
+
+
+Petroleum has been major source of energy and major resouce for humanity since its discovery .
+
+(resource not resouce)
+
+Petroleum_NNP has_VBZ been_VBN major_JJ source_NN of_IN energy_NN and_CC major_JJ resouce_NN for_IN humanity_NN since_IN its_PRP$ discovery_NN ._.
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..3) VP
+[3..5) NP
+[5..6) PP
+[6..7) NP
+[8..10) NP
+[10..11) PP
+[11..12) NP
+[12..13) PP
+[13..15) NP
+
+
+Due to high dependency of Oil and its limitation , scientists are now inventing alternate resource that can replace oil such as biofuel , solar energy and hydrogen fuel .
+
+(alternative not alternate)
+
+Due_JJ to_TO high_JJ dependency_NN of_IN Oil_NNP and_CC its_PRP$ limitation_NN ,_, scientists_NNS are_VBP now_RB inventing_VBG alternate_JJ resource_NN that_WDT can_MD replace_VB oil_NN such_JJ as_IN biofuel_JJ ,_, solar_JJ energy_NN and_CC hydrogen_NN fuel_NN ._.
+B-ADVP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-NP
+B-VP
+I-VP
+B-NP
+B-PP
+I-PP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) ADVP
+[1..2) PP
+[2..4) NP
+[4..5) PP
+[5..6) NP
+[7..9) NP
+[10..11) NP
+[11..14) VP
+[14..16) NP
+[16..17) NP
+[17..19) VP
+[19..20) NP
+[20..22) PP
+[22..29) NP
+
+
+And when we speak about the Ozone layer and the global warrming , we should really underline the role those vehicle played in aggrevating the siuation .
+
+(warming not warrming)
+
+And_CC when_WRB we_PRP speak_VBP about_IN the_DT Ozone_NN layer_NN and_CC the_DT global_JJ warrming_NN ,_, we_PRP should_MD really_RB underline_VB the_DT role_NN those_DT vehicle_NN played_VBD in_IN aggrevating_VBG the_DT siuation_NN ._.
+O
+B-ADVP
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+B-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-NP
+I-NP
+B-VP
+B-PP
+B-VP
+B-NP
+I-NP
+O
+[1..2) ADVP
+[2..3) NP
+[3..4) VP
+[4..5) PP
+[5..8) NP
+[9..12) NP
+[13..14) NP
+[14..17) VP
+[17..19) NP
+[19..21) NP
+[21..22) VP
+[22..23) PP
+[23..24) VP
+[24..26) NP
+
+
+When cars started taking a shape in the world in the begining of this century most of the countries started directing most of their sources and income to bulid up the streets , roads , bridges , parkings and they have departments in each countries just to follow upall matters related to that .
+
+(up all not upall)
+
+When_WRB cars_NNS started_VBD taking_VBG a_DT shape_NN in_IN the_DT world_NN in_IN the_DT begining_NN of_IN this_DT century_NN most_RBS of_IN the_DT countries_NNS started_VBD directing_VBG most_JJS of_IN their_PRP$ sources_NNS and_CC income_NN to_TO bulid_VB up_RP the_DT streets_NNS ,_, roads_NNS ,_, bridges_NNS ,_, parkings_NNS and_CC they_PRP have_VBP departments_NNS in_IN each_DT countries_NNS just_RB to_TO follow_VB upall_RP matters_NNS related_VBN to_TO that_DT ._.
+B-ADVP
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-PRT
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+B-ADJP
+B-PP
+B-NP
+O
+[0..1) ADVP
+[1..2) NP
+[2..4) VP
+[4..6) NP
+[6..7) PP
+[7..9) NP
+[9..10) PP
+[10..12) NP
+[12..13) PP
+[13..15) NP
+[15..16) NP
+[16..17) PP
+[17..19) NP
+[19..21) VP
+[21..22) NP
+[22..23) PP
+[23..25) NP
+[26..27) NP
+[27..29) VP
+[29..30) PRT
+[30..38) NP
+[39..40) NP
+[40..41) VP
+[41..42) NP
+[42..43) PP
+[43..45) NP
+[45..46) ADVP
+[46..48) VP
+[48..50) NP
+[50..51) ADJP
+[51..52) PP
+[52..53) NP
+
+
+From my point of view , scintists are doning their best to eliminate pollution and save the world , and their efforts are going to be rewarded by decreasing the sources of pollution , if they can give alternatives .
+
+(doing not doning)
+
+From_IN my_PRP$ point_NN of_IN view_NN ,_, scintists_NNS are_VBP doning_VBG their_PRP$ best_JJS to_TO eliminate_VB pollution_NN and_CC save_VB the_DT world_NN ,_, and_CC their_PRP$ efforts_NNS are_VBP going_VBG to_TO be_VB rewarded_VBN by_IN decreasing_VBG the_DT sources_NNS of_IN pollution_NN ,_, if_IN they_PRP can_MD give_VB alternatives_NNS ._.
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+O
+B-VP
+B-NP
+I-NP
+O
+O
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+I-VP
+I-VP
+B-PP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-NP
+O
+[0..1) PP
+[1..3) NP
+[3..4) PP
+[4..5) NP
+[6..7) NP
+[7..9) VP
+[9..11) NP
+[11..13) VP
+[13..14) NP
+[15..16) VP
+[16..18) NP
+[20..22) NP
+[22..27) VP
+[27..28) PP
+[28..29) VP
+[29..31) NP
+[31..32) PP
+[32..33) NP
+[34..35) SBAR
+[35..36) NP
+[36..38) VP
+[38..39) NP
+
+
+I disagree with this statement that their will be afewer cars from now after twenty years .
+
+(there not their, a fewer not afewer)
+
+I_PRP disagree_VBP with_IN this_DT statement_NN that_IN their_PRP$ will_MD be_VB afewer_RB cars_NNS from_IN now_RB after_IN twenty_CD years_NNS ._.
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..3) PP
+[3..5) NP
+[5..6) SBAR
+[6..7) NP
+[7..9) VP
+[9..11) NP
+[11..12) PP
+[12..16) NP
+
+
+Cars are one of the useful inventoin that are science has made .
+
+(one of the useful inventions not invention, fragmentation)
+
+Cars_NNS are_VBP one_CD of_IN the_DT useful_JJ inventoin_NN that_WDT are_VBP science_NN has_VBZ made_VBN ._.
+B-NP
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-NP
+B-VP
+B-NP
+B-VP
+I-VP
+O
+[0..1) NP
+[1..2) VP
+[2..3) NP
+[3..4) PP
+[4..7) NP
+[7..8) NP
+[8..9) VP
+[9..10) NP
+[10..12) VP
+
+
+It is one of the useful mode of transpot in the recent days .
+
+(one of the useful modes, not mode)
+
+It_PRP is_VBZ one_CD of_IN the_DT useful_JJ mode_NN of_IN transpot_NN in_IN the_DT recent_JJ days_NNS ._.
+B-NP
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..3) NP
+[3..4) PP
+[4..7) NP
+[7..8) PP
+[8..9) NP
+[9..10) PP
+[10..13) NP
+
+
+In the recent times cars are used by all the classes of people in the societyi .
+
+(society not societyi)
+
+In_IN the_DT recent_JJ times_NNS cars_NNS are_VBP used_VBN by_IN all_DT the_DT classes_NNS of_IN people_NNS in_IN the_DT societyi_NN ._.
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) PP
+[1..5) NP
+[5..7) VP
+[7..8) PP
+[8..11) NP
+[11..12) PP
+[12..13) NP
+[13..14) PP
+[14..16) NP
+
+
+e , is the middle , higher and the lower class of people .
+
+(fragmentation)
+
+e_NN ,_, is_VBZ the_DT middle_NN ,_, higher_JJR and_CC the_DT lower_JJR class_NN of_IN people_NNS ._.
+B-NP
+O
+B-VP
+B-NP
+I-NP
+O
+B-NP
+O
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+O
+[0..1) NP
+[2..3) VP
+[3..5) NP
+[6..7) NP
+[8..11) NP
+[11..12) PP
+[12..13) NP
+
+
+Its use has been improving by day by day .
+
+(everyday not by day by day)
+
+Its_PRP$ use_NN has_VBZ been_VBN improving_VBG by_IN day_NN by_IN day_NN ._.
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+B-PP
+B-NP
+O
+[0..2) NP
+[2..5) VP
+[5..6) PP
+[6..7) NP
+[7..8) PP
+[8..9) NP
+
+
+I t is one of the most convenient mode of troansport unlike the busses , trains , automobile etc .
+
+(one of the most convenient modes not mode)
+
+I_PRP t_RB is_VBZ one_CD of_IN the_DT most_RBS convenient_JJ mode_NN of_IN troansport_NN unlike_IN the_DT busses_NNS ,_, trains_NNS ,_, automobile_NN etc_NN ._.
+B-NP
+B-ADVP
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+O
+B-NP
+I-NP
+O
+[0..1) NP
+[1..2) ADVP
+[2..3) VP
+[3..4) NP
+[4..5) PP
+[5..9) NP
+[9..10) PP
+[10..11) NP
+[11..12) PP
+[12..14) NP
+[15..16) NP
+[17..19) NP
+
+
+Transport by acar is at once own convinence .
+
+(a car not acar)
+
+Transport_NN by_IN acar_NN is_VBZ at_IN once_RB own_JJ convinence_NN ._.
+B-NP
+B-PP
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[0..1) NP
+[1..2) PP
+[2..3) NP
+[3..4) VP
+[4..5) PP
+[5..8) NP
+
+
+Its not like you have to wiat for or go out pf the house much early to get the transport on time .
+
+(wait not wiat)
+
+Its_PRP$ not_RB like_IN you_PRP have_VBP to_TO wiat_VB for_IN or_CC go_VB out_RP pf_NN the_DT house_NN much_RB early_RB to_TO get_VB the_DT transport_NN on_IN time_NN ._.
+B-NP
+I-NP
+I-NP
+B-NP
+B-VP
+I-VP
+I-VP
+B-ADVP
+O
+B-VP
+B-PRT
+B-NP
+B-NP
+I-NP
+B-ADVP
+I-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+[0..3) NP
+[3..4) NP
+[4..7) VP
+[7..8) ADVP
+[9..10) VP
+[10..11) PRT
+[11..12) NP
+[12..14) NP
+[14..16) ADVP
+[16..18) VP
+[18..20) NP
+[20..21) PP
+[21..22) NP
+
+
+Having once own car is very convinient .
+
+(convenient not convinient)
+
+Having_VBG once_RB own_JJ car_NN is_VBZ very_RB convinient_JJ ._.
+B-VP
+B-NP
+I-NP
+I-NP
+B-VP
+B-ADJP
+I-ADJP
+O
+[0..1) VP
+[1..4) NP
+[4..5) VP
+[5..7) ADJP
+
+
+In the presernt times people are very busy no time to waste at all you cant wait for abus or atrain to get a means of transport .
+
+(can't not cant, a bus not abus, a train not atrain)
+
+In_IN the_DT presernt_NN times_NNS people_NNS are_VBP very_RB busy_JJ no_DT time_NN to_TO waste_VB at_IN all_DT you_PRP cant_MD wait_VB for_IN abus_NN or_CC atrain_NN to_TO get_VB a_DT means_NNS of_IN transport_NN ._.
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+B-VP
+B-NP
+I-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-SBAR
+B-NP
+I-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+[0..1) PP
+[1..5) NP
+[5..6) VP
+[6..10) NP
+[10..12) VP
+[12..13) SBAR
+[13..15) NP
+[15..17) VP
+[17..18) PP
+[18..21) NP
+[21..23) VP
+[23..25) NP
+[25..26) PP
+[26..27) NP
+
+
+In the futher years car users will go on because of their busy lives to save the time In the recent times many models of the car have been made which are at ahigh sale in the market .
+
+(further not futher, a high not ahigh)
+
+In_IN the_DT futher_JJ years_NNS car_NN users_NNS will_MD go_VB on_IN because_IN of_IN their_PRP$ busy_JJ lives_NNS to_TO save_VB the_DT time_NN In_IN the_DT recent_JJ times_NNS many_JJ models_NNS of_IN the_DT car_NN have_VBP been_VBN made_VBN which_WDT are_VBP at_IN ahigh_JJ sale_NN in_IN the_DT market_NN ._.
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-PRT
+B-PP
+I-PP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) PP
+[1..6) NP
+[6..8) VP
+[8..9) PRT
+[9..11) PP
+[11..14) NP
+[14..16) VP
+[16..18) NP
+[18..19) PP
+[19..24) NP
+[24..25) PP
+[25..27) NP
+[27..30) VP
+[30..31) NP
+[31..32) VP
+[32..33) PP
+[33..35) NP
+[35..36) PP
+[36..38) NP
+
+
+Ifeel that many more models will surely come up in the mere future to meet the demand .
+
+(I fell not Ifeel)
+
+Ifeel_NN that_IN many_JJ more_JJR models_NNS will_MD surely_RB come_VB up_RP in_IN the_DT mere_JJ future_NN to_TO meet_VB the_DT demand_NN ._.
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-PRT
+B-PP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..2) PP
+[2..5) NP
+[5..8) VP
+[8..9) PRT
+[9..10) PP
+[10..13) NP
+[13..15) VP
+[15..17) NP
+
+
+The other factor of many cars nowdays and the days to come is that owing or maintaing a car is a sign of status in the society so all the people would like to maintain ahigh status in the societyhence they would buy acar .
+
+(a high not ahigh, society hence not societyhence)
+
+The_DT other_JJ factor_NN of_IN many_JJ cars_NNS nowdays_RB and_CC the_DT days_NNS to_TO come_VB is_VBZ that_IN owing_VBG or_CC maintaing_VBG a_DT car_NN is_VBZ a_DT sign_NN of_IN status_NN in_IN the_DT society_NN so_RB all_PDT the_DT people_NNS would_MD like_VB to_TO maintain_VB ahigh_JJ status_NN in_IN the_DT societyhence_NN they_PRP would_MD buy_VB acar_NN ._.
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-ADVP
+O
+B-NP
+I-NP
+B-VP
+I-VP
+B-VP
+B-PP
+B-NP
+I-NP
+I-NP
+B-NP
+I-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-NP
+B-VP
+I-VP
+B-NP
+O
+[0..3) NP
+[3..4) PP
+[4..6) NP
+[6..7) ADVP
+[8..10) NP
+[10..12) VP
+[12..13) VP
+[13..14) PP
+[14..17) NP
+[17..19) NP
+[19..20) VP
+[20..22) NP
+[22..23) PP
+[23..24) NP
+[24..25) PP
+[25..27) NP
+[28..31) NP
+[31..35) VP
+[35..37) NP
+[37..38) PP
+[38..40) NP
+[40..41) NP
+[41..43) VP
+[43..44) NP
+
+
+When the demand goes on a high rate the production of the cars will definatly has to meet the demand not only that many banks and other organisations renders many sources or loans to own a car so inspite of souring prices also people dont stop buying cars .
+
+(definitely not definatly, have not has)
+
+When_WRB the_DT demand_NN goes_VBZ on_IN a_DT high_JJ rate_NN the_DT production_NN of_IN the_DT cars_NNS will_MD definatly_RB has_VBZ to_TO meet_VB the_DT demand_NN not_RB only_RB that_IN many_JJ banks_NNS and_CC other_JJ organisations_NNS renders_NNS many_JJ sources_NNS or_CC loans_NNS to_TO own_VB a_DT car_NN so_IN inspite_JJ of_IN souring_NN prices_NNS also_RB people_NNS dont_VBP stop_VB buying_VBG cars_NNS ._.
+B-ADVP
+B-NP
+I-NP
+B-VP
+B-PP
+B-NP
+I-NP
+I-NP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-ADVP
+I-ADVP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+I-NP
+B-NP
+I-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+O
+[0..1) ADVP
+[1..3) NP
+[3..4) VP
+[4..5) PP
+[5..8) NP
+[8..10) NP
+[10..11) PP
+[11..13) NP
+[13..18) VP
+[18..20) NP
+[20..22) ADVP
+[22..23) PP
+[23..25) NP
+[26..29) NP
+[29..33) NP
+[33..35) VP
+[35..37) NP
+[37..38) PP
+[38..39) NP
+[39..40) PP
+[40..42) NP
+[42..43) ADVP
+[43..44) NP
+[44..47) VP
+[47..48) NP
+
+
+But , at the same time , cars have caused a lot of problems for our human being .
+
+(fragmentation)
+
+But_CC ,_, at_IN the_DT same_JJ time_NN ,_, cars_NNS have_VBP caused_VBN a_DT lot_NN of_IN problems_NNS for_IN our_PRP$ human_JJ being_NN ._.
+O
+O
+B-PP
+B-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[2..3) PP
+[3..6) NP
+[7..8) NP
+[8..10) VP
+[10..12) NP
+[12..13) PP
+[13..14) NP
+[14..15) PP
+[15..18) NP
+
+
+Some people have paied much attention to the disadvantages of cars , and they think we should get rid of cars .
+
+(paid not paied)
+
+Some_DT people_NNS have_VBP paied_VBN much_JJ attention_NN to_TO the_DT disadvantages_NNS of_IN cars_NNS ,_, and_CC they_PRP think_VBP we_PRP should_MD get_VB rid_JJ of_IN cars_NNS ._.
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+O
+B-NP
+B-VP
+B-NP
+B-VP
+I-VP
+B-ADJP
+B-PP
+B-NP
+O
+[0..2) NP
+[2..4) VP
+[4..6) NP
+[6..7) PP
+[7..9) NP
+[9..10) PP
+[10..11) NP
+[13..14) NP
+[14..15) VP
+[15..16) NP
+[16..18) VP
+[18..19) ADJP
+[19..20) PP
+[20..21) NP
+
+
+In my opinion , I ca n't agree with this statement , bucause we can find another veihcles to take the place of cars in a short time .
+
+(vehicle not veihcles)
+
+In_IN my_PRP$ opinion_NN ,_, I_PRP ca_MD n't_RB agree_VB with_IN this_DT statement_NN ,_, bucause_NN we_PRP can_MD find_VB another_DT veihcles_NNS to_TO take_VB the_DT place_NN of_IN cars_NNS in_IN a_DT short_JJ time_NN ._.
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[0..1) PP
+[1..3) NP
+[4..5) NP
+[5..8) VP
+[8..9) PP
+[9..11) NP
+[12..13) NP
+[13..14) NP
+[14..16) VP
+[16..18) NP
+[18..20) VP
+[20..22) NP
+[22..23) PP
+[23..24) NP
+[24..25) PP
+[25..28) NP
+
+
+The second reason is that it needs a long time to invent a kind of new veihcle .
+
+(vehicle not veihcle)
+
+The_DT second_JJ reason_NN is_VBZ that_IN it_PRP needs_VBZ a_DT long_JJ time_NN to_TO invent_VB a_DT kind_NN of_IN new_JJ veihcle_NN ._.
+B-NP
+I-NP
+I-NP
+B-VP
+B-SBAR
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..3) NP
+[3..4) VP
+[4..5) SBAR
+[5..6) NP
+[6..7) VP
+[7..10) NP
+[10..12) VP
+[12..14) NP
+[14..15) PP
+[15..17) NP
+
+
+If one day , a new veihcle was invented , it would take a long time to put it into practice .
+
+(vehicle not veihcle, is not was)
+
+If_IN one_CD day_NN ,_, a_DT new_JJ veihcle_NN was_VBD invented_VBN ,_, it_PRP would_MD take_VB a_DT long_JJ time_NN to_TO put_VB it_PRP into_IN practice_NN ._.
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+O
+[0..1) PP
+[1..3) NP
+[4..7) NP
+[7..9) VP
+[10..11) NP
+[11..13) VP
+[13..16) NP
+[16..18) VP
+[18..19) NP
+[19..20) PP
+[20..21) NP
+
+
+But we can do something to avoid these side effect .
+
+(fragmentation)
+
+But_CC we_PRP can_MD do_VB something_NN to_TO avoid_VB these_DT side_JJ effect_NN ._.
+O
+B-NP
+B-VP
+I-VP
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+[1..2) NP
+[2..4) VP
+[4..5) NP
+[5..7) VP
+[7..10) NP
+
+
+We can develop a new energy source , which would cost less than inventing a new veihcle .
+
+(vehicle not veihcle)
+
+We_PRP can_MD develop_VB a_DT new_JJ energy_NN source_NN ,_, which_WDT would_MD cost_VB less_JJR than_IN inventing_VBG a_DT new_JJ veihcle_NN ._.
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+B-PP
+B-VP
+B-NP
+I-NP
+I-NP
+O
+[0..1) NP
+[1..3) VP
+[3..7) NP
+[8..9) NP
+[9..11) VP
+[11..12) NP
+[12..13) PP
+[13..14) VP
+[14..17) NP
+
+
+And there are also a lot of driver that do n't take care of other road users .
+
+(Fragmentation)
+
+And_CC there_EX are_VBP also_RB a_DT lot_NN of_IN driver_NN that_WDT do_VBP n't_RB take_VB care_NN of_IN other_JJ road_NN users_NNS ._.
+O
+B-NP
+B-VP
+B-ADVP
+B-NP
+I-NP
+B-PP
+B-NP
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[1..2) NP
+[2..3) VP
+[3..4) ADVP
+[4..6) NP
+[6..7) PP
+[7..8) NP
+[8..9) NP
+[9..12) VP
+[12..13) NP
+[13..14) PP
+[14..17) NP
+
+
+As the reason I given above , I insist that cars will not be fewer in use in twenty years .
+
+(gave not given)
+
+As_IN the_DT reason_NN I_PRP given_VBN above_IN ,_, I_PRP insist_VBP that_IN cars_NNS will_MD not_RB be_VB fewer_JJR in_IN use_NN in_IN twenty_CD years_NNS ._.
+B-SBAR
+B-NP
+I-NP
+B-NP
+B-VP
+B-ADVP
+O
+B-NP
+B-VP
+B-SBAR
+B-NP
+B-VP
+I-VP
+I-VP
+B-ADJP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) SBAR
+[1..3) NP
+[3..4) NP
+[4..5) VP
+[5..6) ADVP
+[7..8) NP
+[8..9) VP
+[9..10) SBAR
+[10..11) NP
+[11..14) VP
+[14..15) ADJP
+[15..16) PP
+[16..17) NP
+[17..18) PP
+[18..20) NP
+
+
+Cars are still paly impotant roles in morden society .
+
+(play not paly)
+
+Cars_NNS are_VBP still_RB paly_RB impotant_JJ roles_NNS in_IN morden_JJ society_NN ._.
+B-NP
+B-VP
+B-ADVP
+B-ADVP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..3) ADVP
+[3..4) ADVP
+[4..6) NP
+[6..7) PP
+[7..9) NP
+
+
+Maybe , many years later , they will be replaced by other veihcle .
+
+(vehicle not veihcle)
+
+Maybe_RB ,_, many_JJ years_NNS later_RB ,_, they_PRP will_MD be_VB replaced_VBN by_IN other_JJ veihcle_NN ._.
+B-ADVP
+O
+B-NP
+I-NP
+B-ADVP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..4) NP
+[4..5) ADVP
+[6..7) NP
+[7..10) VP
+[10..11) PP
+[11..13) NP
+
+
+But its position ca n't be changed in a short time .
+
+(fragmentaion)
+
+But_CC its_PRP$ position_NN ca_MD n't_RB be_VB changed_VBN in_IN a_DT short_JJ time_NN ._.
+O
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[1..3) NP
+[3..7) VP
+[7..8) PP
+[8..11) NP
+
+
+Mainly because of the prices for fuel and cars .
+
+(fragmentation)
+
+Mainly_RB because_IN of_IN the_DT prices_NNS for_IN fuel_NN and_CC cars_NNS ._.
+B-ADVP
+B-PP
+I-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[0..1) ADVP
+[1..3) PP
+[3..5) NP
+[5..6) PP
+[6..9) NP
+
+
+Finally it is to say that there are a lot more reasons why there will be lot less cars in the future but in the short time it was unfortunatelly not possible to mention mor important ones .
+
+(less not lot less, more not mor)
+
+Finally_RB it_PRP is_VBZ to_TO say_VB that_IN there_EX are_VBP a_DT lot_NN more_RBR reasons_NNS why_WRB there_EX will_MD be_VB lot_RB less_JJR cars_NNS in_IN the_DT future_NN but_CC in_IN the_DT short_JJ time_NN it_PRP was_VBD unfortunatelly_RB not_RB possible_JJ to_TO mention_VB mor_JJR important_JJ ones_NNS ._.
+B-ADVP
+B-NP
+B-VP
+I-VP
+I-VP
+B-SBAR
+B-NP
+B-VP
+B-NP
+I-NP
+B-NP
+I-NP
+B-ADVP
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-PP
+B-NP
+I-NP
+I-NP
+B-NP
+B-VP
+B-ADVP
+O
+B-ADJP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+[0..1) ADVP
+[1..2) NP
+[2..5) VP
+[5..6) SBAR
+[6..7) NP
+[7..8) VP
+[8..10) NP
+[10..12) NP
+[12..13) ADVP
+[13..14) NP
+[14..16) VP
+[16..19) NP
+[19..20) PP
+[20..22) NP
+[23..24) PP
+[24..27) NP
+[27..28) NP
+[28..29) VP
+[29..30) ADVP
+[31..32) ADJP
+[32..34) VP
+[34..37) NP
+
+
+Will be in twenty years fewer cars in use than there are today ?
+
+(fragmantation)
+
+Will_MD be_VB in_IN twenty_CD years_NNS fewer_RBR cars_NNS in_IN use_NN than_IN there_RB are_VBP today_NN ?_.
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+B-VP
+B-NP
+O
+[0..2) VP
+[2..3) PP
+[3..5) NP
+[5..7) NP
+[7..8) PP
+[8..9) NP
+[9..10) PP
+[10..11) NP
+[11..12) VP
+[12..13) NP
+
+
+On the one hand there is the oil , oil is a limited fossile product whitch does not excised endless and the result is the hugh oil price .
+
+(huge not hugh)
+
+On_IN the_DT one_CD hand_NN there_RB is_VBZ the_DT oil_NN ,_, oil_NN is_VBZ a_DT limited_JJ fossile_JJ product_NN whitch_WDT does_VBZ not_RB excised_VBN endless_JJ and_CC the_DT result_NN is_VBZ the_DT hugh_JJ oil_NN price_NN ._.
+B-PP
+B-NP
+I-NP
+I-NP
+B-ADVP
+B-VP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+I-NP
+B-NP
+B-VP
+I-VP
+I-VP
+B-ADJP
+O
+B-NP
+I-NP
+B-VP
+B-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) PP
+[1..4) NP
+[4..5) ADVP
+[5..6) VP
+[6..8) NP
+[9..10) NP
+[10..11) VP
+[11..15) NP
+[15..16) NP
+[16..19) VP
+[19..20) ADJP
+[21..23) NP
+[23..24) VP
+[24..28) NP
+
+
+In a few years can only the rich people pay for gas and oil .
+
+(only the rich people not can only the rich people)
+
+In_IN a_DT few_JJ years_NNS can_MD only_RB the_DT rich_JJ people_NNS pay_VBP for_IN gas_NN and_CC oil_NN ._.
+B-PP
+B-NP
+I-NP
+I-NP
+B-VP
+B-NP
+I-NP
+I-NP
+I-NP
+B-VP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[0..1) PP
+[1..4) NP
+[4..5) VP
+[5..9) NP
+[9..10) VP
+[10..11) PP
+[11..14) NP
+
+
+In big citys like Tokyo or Los Angeles , New York etc. is it impossible to drive by car because you can not find a parking space and you are always in traffic jams and not very fast .
+
+(it is not is it)
+
+In_IN big_JJ citys_NNS like_IN Tokyo_NNP or_CC Los_NNP Angeles_NNP ,_, New_NNP York_NNP etc._NN is_VBZ it_PRP impossible_JJ to_TO drive_VB by_IN car_NN because_IN you_PRP can_MD not_RB find_VB a_DT parking_NN space_NN and_CC you_PRP are_VBP always_RB in_IN traffic_NN jams_NNS and_CC not_RB very_RB fast_RB ._.
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+B-NP
+I-NP
+O
+B-NP
+I-NP
+I-NP
+B-VP
+B-NP
+B-ADJP
+B-VP
+I-VP
+B-PP
+B-NP
+B-SBAR
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+B-ADVP
+B-PP
+B-NP
+I-NP
+O
+B-VP
+B-ADVP
+I-ADVP
+O
+[0..1) PP
+[1..3) NP
+[3..4) PP
+[4..5) NP
+[6..8) NP
+[9..12) NP
+[12..13) VP
+[13..14) NP
+[14..15) ADJP
+[15..17) VP
+[17..18) PP
+[18..19) NP
+[19..20) SBAR
+[20..21) NP
+[21..24) VP
+[24..27) NP
+[28..29) NP
+[29..30) VP
+[30..31) ADVP
+[31..32) PP
+[32..34) NP
+[35..36) VP
+[36..38) ADVP
+
+
+The next point I will mention is that the cars become cleaner they do not pollute the air like cars 15 years ago and a few models are small enough for citys .
+
+(cities not citys)
+
+The_DT next_JJ point_NN I_PRP will_MD mention_VB is_VBZ that_IN the_DT cars_NNS become_VBP cleaner_JJR they_PRP do_VBP not_RB pollute_VB the_DT air_NN like_IN cars_NNS 15_CD years_NNS ago_RB and_CC a_DT few_JJ models_NNS are_VBP small_JJ enough_RB for_IN citys_NNS ._.
+B-NP
+I-NP
+I-NP
+B-NP
+B-VP
+I-VP
+B-VP
+B-SBAR
+B-NP
+I-NP
+B-VP
+B-NP
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-NP
+I-NP
+B-ADVP
+O
+B-NP
+I-NP
+I-NP
+B-VP
+B-ADJP
+I-ADJP
+B-PP
+B-NP
+O
+[0..3) NP
+[3..4) NP
+[4..6) VP
+[6..7) VP
+[7..8) SBAR
+[8..10) NP
+[10..11) VP
+[11..12) NP
+[12..13) NP
+[13..16) VP
+[16..18) NP
+[18..19) PP
+[19..20) NP
+[20..22) NP
+[22..23) ADVP
+[24..27) NP
+[27..28) VP
+[28..30) ADJP
+[30..31) PP
+[31..32) NP
+
+
+But my last point against the statement is the growing world economy .
+
+(fragmentation)
+
+But_CC my_PRP$ last_JJ point_NN against_IN the_DT statement_NN is_VBZ the_DT growing_VBG world_NN economy_NN ._.
+O
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+B-NP
+I-NP
+I-NP
+I-NP
+O
+[1..4) NP
+[4..5) PP
+[5..7) NP
+[7..8) VP
+[8..12) NP
+
+
+However , as the needs of the cars are shifting to daily essential tools , we can simply imagine that we can buy very economic cars in the nearlest future that consumes less gasoline , less parking places and , of course , cheaper price so that everybody can manage to buy it .
+
+(nearest not nearlest)
+
+However_RB ,_, as_IN the_DT needs_NNS of_IN the_DT cars_NNS are_VBP shifting_VBG to_TO daily_JJ essential_JJ tools_NNS ,_, we_PRP can_MD simply_RB imagine_VB that_IN we_PRP can_MD buy_VB very_JJ economic_JJ cars_NNS in_IN the_DT nearlest_JJS future_NN that_WDT consumes_VBZ less_JJR gasoline_NN ,_, less_JJR parking_NN places_NNS and_CC ,_, of_IN course_NN ,_, cheaper_JJR price_NN so_IN that_IN everybody_NN can_MD manage_VB to_TO buy_VB it_PRP ._.
+B-ADVP
+O
+B-SBAR
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-NP
+B-VP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+I-NP
+O
+O
+B-PP
+B-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+I-VP
+B-NP
+O
+[0..1) ADVP
+[2..3) SBAR
+[3..5) NP
+[5..6) PP
+[6..8) NP
+[8..10) VP
+[10..11) PP
+[11..14) NP
+[15..16) NP
+[16..19) VP
+[19..20) SBAR
+[20..21) NP
+[21..23) VP
+[23..26) NP
+[26..27) PP
+[27..30) NP
+[30..31) NP
+[31..32) VP
+[32..34) NP
+[35..38) NP
+[40..41) PP
+[41..42) NP
+[43..45) NP
+[45..46) PP
+[46..48) NP
+[48..52) VP
+[52..53) NP
+
+
+lets take the china as an example , as we know the population of china is to much and growing day by day for this reason people prefers riding bicycles instead of driwing cars .
+
+(let's not lets, take China not take the china, too much not to much)
+
+lets_VBZ take_VB the_DT china_NN as_IN an_DT example_NN ,_, as_IN we_PRP know_VBP the_DT population_NN of_IN china_NN is_VBZ to_TO much_JJ and_CC growing_VBG day_NN by_IN day_NN for_IN this_DT reason_NN people_NNS prefers_VBZ riding_VBG bicycles_NNS instead_RB of_IN driwing_VBG cars_NNS ._.
+O
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-SBAR
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+B-CONJP
+I-CONJP
+B-VP
+B-NP
+O
+[1..2) VP
+[2..4) NP
+[4..5) PP
+[5..7) NP
+[8..9) SBAR
+[9..10) NP
+[10..11) VP
+[11..13) NP
+[13..14) PP
+[14..15) NP
+[15..16) VP
+[16..17) PP
+[17..21) NP
+[21..22) PP
+[22..23) NP
+[23..24) PP
+[24..27) NP
+[27..29) VP
+[29..30) NP
+[30..32) CONJP
+[32..33) VP
+[33..34) NP
+
+
+if we think that every chinese people drives to work or home or another place then the traffic would be the biggest problem of the china that is why chinese people prefers the bicycles .
+
+(every chinese person not every chinese people, of china not of the china)
+
+if_IN we_PRP think_VBP that_IN every_DT chinese_JJ people_NNS drives_NNS to_TO work_VB or_CC home_NN or_CC another_DT place_NN then_RB the_DT traffic_NN would_MD be_VB the_DT biggest_JJS problem_NN of_IN the_DT china_NN that_WDT is_VBZ why_WRB chinese_JJ people_NNS prefers_VBZ the_DT bicycles_NNS ._.
+B-SBAR
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+B-VP
+I-VP
+I-VP
+I-VP
+O
+B-NP
+I-NP
+B-SBAR
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-NP
+B-VP
+B-ADVP
+B-NP
+I-NP
+B-VP
+B-NP
+I-NP
+O
+[0..1) SBAR
+[1..2) NP
+[2..3) VP
+[3..4) PP
+[4..8) NP
+[8..12) VP
+[13..15) NP
+[15..16) SBAR
+[16..18) NP
+[18..20) VP
+[20..23) NP
+[23..24) PP
+[24..26) NP
+[26..27) NP
+[27..28) VP
+[28..29) ADVP
+[29..31) NP
+[31..32) VP
+[32..34) NP
+
+
+lets talk about the benefits of bicyles ;
+
+(let's not lets)
+
+lets_VBZ talk_NN about_IN the_DT benefits_NNS of_IN bicyles_NNS ;_:
+O
+B-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+[1..2) NP
+[2..3) PP
+[3..5) NP
+[5..6) PP
+[6..7) NP
+
+
+1 ) it is healtier than driwing ; as we know in our century people dont have enough time for sport and exercise , because we need to work hard and if we use bicycles then we would catch the chance of exercising while going to work or home .
+
+(driving not driwing)
+
+1_CD )_-RRB- it_PRP is_VBZ healtier_JJR than_IN driwing_NN ;_: as_IN we_PRP know_VBP in_IN our_PRP$ century_NN people_NNS dont_VBP have_VB enough_JJ time_NN for_IN sport_NN and_CC exercise_NN ,_, because_IN we_PRP need_VBP to_TO work_VB hard_JJ and_CC if_IN we_PRP use_VBP bicycles_NNS then_RB we_PRP would_MD catch_VB the_DT chance_NN of_IN exercising_VBG while_IN going_VBG to_TO work_VB or_CC home_NN ._.
+B-NP
+O
+B-NP
+B-VP
+B-ADJP
+B-PP
+B-NP
+O
+B-SBAR
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+B-SBAR
+B-NP
+B-VP
+I-VP
+I-VP
+B-ADVP
+O
+B-SBAR
+B-NP
+B-VP
+B-NP
+B-ADVP
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-VP
+B-SBAR
+B-VP
+I-VP
+I-VP
+I-VP
+I-VP
+O
+[0..1) NP
+[2..3) NP
+[3..4) VP
+[4..5) ADJP
+[5..6) PP
+[6..7) NP
+[8..9) SBAR
+[9..10) NP
+[10..11) VP
+[11..12) PP
+[12..15) NP
+[15..17) VP
+[17..19) NP
+[19..20) PP
+[20..23) NP
+[24..25) SBAR
+[25..26) NP
+[26..29) VP
+[29..30) ADVP
+[31..32) SBAR
+[32..33) NP
+[33..34) VP
+[34..35) NP
+[35..36) ADVP
+[36..37) NP
+[37..39) VP
+[39..41) NP
+[41..42) PP
+[42..43) VP
+[43..44) SBAR
+[44..49) VP
+
+
+2 ) no traffic problems ; bicycle is easier to use and it is smaller than an average car so if we use bicycles instead of cars than we wont have too much traffic and parkng problems .
+
+(won't not wont)
+
+2_CD )_-RRB- no_DT traffic_NN problems_NNS ;_: bicycle_NN is_VBZ easier_JJR to_TO use_VB and_CC it_PRP is_VBZ smaller_JJR than_IN an_DT average_JJ car_NN so_IN if_IN we_PRP use_VBP bicycles_NNS instead_RB of_IN cars_NNS than_IN we_PRP wont_MD have_VB too_RB much_JJ traffic_NN and_CC parkng_NN problems_NNS ._.
+B-NP
+O
+B-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+B-ADJP
+B-VP
+I-VP
+O
+B-NP
+B-VP
+B-ADJP
+B-PP
+B-NP
+I-NP
+I-NP
+B-SBAR
+I-SBAR
+B-NP
+B-VP
+B-NP
+B-ADVP
+B-PP
+B-NP
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) NP
+[2..5) NP
+[6..7) NP
+[7..8) VP
+[8..9) ADJP
+[9..11) VP
+[12..13) NP
+[13..14) VP
+[14..15) ADJP
+[15..16) PP
+[16..19) NP
+[19..21) SBAR
+[21..22) NP
+[22..23) VP
+[23..24) NP
+[24..25) ADVP
+[25..26) PP
+[26..27) NP
+[27..28) SBAR
+[28..29) NP
+[29..31) VP
+[31..37) NP
+
+
+3 ) no air pollution and energy savings ; as you know the exhousts of the cars pollute the enviroment , and also in todays economy the oil prices are raising day by day , and i am sure that future 's biggest problem would be the the oil and pollution problems so people would like to use bicycles to save money and try to live healtier .
+
+(exhausts not exhoust, healthier not healtier)
+
+3_CD )_-RRB- no_DT air_NN pollution_NN and_CC energy_NN savings_NNS ;_: as_IN you_PRP know_VBP the_DT exhousts_NNS of_IN the_DT cars_NNS pollute_VB the_DT enviroment_NN ,_, and_CC also_RB in_IN todays_NNS economy_NN the_DT oil_NN prices_NNS are_VBP raising_VBG day_NN by_IN day_NN ,_, and_CC i_PRP am_VBP sure_JJ that_IN future_NN 's_POS biggest_JJS problem_NN would_MD be_VB the_DT the_DT oil_NN and_CC pollution_NN problems_NNS so_IN people_NNS would_MD like_VB to_TO use_VB bicycles_NNS to_TO save_VB money_NN and_CC try_VB to_TO live_VB healtier_NN ._.
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+O
+B-SBAR
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+B-NP
+I-NP
+O
+O
+B-ADVP
+B-PP
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+O
+O
+B-NP
+B-VP
+B-ADJP
+B-SBAR
+B-NP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+B-SBAR
+B-NP
+B-VP
+I-VP
+I-VP
+I-VP
+B-NP
+B-VP
+I-VP
+B-NP
+O
+B-VP
+I-VP
+I-VP
+B-NP
+O
+[0..8) NP
+[9..10) SBAR
+[10..11) NP
+[11..12) VP
+[12..14) NP
+[14..15) PP
+[15..17) NP
+[17..18) VP
+[18..20) NP
+[22..23) ADVP
+[23..24) PP
+[24..25) NP
+[25..26) VP
+[26..29) NP
+[29..31) VP
+[31..32) NP
+[32..33) PP
+[33..34) NP
+[36..37) NP
+[37..38) VP
+[38..39) ADJP
+[39..40) SBAR
+[40..41) NP
+[41..44) NP
+[44..46) VP
+[46..52) NP
+[52..53) SBAR
+[53..54) NP
+[54..58) VP
+[58..59) NP
+[59..61) VP
+[61..62) NP
+[63..66) VP
+[66..67) NP
+
+
+As we can see everyday , cars are the most important imlpement people use to travel from a palce to another nowadays .
+
+(impplement not imlpement, place not palce)
+
+As_IN we_PRP can_MD see_VB everyday_JJ ,_, cars_NNS are_VBP the_DT most_RBS important_JJ imlpement_NN people_NNS use_VBP to_TO travel_VB from_IN a_DT palce_NN to_TO another_DT nowadays_RB ._.
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-ADJP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) SBAR
+[1..2) NP
+[2..4) VP
+[4..5) ADJP
+[6..7) NP
+[7..8) VP
+[8..13) NP
+[13..16) VP
+[16..17) PP
+[17..19) NP
+[19..20) PP
+[20..22) NP
+
+
+But if this siuation will last to the twenty years later .
+
+(fragmentation)
+
+But_CC if_IN this_DT siuation_NN will_MD last_VB to_TO the_DT twenty_CD years_NNS later_RBR ._.
+O
+B-SBAR
+B-NP
+I-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+I-NP
+B-ADVP
+O
+[1..2) SBAR
+[2..4) NP
+[4..6) VP
+[6..7) PP
+[7..10) NP
+[10..11) ADVP
+
+
+But with the development of world , there are more and more cars on the stresses while the crude oil resourses are running out every minutes .
+
+(streets not stresses)
+
+But_CC with_IN the_DT development_NN of_IN world_NN ,_, there_EX are_VBP more_JJR and_CC more_JJR cars_NNS on_IN the_DT stresses_VBZ while_IN the_DT crude_JJ oil_NN resourses_NNS are_VBP running_VBG out_IN every_DT minutes_NNS ._.
+O
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+I-NP
+B-PP
+B-NP
+B-VP
+B-SBAR
+B-NP
+I-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+O
+[1..2) PP
+[2..4) NP
+[4..5) PP
+[5..6) NP
+[7..8) NP
+[8..9) VP
+[9..13) NP
+[13..14) PP
+[14..15) NP
+[15..16) VP
+[16..17) SBAR
+[17..21) NP
+[21..23) VP
+[23..24) PP
+[24..26) NP
+
+
+If so , most persons can not afford the cost of drivening cars .
+
+(driving not drivening)
+
+If_IN so_RB ,_, most_RBS persons_NNS can_MD not_RB afford_VB the_DT cost_NN of_IN drivening_VBG cars_NNS ._.
+B-SBAR
+B-ADVP
+O
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-VP
+B-NP
+O
+[0..1) SBAR
+[1..2) ADVP
+[3..5) NP
+[5..8) VP
+[8..10) NP
+[10..11) PP
+[11..12) VP
+[12..13) NP
+
+
+At that time peolpe can exchange all kinds of informations on the internet instead of drivening here and there .
+
+(drivng not drivening)
+
+At_IN that_DT time_NN peolpe_RB can_MD exchange_VB all_DT kinds_NNS of_IN informations_NNS on_IN the_DT internet_NN instead_RB of_IN drivening_VBG here_RB and_CC there_RB ._.
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-PP
+B-VP
+B-ADVP
+I-ADVP
+I-ADVP
+O
+[0..1) PP
+[1..3) NP
+[3..4) ADVP
+[4..6) VP
+[6..8) NP
+[8..9) PP
+[9..10) NP
+[10..11) PP
+[11..13) NP
+[13..14) ADVP
+[14..15) PP
+[15..16) VP
+[16..19) ADVP
+
+
+More convenient and safe traffic things will replace the cars in the near future .
+
+()
+
+More_RBR convenient_JJ and_CC safe_JJ traffic_NN things_NNS will_MD replace_VB the_DT cars_NNS in_IN the_DT near_JJ future_NN ._.
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[0..6) NP
+[6..8) VP
+[8..10) NP
+[10..11) PP
+[11..14) NP
+
+
+So I think there will be less cars after twenty years later .
+
+()
+
+So_RB I_PRP think_VBP there_EX will_MD be_VB less_JJR cars_NNS after_IN twenty_CD years_NNS later_RBR ._.
+O
+B-NP
+B-VP
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-ADVP
+O
+[1..2) NP
+[2..3) VP
+[3..4) NP
+[4..6) VP
+[6..8) NP
+[8..9) PP
+[9..11) NP
+[11..12) ADVP
+
+
+I do not agree that in twenty years there will be fewer cars in use that today because people have been having the desire of having their own car to have convieint life and in 20 years , the price of the cars will be lower .
+
+()
+
+I_PRP do_VBP not_RB agree_VB that_IN in_IN twenty_CD years_NNS there_EX will_MD be_VB fewer_JJR cars_NNS in_IN use_NN that_IN today_NN because_IN people_NNS have_VBP been_VBN having_VBG the_DT desire_NN of_IN having_VBG their_PRP$ own_JJ car_NN to_TO have_VB convieint_JJ life_NN and_CC in_IN 20_CD years_NNS ,_, the_DT price_NN of_IN the_DT cars_NNS will_MD be_VB lower_JJR ._.
+B-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+B-SBAR
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-VP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+B-ADJP
+O
+[0..1) NP
+[1..4) VP
+[4..5) PP
+[5..6) PP
+[6..8) NP
+[8..9) ADVP
+[9..11) VP
+[11..13) NP
+[13..14) PP
+[14..15) NP
+[15..16) PP
+[16..17) NP
+[17..18) SBAR
+[18..19) NP
+[19..22) VP
+[22..24) NP
+[24..25) PP
+[25..26) VP
+[26..29) NP
+[29..31) VP
+[31..33) NP
+[34..35) PP
+[35..37) NP
+[38..40) NP
+[40..41) PP
+[41..43) NP
+[43..45) VP
+[45..46) ADJP
+
+
+First , in 20 years , there will be even more cars than today .
+
+()
+
+First_RB ,_, in_IN 20_CD years_NNS ,_, there_EX will_MD be_VB even_RB more_JJR cars_NNS than_IN today_NN ._.
+B-ADVP
+O
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+O
+[0..1) ADVP
+[2..3) PP
+[3..5) NP
+[6..7) NP
+[7..9) VP
+[9..12) NP
+[12..13) PP
+[13..14) NP
+
+
+Out economy and the state of living conditon have been better and better .
+
+()
+
+Out_IN economy_NN and_CC the_DT state_NN of_IN living_VBG conditon_NN have_VBP been_VBN better_JJR and_CC better_JJR ._.
+B-SBAR
+B-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+B-ADVP
+I-ADVP
+I-ADVP
+O
+[0..1) SBAR
+[1..2) NP
+[3..5) NP
+[5..6) PP
+[6..8) NP
+[8..10) VP
+[10..13) ADVP
+
+
+These days , people generally do not need to worry about food , place to live and clothes .
+
+()
+
+These_DT days_NNS ,_, people_NNS generally_RB do_VBP not_RB need_VB to_TO worry_VB about_IN food_NN ,_, place_NN to_TO live_VB and_CC clothes_NNS ._.
+B-NP
+I-NP
+O
+B-NP
+B-ADVP
+B-VP
+I-VP
+I-VP
+I-VP
+I-VP
+B-PP
+B-NP
+O
+B-NP
+B-VP
+I-VP
+O
+B-NP
+O
+[0..2) NP
+[3..4) NP
+[4..5) ADVP
+[5..10) VP
+[10..11) PP
+[11..12) NP
+[13..14) NP
+[14..16) VP
+[17..18) NP
+
+
+Nowadays , it is the problem of choosing so many options to enhence out life .
+
+()
+
+Nowadays_RB ,_, it_PRP is_VBZ the_DT problem_NN of_IN choosing_VBG so_RB many_JJ options_NNS to_TO enhence_VB out_RP life_NN ._.
+B-ADVP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-VP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..3) NP
+[3..4) VP
+[4..6) NP
+[6..7) PP
+[7..8) VP
+[8..11) NP
+[11..13) VP
+[13..15) NP
+
+
+Since we live in a great life , we want to have more comfortable and easy life .
+
+()
+
+Since_IN we_PRP live_VBP in_IN a_DT great_JJ life_NN ,_, we_PRP want_VBP to_TO have_VB more_RBR comfortable_JJ and_CC easy_JJ life_NN ._.
+B-SBAR
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) SBAR
+[1..2) NP
+[2..3) VP
+[3..4) PP
+[4..7) NP
+[8..9) NP
+[9..12) VP
+[12..17) NP
+
+
+There was an interesting article of driving a car instead of using pubblic transportation .
+
+()
+
+There_EX was_VBD an_DT interesting_JJ article_NN of_IN driving_VBG a_DT car_NN instead_RB of_IN using_VBG pubblic_JJ transportation_NN ._.
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-VP
+B-NP
+I-NP
+B-ADVP
+B-PP
+B-VP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..5) NP
+[5..6) PP
+[6..7) VP
+[7..9) NP
+[9..10) ADVP
+[10..11) PP
+[11..12) VP
+[12..14) NP
+
+
+The article says even if people know that the rush hour is painful , they prefer to drive their own car because it is simple to go out and go to the place where they want .
+
+()
+
+The_DT article_NN says_VBZ even_RB if_IN people_NNS know_VBP that_IN the_DT rush_NN hour_NN is_VBZ painful_JJ ,_, they_PRP prefer_VBP to_TO drive_VB their_PRP$ own_JJ car_NN because_IN it_PRP is_VBZ simple_JJ to_TO go_VB out_RP and_CC go_VB to_TO the_DT place_NN where_WRB they_PRP want_VBP ._.
+B-NP
+I-NP
+B-VP
+B-ADVP
+B-PP
+B-NP
+B-VP
+B-SBAR
+B-NP
+I-NP
+I-NP
+B-VP
+B-ADJP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-SBAR
+B-NP
+B-VP
+B-ADJP
+B-VP
+I-VP
+B-ADVP
+O
+B-VP
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-NP
+B-VP
+O
+[0..2) NP
+[2..3) VP
+[3..4) ADVP
+[4..5) PP
+[5..6) NP
+[6..7) VP
+[7..8) SBAR
+[8..11) NP
+[11..12) VP
+[12..13) ADJP
+[14..15) NP
+[15..18) VP
+[18..21) NP
+[21..22) SBAR
+[22..23) NP
+[23..24) VP
+[24..25) ADJP
+[25..27) VP
+[27..28) ADVP
+[29..30) VP
+[30..31) PP
+[31..33) NP
+[33..34) ADVP
+[34..35) NP
+[35..36) VP
+
+
+Second , it will be easier to buy cars in the future .
+
+()
+
+Second_JJ ,_, it_PRP will_MD be_VB easier_JJR to_TO buy_VB cars_NNS in_IN the_DT future_NN ._.
+B-ADVP
+O
+B-NP
+B-VP
+I-VP
+B-ADJP
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..3) NP
+[3..5) VP
+[5..6) ADJP
+[6..8) VP
+[8..9) NP
+[9..10) PP
+[10..12) NP
+
+
+The things that were used to be very expesive so we could not buy well are getting cheaper and cheaper .
+
+()
+
+The_DT things_NNS that_WDT were_VBD used_VBN to_TO be_VB very_RB expesive_JJ so_IN we_PRP could_MD not_RB buy_VB well_RB are_VBP getting_VBG cheaper_JJR and_CC cheaper_JJR ._.
+B-NP
+I-NP
+B-NP
+B-VP
+I-VP
+B-VP
+I-VP
+B-ADJP
+I-ADJP
+B-SBAR
+B-NP
+B-VP
+I-VP
+I-VP
+B-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+[0..2) NP
+[2..3) NP
+[3..5) VP
+[5..7) VP
+[7..9) ADJP
+[9..10) SBAR
+[10..11) NP
+[11..14) VP
+[14..15) ADVP
+[15..17) VP
+[17..20) NP
+
+
+For instance , buying a computer or a car costed a leg or an arm about 30 and 40 years ago .
+
+()
+
+For_IN instance_NN ,_, buying_VBG a_DT computer_NN or_CC a_DT car_NN costed_VBN a_DT leg_NN or_CC an_DT arm_NN about_IN 30_CD and_CC 40_CD years_NNS ago_RB ._.
+B-PP
+B-NP
+O
+B-VP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-VP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+B-ADVP
+O
+[0..1) PP
+[1..2) NP
+[3..4) VP
+[4..6) NP
+[7..9) NP
+[9..10) VP
+[10..12) NP
+[13..15) NP
+[15..16) PP
+[16..20) NP
+[20..21) ADVP
+
+
+Even buying a computer this year is cheaper than last year .
+
+()
+
+Even_RB buying_VBG a_DT computer_NN this_DT year_NN is_VBZ cheaper_JJR than_IN last_JJ year_NN ._.
+B-ADVP
+B-VP
+B-NP
+I-NP
+B-NP
+I-NP
+B-VP
+B-ADJP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[1..2) VP
+[2..4) NP
+[4..6) NP
+[6..7) VP
+[7..8) ADJP
+[8..9) PP
+[9..11) NP
+
+
+Thanks to our technnology , there are a lot of supplies than needs and people keep looking for a brand new things which are enhenced more and more .
+
+()
+
+Thanks_NNS to_TO our_PRP$ technnology_NN ,_, there_EX are_VBP a_DT lot_NN of_IN supplies_NNS than_IN needs_NNS and_CC people_NNS keep_VBP looking_VBG for_IN a_DT brand_NN new_JJ things_NNS which_WDT are_VBP enhenced_VBN more_RBR and_CC more_RBR ._.
+B-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+B-NP
+B-VP
+I-VP
+B-ADVP
+I-ADVP
+I-ADVP
+O
+[0..1) NP
+[1..2) PP
+[2..4) NP
+[5..6) NP
+[6..7) VP
+[7..9) NP
+[9..10) PP
+[10..11) NP
+[11..12) PP
+[12..15) NP
+[15..17) VP
+[17..18) PP
+[18..22) NP
+[22..23) NP
+[23..25) VP
+[25..28) ADVP
+
+
+That is why cars are also cheaper day by day so as in twenty years , people can get cars more easily than now therefore , if people have cars , they will use them more than now .
+
+()
+
+That_DT is_VBZ why_WRB cars_NNS are_VBP also_RB cheaper_JJR day_NN by_IN day_NN so_RB as_RB in_IN twenty_CD years_NNS ,_, people_NNS can_MD get_VB cars_NNS more_RBR easily_RB than_IN now_RB therefore_RB ,_, if_IN people_NNS have_VBP cars_NNS ,_, they_PRP will_MD use_VB them_PRP more_RBR than_IN now_RB ._.
+B-NP
+B-VP
+B-ADVP
+B-NP
+B-VP
+B-ADVP
+B-NP
+I-NP
+B-PP
+B-NP
+B-ADVP
+I-ADVP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+B-ADVP
+I-ADVP
+B-PP
+B-ADVP
+I-ADVP
+O
+B-SBAR
+B-NP
+B-VP
+B-NP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+B-ADVP
+I-ADVP
+I-ADVP
+O
+[0..1) NP
+[1..2) VP
+[2..3) ADVP
+[3..4) NP
+[4..5) VP
+[5..6) ADVP
+[6..8) NP
+[8..9) PP
+[9..10) NP
+[10..12) ADVP
+[12..13) PP
+[13..15) NP
+[16..17) NP
+[17..19) VP
+[19..20) NP
+[20..22) ADVP
+[22..23) PP
+[23..25) ADVP
+[26..27) SBAR
+[27..28) NP
+[28..29) VP
+[29..30) NP
+[31..32) NP
+[32..34) VP
+[34..35) NP
+[35..38) ADVP
+
+
+Like these reasons , I disagree that use of cars will be fewer than now .
+
+()
+
+Like_IN these_DT reasons_NNS ,_, I_PRP disagree_VBP that_IN use_NN of_IN cars_NNS will_MD be_VB fewer_JJR than_IN now_RB ._.
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+B-PP
+B-NP
+B-PP
+B-NP
+B-VP
+I-VP
+B-ADJP
+I-ADJP
+B-ADVP
+O
+[0..1) PP
+[1..3) NP
+[4..5) NP
+[5..6) VP
+[6..7) PP
+[7..8) NP
+[8..9) PP
+[9..10) NP
+[10..12) VP
+[12..14) ADJP
+[14..15) ADVP
+
+
+Some people might think that our pubblic transportation will be more used than indivisual cars but still in the big cities have longer rush hour and more traffic every year .
+
+()
+
+Some_DT people_NNS might_MD think_VB that_IN our_PRP$ pubblic_JJ transportation_NN will_MD be_VB more_RBR used_VBN than_IN indivisual_JJ cars_NNS but_CC still_RB in_IN the_DT big_JJ cities_NNS have_VBP longer_RB rush_VB hour_NN and_CC more_JJR traffic_NN every_DT year_NN ._.
+B-NP
+I-NP
+B-VP
+I-VP
+B-SBAR
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-ADJP
+I-ADJP
+B-PP
+B-NP
+I-NP
+O
+B-ADVP
+B-PP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-NP
+O
+B-NP
+I-NP
+B-NP
+I-NP
+O
+[0..2) NP
+[2..4) VP
+[4..5) SBAR
+[5..8) NP
+[8..10) VP
+[10..12) ADJP
+[12..13) PP
+[13..15) NP
+[16..17) ADVP
+[17..18) PP
+[18..21) NP
+[21..24) VP
+[24..25) NP
+[26..28) NP
+[28..30) NP
+
+
+Two reasons that I mentioned above support my opinion of use of car in twenty years will not be fewer than today .
+
+()
+
+Two_CD reasons_NNS that_IN I_PRP mentioned_VBD above_IN support_NN my_PRP$ opinion_NN of_IN use_NN of_IN car_NN in_IN twenty_CD years_NNS will_MD not_RB be_VB fewer_JJR than_IN today_NN ._.
+B-NP
+I-NP
+B-SBAR
+B-NP
+B-VP
+B-PP
+B-NP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-ADJP
+B-PP
+B-NP
+O
+[0..2) NP
+[2..3) SBAR
+[3..4) NP
+[4..5) VP
+[5..6) PP
+[6..7) NP
+[7..9) NP
+[9..10) PP
+[10..11) NP
+[11..12) PP
+[12..13) NP
+[13..14) PP
+[14..16) NP
+[16..19) VP
+[19..20) ADJP
+[20..21) PP
+[21..22) NP
+
+
+The statement `` In twenty years there will be fewer cars in use that there are today '' is very strong .
+
+()
+
+The_DT statement_NN ``_`` In_IN twenty_CD years_NNS there_EX will_MD be_VB fewer_JJR cars_NNS in_IN use_NN that_IN there_EX are_VBP today_NN ''_'' is_VBZ very_RB strong_JJ ._.
+B-NP
+I-NP
+O
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+B-VP
+B-NP
+O
+B-VP
+B-ADJP
+I-ADJP
+O
+[0..2) NP
+[3..4) PP
+[4..6) NP
+[6..7) ADVP
+[7..9) VP
+[9..11) NP
+[11..12) PP
+[12..13) NP
+[13..14) PP
+[14..15) NP
+[15..16) VP
+[16..17) NP
+[18..19) VP
+[19..21) ADJP
+
+
+I disagree with it because we do not really know what could happen in the future to change our minds in that way , it would be a very radical change .
+
+()
+
+I_PRP disagree_VBP with_IN it_PRP because_IN we_PRP do_VBP not_RB really_RB know_VB what_WP could_MD happen_VB in_IN the_DT future_NN to_TO change_VB our_PRP$ minds_NNS in_IN that_DT way_NN ,_, it_PRP would_MD be_VB a_DT very_RB radical_JJ change_NN ._.
+B-NP
+B-VP
+B-PP
+B-NP
+B-SBAR
+B-NP
+B-VP
+I-VP
+I-VP
+I-VP
+B-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..3) PP
+[3..4) NP
+[4..5) SBAR
+[5..6) NP
+[6..10) VP
+[10..11) NP
+[11..13) VP
+[13..14) PP
+[14..16) NP
+[16..18) VP
+[18..20) NP
+[20..21) PP
+[21..23) NP
+[24..25) NP
+[25..27) VP
+[27..31) NP
+
+
+Nowadays , the number of cars in use in growing because people has to commute to go to work or to study to the university .
+
+()
+
+Nowadays_RB ,_, the_DT number_NN of_IN cars_NNS in_IN use_NN in_IN growing_VBG because_IN people_NNS has_VBZ to_TO commute_NN to_TO go_VB to_TO work_VB or_CC to_TO study_VB to_TO the_DT university_NN ._.
+B-ADVP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+B-PP
+B-VP
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-NP
+B-VP
+I-VP
+B-PP
+B-NP
+O
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..4) NP
+[4..5) PP
+[5..6) NP
+[6..7) PP
+[7..8) NP
+[8..9) PP
+[9..10) VP
+[10..11) SBAR
+[11..12) NP
+[12..14) VP
+[14..15) NP
+[15..17) VP
+[17..18) PP
+[18..19) NP
+[20..22) VP
+[22..23) PP
+[23..25) NP
+
+
+The distance between our home and the place where we want to go makes us to use the car .
+
+()
+
+The_DT distance_NN between_IN our_PRP$ home_NN and_CC the_DT place_NN where_WRB we_PRP want_VBP to_TO go_VB makes_VBZ us_PRP to_TO use_VB the_DT car_NN ._.
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-ADVP
+B-NP
+B-VP
+I-VP
+I-VP
+B-VP
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+[0..2) NP
+[2..3) PP
+[3..5) NP
+[6..8) NP
+[8..9) ADVP
+[9..10) NP
+[10..13) VP
+[13..14) VP
+[14..15) NP
+[15..17) VP
+[17..19) NP
+
+
+For example , we are 4 adults in my family and we have more that one car , and every day each one use our own car to our daily live .
+
+()
+
+For_IN example_NN ,_, we_PRP are_VBP 4_CD adults_NNS in_IN my_PRP$ family_NN and_CC we_PRP have_VBP more_RBR that_IN one_CD car_NN ,_, and_CC every_DT day_NN each_DT one_CD use_NN our_PRP$ own_JJ car_NN to_TO our_PRP$ daily_JJ live_VBP ._.
+B-PP
+B-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+O
+B-NP
+I-NP
+B-NP
+I-NP
+I-NP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[0..1) PP
+[1..2) NP
+[3..4) NP
+[4..5) VP
+[5..7) NP
+[7..8) PP
+[8..10) NP
+[11..12) NP
+[12..13) VP
+[13..14) NP
+[14..15) PP
+[15..17) NP
+[19..21) NP
+[21..24) NP
+[24..27) NP
+[27..28) PP
+[28..31) NP
+
+
+Spain is a small country in comparison to others .
+
+()
+
+Spain_NNP is_VBZ a_DT small_JJ country_NN in_IN comparison_NN to_TO others_NNS ._.
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+O
+[0..1) NP
+[1..2) VP
+[2..5) NP
+[5..6) PP
+[6..7) NP
+[7..8) PP
+[8..9) NP
+
+
+But it does not mean that we use less the car .
+
+()
+
+But_CC it_PRP does_VBZ not_RB mean_VB that_IN we_PRP use_VBP less_JJR the_DT car_NN ._.
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-SBAR
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+O
+[1..2) NP
+[2..5) VP
+[5..6) SBAR
+[6..7) NP
+[7..8) VP
+[8..11) NP
+
+
+Thus , I could imagine what happens in the big countries , where distances between tow points are bigger , everyone use their own car because is faster and you do not need to wait for public transport .
+
+()
+
+Thus_RB ,_, I_PRP could_MD imagine_VB what_WP happens_VBZ in_IN the_DT big_JJ countries_NNS ,_, where_WRB distances_NNS between_IN tow_NN points_NNS are_VBP bigger_JJR ,_, everyone_NN use_VB their_PRP$ own_JJ car_NN because_IN is_VBZ faster_RBR and_CC you_PRP do_VBP not_RB need_VB to_TO wait_VB for_IN public_JJ transport_NN ._.
+B-ADVP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+B-ADVP
+B-NP
+B-PP
+B-NP
+I-NP
+B-VP
+B-NP
+I-NP
+I-NP
+B-VP
+B-NP
+I-NP
+I-NP
+B-NP
+B-VP
+B-ADVP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..3) NP
+[3..5) VP
+[5..6) NP
+[6..7) VP
+[7..8) PP
+[8..11) NP
+[12..13) ADVP
+[13..14) NP
+[14..15) PP
+[15..17) NP
+[17..18) VP
+[18..21) NP
+[21..22) VP
+[22..25) NP
+[25..26) NP
+[26..27) VP
+[27..28) ADVP
+[29..30) NP
+[30..35) VP
+[35..36) PP
+[36..38) NP
+
+
+I know that this actitud does not help the environment , it causes a lot of pollution to the atmosphere .
+
+()
+
+I_PRP know_VBP that_IN this_DT actitud_NN does_VBZ not_RB help_VB the_DT environment_NN ,_, it_PRP causes_VBZ a_DT lot_NN of_IN pollution_NN to_TO the_DT atmosphere_NN ._.
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..3) PP
+[3..5) NP
+[5..8) VP
+[8..10) NP
+[11..12) NP
+[12..13) VP
+[13..15) NP
+[15..16) PP
+[16..17) NP
+[17..18) PP
+[18..20) NP
+
+
+But every day , in our comunity , we listen the advice to leave the car at home and use public tranport , and we still use our own car , we do not care about the pollution if we need to use the car .
+
+()
+
+But_CC every_DT day_NN ,_, in_IN our_PRP$ comunity_NN ,_, we_PRP listen_VBP the_DT advice_NN to_TO leave_VB the_DT car_NN at_IN home_NN and_CC use_VB public_JJ tranport_NN ,_, and_CC we_PRP still_RB use_VBP our_PRP$ own_JJ car_NN ,_, we_PRP do_VBP not_RB care_VB about_IN the_DT pollution_NN if_IN we_PRP need_VBP to_TO use_VB the_DT car_NN ._.
+O
+B-NP
+I-NP
+O
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+B-VP
+B-NP
+I-NP
+O
+O
+B-NP
+B-ADVP
+B-VP
+B-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+B-SBAR
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+O
+[1..3) NP
+[4..5) PP
+[5..7) NP
+[8..9) NP
+[9..10) VP
+[10..12) NP
+[12..14) VP
+[14..16) NP
+[16..17) PP
+[17..18) NP
+[19..20) VP
+[20..22) NP
+[24..25) NP
+[25..26) ADVP
+[26..27) VP
+[27..30) NP
+[31..32) NP
+[32..35) VP
+[35..36) PP
+[36..38) NP
+[38..39) SBAR
+[39..40) NP
+[40..43) VP
+[43..45) NP
+
+
+It is more confortable for us .
+
+()
+
+It_PRP is_VBZ more_RBR confortable_JJ for_IN us_PRP ._.
+B-NP
+B-VP
+B-ADJP
+I-ADJP
+B-PP
+B-NP
+O
+[0..1) NP
+[1..2) VP
+[2..4) ADJP
+[4..5) PP
+[5..6) NP
+
+
+Another inconvenience of using the car is the lack of parking in the city , but the local goverbent is building new parkings to solve this problem .
+
+()
+
+Another_DT inconvenience_NN of_IN using_VBG the_DT car_NN is_VBZ the_DT lack_NN of_IN parking_NN in_IN the_DT city_NN ,_, but_CC the_DT local_JJ goverbent_NN is_VBZ building_VBG new_JJ parkings_NNS to_TO solve_VB this_DT problem_NN ._.
+B-NP
+I-NP
+B-PP
+B-VP
+B-NP
+I-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+O
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+[0..2) NP
+[2..3) PP
+[3..4) VP
+[4..6) NP
+[6..7) VP
+[7..9) NP
+[9..10) PP
+[10..11) NP
+[11..12) PP
+[12..14) NP
+[16..19) NP
+[19..21) VP
+[21..23) NP
+[23..25) VP
+[25..27) NP
+
+
+Then I do not think that this problem could make that people use less their own cars .
+
+()
+
+Then_RB I_PRP do_VBP not_RB think_VB that_IN this_DT problem_NN could_MD make_VB that_DT people_NNS use_VBP less_RBR their_PRP$ own_JJ cars_NNS ._.
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-SBAR
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-VP
+B-ADVP
+B-NP
+I-NP
+I-NP
+O
+[1..2) NP
+[2..5) VP
+[5..6) SBAR
+[6..8) NP
+[8..10) VP
+[10..12) NP
+[12..13) VP
+[13..14) ADVP
+[14..17) NP
+
+
+I know that there are negative effects of using my car but I prefer to feel confortable , to arrive quickly to my destiny ( work , party ... )
+
+()
+
+I_PRP know_VBP that_IN there_EX are_VBP negative_JJ effects_NNS of_IN using_VBG my_PRP$ car_NN but_CC I_PRP prefer_VBP to_TO feel_VB confortable_JJ ,_, to_TO arrive_VB quickly_RB to_TO my_PRP$ destiny_NN (_-LRB- work_NN ,_, party_NN ..._: )_-RRB-
+B-NP
+B-VP
+B-SBAR
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-VP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-ADJP
+O
+B-VP
+I-VP
+B-ADVP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+O
+O
+[0..1) NP
+[1..2) VP
+[2..3) SBAR
+[3..4) NP
+[4..5) VP
+[5..7) NP
+[7..8) PP
+[8..9) VP
+[9..11) NP
+[12..13) NP
+[13..16) VP
+[16..17) ADJP
+[18..20) VP
+[20..21) ADVP
+[21..22) PP
+[22..28) NP
+
+
+and it also allow us to be more independent .
+
+()
+
+and_CC it_PRP also_RB allow_VBP us_PRP to_TO be_VB more_RBR independent_JJ ._.
+O
+B-NP
+B-ADVP
+B-VP
+B-NP
+B-VP
+I-VP
+B-ADJP
+I-ADJP
+O
+[1..2) NP
+[2..3) ADVP
+[3..4) VP
+[4..5) NP
+[5..7) VP
+[7..9) ADJP
+
+
+Over the last 2 to 3 decades , the number of cars in all over the world has been increasing rapidly due to development in its technology .
+
+()
+
+Over_IN the_DT last_JJ 2_CD to_TO 3_CD decades_NNS ,_, the_DT number_NN of_IN cars_NNS in_IN all_DT over_IN the_DT world_NN has_VBZ been_VBN increasing_VBG rapidly_RB due_JJ to_TO development_NN in_IN its_PRP$ technology_NN ._.
+B-PP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-ADJP
+I-ADJP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) PP
+[1..4) NP
+[4..5) PP
+[5..7) NP
+[8..10) NP
+[10..11) PP
+[11..12) NP
+[12..13) PP
+[13..14) NP
+[14..15) PP
+[15..17) NP
+[17..20) VP
+[20..22) ADJP
+[22..23) PP
+[23..24) NP
+[24..25) PP
+[25..27) NP
+
+
+Howwever , in my opinion use of cars would be decrease in twenty years , becauase of a probable shortage of petrol , introduce of tough provision for global warming and the possibility of invention of anothee types of behicles .
+
+()
+
+Howwever_RB ,_, in_IN my_PRP$ opinion_NN use_NN of_IN cars_NNS would_MD be_VB decrease_NN in_IN twenty_CD years_NNS ,_, becauase_VB of_IN a_DT probable_JJ shortage_NN of_IN petrol_NN ,_, introduce_VBP of_IN tough_JJ provision_NN for_IN global_JJ warming_NN and_CC the_DT possibility_NN of_IN invention_NN of_IN anothee_DT types_NNS of_IN behicles_NNS ._.
+B-ADVP
+O
+B-PP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+B-VP
+B-PP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+O
+B-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+[0..1) ADVP
+[2..3) PP
+[3..6) NP
+[6..7) PP
+[7..8) NP
+[8..10) VP
+[10..11) NP
+[11..12) PP
+[12..14) NP
+[15..16) VP
+[16..17) PP
+[17..20) NP
+[20..21) PP
+[21..22) NP
+[23..24) VP
+[24..25) PP
+[25..27) NP
+[27..28) PP
+[28..30) NP
+[31..33) NP
+[33..34) PP
+[34..35) NP
+[35..36) PP
+[36..38) NP
+[38..39) PP
+[39..40) NP
+
+
+The following essay explain to support my perspective in more detail .
+
+()
+
+The_DT following_JJ essay_NN explain_VBP to_TO support_VB my_PRP$ perspective_NN in_IN more_JJR detail_NN ._.
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..3) NP
+[3..6) VP
+[6..8) NP
+[8..9) PP
+[9..11) NP
+
+
+To begin with , the amount of gas and exhaustion emitted by cars are crutial when it comes to addressing reduction of global warming and air pollution .
+
+()
+
+To_TO begin_VB with_IN ,_, the_DT amount_NN of_IN gas_NN and_CC exhaustion_NN emitted_VBN by_IN cars_NNS are_VBP crutial_JJ when_WRB it_PRP comes_VBZ to_TO addressing_VBG reduction_NN of_IN global_JJ warming_NN and_CC air_NN pollution_NN ._.
+B-VP
+I-VP
+B-PP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-VP
+B-PP
+B-NP
+B-VP
+B-ADJP
+B-ADVP
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+O
+[0..2) VP
+[2..3) PP
+[4..6) NP
+[6..7) PP
+[7..10) NP
+[10..11) VP
+[11..12) PP
+[12..13) NP
+[13..14) VP
+[14..15) ADJP
+[15..16) ADVP
+[16..17) NP
+[17..18) VP
+[18..19) PP
+[19..21) NP
+[21..22) PP
+[22..27) NP
+
+
+Many governments nowadays promote poeples use of pubic transportation for commuting .
+
+()
+
+Many_JJ governments_NNS nowadays_RB promote_VBP poeples_NNS use_VBP of_IN pubic_JJ transportation_NN for_IN commuting_NN ._.
+B-NP
+I-NP
+B-ADVP
+B-VP
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+[0..2) NP
+[2..3) ADVP
+[3..4) VP
+[4..5) NP
+[5..6) VP
+[6..7) PP
+[7..9) NP
+[9..10) PP
+[10..11) NP
+
+
+In near future , it is likely that several nations make policies and procedures for that promotion , the aim of which much be to decease people & s use of cars .
+
+()
+
+In_IN near_JJ future_NN ,_, it_PRP is_VBZ likely_JJ that_IN several_JJ nations_NNS make_VBP policies_NNS and_CC procedures_NNS for_IN that_DT promotion_NN ,_, the_DT aim_NN of_IN which_WDT much_RB be_VB to_TO decease_VB people_NNS &_CC s_VBZ use_NN of_IN cars_NNS ._.
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+B-ADJP
+B-PP
+B-NP
+I-NP
+B-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+B-ADVP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-VP
+B-NP
+B-PP
+B-NP
+O
+[0..1) PP
+[1..3) NP
+[4..5) NP
+[5..6) VP
+[6..7) ADJP
+[7..8) PP
+[8..10) NP
+[10..11) VP
+[11..14) NP
+[14..15) PP
+[15..17) NP
+[18..20) NP
+[20..21) PP
+[21..22) NP
+[22..23) ADVP
+[23..26) VP
+[26..28) NP
+[28..29) VP
+[29..30) NP
+[30..31) PP
+[31..32) NP
+
+
+Futhermore , petrol price has been becoming higher and higher because of the shortage in the near future .
+
+()
+
+Futhermore_RB ,_, petrol_NN price_NN has_VBZ been_VBN becoming_VBG higher_RBR and_CC higher_RBR because_IN of_IN the_DT shortage_NN in_IN the_DT near_JJ future_NN ._.
+B-ADVP
+O
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-ADVP
+I-ADVP
+I-ADVP
+B-PP
+I-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[0..1) ADVP
+[2..4) NP
+[4..7) VP
+[7..10) ADVP
+[10..12) PP
+[12..14) NP
+[14..15) PP
+[15..18) NP
+
+
+Therefore , It seems that people will have to begin thinking about another types of behicles , which do not use petrol .
+
+()
+
+Therefore_RB ,_, It_PRP seems_VBZ that_IN people_NNS will_MD have_VB to_TO begin_VB thinking_VBG about_IN another_DT types_NNS of_IN behicles_NNS ,_, which_WDT do_VBP not_RB use_VB petrol_NN ._.
+B-ADVP
+O
+B-NP
+B-VP
+B-SBAR
+B-NP
+B-VP
+I-VP
+I-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+O
+[0..1) ADVP
+[2..3) NP
+[3..4) VP
+[4..5) SBAR
+[5..6) NP
+[6..11) VP
+[11..12) PP
+[12..14) NP
+[14..15) PP
+[15..16) NP
+[17..18) NP
+[18..21) VP
+[21..22) NP
+
+
+At the moment , several car canpanies have tried to create electric cars , but still it is too pricy to target ordinaly people .
+
+()
+
+At_IN the_DT moment_NN ,_, several_JJ car_NN canpanies_NNS have_VBP tried_VBN to_TO create_VB electric_JJ cars_NNS ,_, but_CC still_RB it_PRP is_VBZ too_RB pricy_NN to_TO target_VB ordinaly_JJ people_NNS ._.
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+I-VP
+I-VP
+B-NP
+I-NP
+O
+O
+B-ADVP
+B-NP
+B-VP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+[0..1) PP
+[1..3) NP
+[4..7) NP
+[7..11) VP
+[11..13) NP
+[15..16) ADVP
+[16..17) NP
+[17..18) VP
+[18..20) NP
+[20..22) VP
+[22..24) NP
+
+
+Remarkably , some of the companies already started improving the techniques to creat other types of reasonable behicles .
+
+()
+
+Remarkably_RB ,_, some_DT of_IN the_DT companies_NNS already_RB started_VBD improving_VBG the_DT techniques_NNS to_TO creat_VB other_JJ types_NNS of_IN reasonable_JJ behicles_NNS ._.
+B-ADVP
+O
+B-NP
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..3) NP
+[3..4) PP
+[4..6) NP
+[6..7) ADVP
+[7..9) VP
+[9..11) NP
+[11..13) VP
+[13..15) NP
+[15..16) PP
+[16..18) NP
+
+
+In conclusion , I belive the techniques and environmental concerns about global wraming will be promoted by 2026 .
+
+()
+
+In_IN conclusion_NN ,_, I_PRP belive_VBP the_DT techniques_NNS and_CC environmental_JJ concerns_NNS about_IN global_JJ wraming_NN will_MD be_VB promoted_VBN by_IN 2026_CD ._.
+B-PP
+B-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+O
+[0..1) PP
+[1..2) NP
+[3..4) NP
+[4..5) VP
+[5..7) NP
+[8..10) NP
+[10..11) PP
+[11..13) NP
+[13..16) VP
+[16..17) PP
+[17..18) NP
+
+
+Use of cars might shift to newly produced behicles .
+
+()
+
+Use_NN of_IN cars_NNS might_MD shift_VB to_TO newly_RB produced_VBN behicles_NNS ._.
+B-NP
+B-PP
+B-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[0..1) NP
+[1..2) PP
+[2..3) NP
+[3..5) VP
+[5..6) PP
+[6..9) NP
+
+
+Hence , this is predictable that the ues of cars would decrease than we use at present .
+
+()
+
+Hence_RB ,_, this_DT is_VBZ predictable_JJ that_IN the_DT ues_NNS of_IN cars_NNS would_MD decrease_VB than_IN we_PRP use_VBP at_IN present_JJ ._.
+B-ADVP
+O
+B-NP
+B-VP
+B-ADJP
+B-SBAR
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+I-VP
+B-SBAR
+B-NP
+B-VP
+B-PP
+B-ADJP
+O
+[0..1) ADVP
+[2..3) NP
+[3..4) VP
+[4..5) ADJP
+[5..6) SBAR
+[6..8) NP
+[8..9) PP
+[9..10) NP
+[10..12) VP
+[12..13) SBAR
+[13..14) NP
+[14..15) VP
+[15..16) PP
+[16..17) ADJP
+
+
+I disagree with that statement that say `` In twenty years there will be fewer cars in use than there are today '' .
+
+()
+
+I_PRP disagree_VBP with_IN that_DT statement_NN that_IN say_VBP ``_`` In_IN twenty_CD years_NNS there_EX will_MD be_VB fewer_JJR cars_NNS in_IN use_NN than_IN there_RB are_VBP today_NN ''_'' ._.
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-VP
+O
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+B-VP
+B-NP
+O
+O
+[0..1) NP
+[1..2) VP
+[2..3) PP
+[3..5) NP
+[5..6) PP
+[6..7) VP
+[8..9) PP
+[9..11) NP
+[11..12) ADVP
+[12..14) VP
+[14..16) NP
+[16..17) PP
+[17..18) NP
+[18..19) PP
+[19..20) NP
+[20..21) VP
+[21..22) NP
+
+
+Because every year the technology are developing and help to change all te things in better so the car is one from many things its will be change and develop by technoloy .
+
+()
+
+Because_IN every_DT year_NN the_DT technology_NN are_VBP developing_VBG and_CC help_VBP to_TO change_VB all_DT te_JJ things_NNS in_IN better_RB so_IN the_DT car_NN is_VBZ one_CD from_IN many_JJ things_NNS its_PRP$ will_MD be_VB change_NN and_CC develop_VB by_IN technoloy_NN ._.
+B-SBAR
+B-NP
+I-NP
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+I-VP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+B-NP
+B-VP
+I-VP
+B-NP
+O
+B-VP
+B-PP
+B-NP
+O
+[0..1) SBAR
+[1..3) NP
+[3..5) NP
+[5..9) VP
+[9..11) VP
+[11..14) NP
+[14..15) PP
+[15..16) NP
+[16..17) PP
+[17..19) NP
+[19..20) VP
+[20..21) NP
+[21..22) PP
+[22..24) NP
+[24..25) NP
+[25..27) VP
+[27..28) NP
+[29..30) VP
+[30..31) PP
+[31..32) NP
+
+
+So every person want to use the car to o to his jop or to make shopping or to take is familly in vication .
+
+()
+
+So_RB every_DT person_NN want_VB to_TO use_VB the_DT car_NN to_TO o_RB to_TO his_PRP$ jop_NN or_CC to_TO make_VB shopping_NN or_CC to_TO take_VB is_VBZ familly_JJ in_IN vication_NN ._.
+O
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+O
+B-VP
+I-VP
+B-NP
+O
+B-VP
+I-VP
+B-VP
+B-ADJP
+B-PP
+B-NP
+O
+[1..3) NP
+[3..6) VP
+[6..8) NP
+[8..10) VP
+[10..11) PP
+[11..13) NP
+[14..16) VP
+[16..17) NP
+[18..20) VP
+[20..21) VP
+[21..22) ADJP
+[22..23) PP
+[23..24) NP
+
+
+we cant alive without the car in twenty years or hundered because the life will be difficult and the car make every thing easy .
+
+()
+
+we_PRP cant_NN alive_JJ without_IN the_DT car_NN in_IN twenty_CD years_NNS or_CC hundered_VBD because_IN the_DT life_NN will_MD be_VB difficult_JJ and_CC the_DT car_NN make_VB every_DT thing_NN easy_RB ._.
+B-NP
+B-VP
+B-ADJP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-VP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+B-ADJP
+O
+B-NP
+I-NP
+B-VP
+B-NP
+I-NP
+B-ADVP
+O
+[0..1) NP
+[1..2) VP
+[2..3) ADJP
+[3..4) PP
+[4..6) NP
+[6..7) PP
+[7..9) NP
+[10..11) VP
+[11..12) PP
+[12..14) NP
+[14..16) VP
+[16..17) ADJP
+[18..20) NP
+[20..21) VP
+[21..23) NP
+[23..24) ADVP
+
+
+Espeacially for parents , teacher and student because not every one can use atrain in close places .
+
+()
+
+Espeacially_RB for_IN parents_NNS ,_, teacher_NN and_CC student_NN because_IN not_RB every_DT one_NN can_MD use_VB atrain_NN in_IN close_JJ places_NNS ._.
+B-ADVP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[1..2) PP
+[2..7) NP
+[7..8) PP
+[8..11) NP
+[11..13) VP
+[13..14) NP
+[14..15) PP
+[15..17) NP
+
+
+The old an cant use the bike .
+
+()
+
+The_DT old_JJ an_DT cant_NN use_NN the_DT bike_NN ._.
+B-NP
+I-NP
+I-NP
+I-NP
+B-VP
+B-NP
+I-NP
+O
+[0..4) NP
+[4..5) VP
+[5..7) NP
+
+
+All the people are different from each to other in power or the way they thinking and behavior for all this we cant live next year comming without cars .
+
+()
+
+All_PDT the_DT people_NNS are_VBP different_JJ from_IN each_DT to_TO other_JJ in_IN power_NN or_CC the_DT way_NN they_PRP thinking_VBG and_CC behavior_NN for_IN all_PDT this_DT we_PRP cant_MD live_VB next_JJ year_NN comming_NN without_IN cars_NNS ._.
+B-ADVP
+B-NP
+I-NP
+B-VP
+B-ADJP
+B-PP
+B-NP
+B-PP
+B-NP
+B-PP
+B-NP
+O
+B-NP
+I-NP
+B-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+O
+[0..1) ADVP
+[1..3) NP
+[3..4) VP
+[4..5) ADJP
+[5..6) PP
+[6..7) NP
+[7..8) PP
+[8..9) NP
+[9..10) PP
+[10..11) NP
+[12..14) NP
+[14..15) NP
+[15..18) VP
+[18..19) PP
+[19..22) NP
+[22..24) VP
+[24..27) NP
+[27..28) PP
+[28..29) NP
+
+
+We can use many different things to move but the car is good things to every one can use it .
+
+()
+
+We_PRP can_MD use_VB many_JJ different_JJ things_NNS to_TO move_VB but_CC the_DT car_NN is_VBZ good_JJ things_NNS to_TO every_DT one_NN can_MD use_VB it_PRP ._.
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+O
+B-NP
+I-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+O
+[0..1) NP
+[1..3) VP
+[3..6) NP
+[6..8) VP
+[9..11) NP
+[11..12) VP
+[12..14) NP
+[14..15) PP
+[15..17) NP
+[17..19) VP
+[19..20) NP
+
+
+I see it will be imposile to use aplan or a train in our city or country so the mind say use the car .
+
+()
+
+I_PRP see_VBP it_PRP will_MD be_VB imposile_JJ to_TO use_VB aplan_NN or_CC a_DT train_NN in_IN our_PRP$ city_NN or_CC country_NN so_IN the_DT mind_NN say_VBP use_VBP the_DT car_NN ._.
+B-NP
+B-VP
+B-NP
+B-VP
+I-VP
+B-ADJP
+B-VP
+I-VP
+B-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+B-VP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..3) NP
+[3..5) VP
+[5..6) ADJP
+[6..8) VP
+[8..9) NP
+[10..12) NP
+[12..13) PP
+[13..17) NP
+[17..18) PP
+[18..20) NP
+[20..21) VP
+[21..22) VP
+[22..24) NP
+
+
+every one can use his car alone in any time to any place that he want in easy and he choise the pest fo him an select the coulor that he want with agood technology .
+
+()
+
+every_DT one_NN can_MD use_VB his_PRP$ car_NN alone_RB in_IN any_DT time_NN to_TO any_DT place_NN that_IN he_PRP want_VB in_IN easy_JJ and_CC he_PRP choise_VBD the_DT pest_NN fo_VB him_PRP an_DT select_VBP the_DT coulor_NN that_IN he_PRP want_VB with_IN agood_JJ technology_NN ._.
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-ADVP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-SBAR
+B-NP
+B-VP
+B-PP
+O
+O
+B-NP
+B-VP
+B-NP
+I-NP
+B-VP
+B-NP
+B-NP
+B-VP
+B-NP
+I-NP
+B-SBAR
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+O
+[0..2) NP
+[2..4) VP
+[4..6) NP
+[6..7) ADVP
+[7..8) PP
+[8..10) NP
+[10..11) PP
+[11..13) NP
+[13..14) SBAR
+[14..15) NP
+[15..16) VP
+[16..17) PP
+[19..20) NP
+[20..21) VP
+[21..23) NP
+[23..24) VP
+[24..25) NP
+[25..26) NP
+[26..27) VP
+[27..29) NP
+[29..30) SBAR
+[30..31) NP
+[31..32) VP
+[32..33) PP
+[33..35) NP
+
+
+there is many price to buy for bore or for rich people .
+
+()
+
+there_EX is_VBZ many_JJ price_NN to_TO buy_VB for_IN bore_VBD or_CC for_IN rich_JJ people_NNS ._.
+B-NP
+B-VP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+B-VP
+O
+B-PP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..4) NP
+[4..6) VP
+[6..7) NP
+[7..8) VP
+[9..10) PP
+[10..12) NP
+
+
+Human changes from decade to another .
+
+()
+
+Human_JJ changes_NNS from_IN decade_NN to_TO another_DT ._.
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+O
+[0..2) NP
+[2..3) PP
+[3..4) NP
+[4..5) PP
+[5..6) NP
+
+
+Their technology get improved , and also their birth grow more than before .
+
+()
+
+Their_PRP$ technology_NN get_VB improved_VBN ,_, and_CC also_RB their_PRP$ birth_NN grow_VB more_RBR than_IN before_RB ._.
+B-NP
+I-NP
+B-VP
+I-VP
+O
+O
+B-ADVP
+B-NP
+I-NP
+B-VP
+B-ADVP
+I-ADVP
+I-ADVP
+O
+[0..2) NP
+[2..4) VP
+[6..7) ADVP
+[7..9) NP
+[9..10) VP
+[10..13) ADVP
+
+
+The population in this time will be differ than the comming one .
+
+()
+
+The_DT population_NN in_IN this_DT time_NN will_MD be_VB differ_VB than_IN the_DT comming_NN one_CD ._.
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[0..2) NP
+[2..3) PP
+[3..5) NP
+[5..8) VP
+[8..9) PP
+[9..12) NP
+
+
+In twenty years there will be fewer cars in use than there are today , since the population is increasing , and that will cause a lot of traffic problems such as crowded street , and the way of transportation .
+
+()
+
+In_IN twenty_CD years_NNS there_EX will_MD be_VB fewer_JJR cars_NNS in_IN use_NN than_IN there_RB are_VBP today_NN ,_, since_IN the_DT population_NN is_VBZ increasing_VBG ,_, and_CC that_DT will_MD cause_VB a_DT lot_NN of_IN traffic_NN problems_NNS such_JJ as_IN crowded_JJ street_NN ,_, and_CC the_DT way_NN of_IN transportation_NN ._.
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+B-VP
+B-NP
+O
+B-SBAR
+B-NP
+I-NP
+B-VP
+I-VP
+O
+O
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-PP
+I-PP
+B-NP
+I-NP
+O
+O
+B-NP
+I-NP
+B-PP
+B-NP
+O
+[0..1) PP
+[1..3) NP
+[3..4) ADVP
+[4..6) VP
+[6..8) NP
+[8..9) PP
+[9..10) NP
+[10..11) PP
+[11..12) NP
+[12..13) VP
+[13..14) NP
+[15..16) SBAR
+[16..18) NP
+[18..20) VP
+[22..23) NP
+[23..25) VP
+[25..27) NP
+[27..28) PP
+[28..30) NP
+[30..32) PP
+[32..34) NP
+[36..38) NP
+[38..39) PP
+[39..40) NP
+
+
+We can solve this problem by using trains and planes more than cars .
+
+()
+
+We_PRP can_MD solve_VB this_DT problem_NN by_IN using_VBG trains_NNS and_CC planes_NNS more_JJR than_IN cars_NNS ._.
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-VP
+B-NP
+I-NP
+I-NP
+B-ADVP
+B-PP
+B-NP
+O
+[0..1) NP
+[1..3) VP
+[3..5) NP
+[5..6) PP
+[6..7) VP
+[7..10) NP
+[10..11) ADVP
+[11..12) PP
+[12..13) NP
+
+
+In the other hand , people will not buy cars more if they face a lot of trafic crowd .
+
+()
+
+In_IN the_DT other_JJ hand_NN ,_, people_NNS will_MD not_RB buy_VB cars_NNS more_RBR if_IN they_PRP face_VBP a_DT lot_NN of_IN trafic_JJ crowd_NN ._.
+B-PP
+B-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+B-ADVP
+B-SBAR
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) PP
+[1..4) NP
+[5..6) NP
+[6..9) VP
+[9..10) NP
+[10..11) ADVP
+[11..12) SBAR
+[12..13) NP
+[13..14) VP
+[14..16) NP
+[16..17) PP
+[17..19) NP
+
+
+While the population is increasing , I think there will be a new laws , and restriction of using cars .
+
+()
+
+While_IN the_DT population_NN is_VBZ increasing_VBG ,_, I_PRP think_VBP there_EX will_MD be_VB a_DT new_JJ laws_NNS ,_, and_CC restriction_NN of_IN using_VBG cars_NNS ._.
+B-SBAR
+B-NP
+I-NP
+B-VP
+I-VP
+O
+B-NP
+B-VP
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+O
+B-NP
+B-PP
+B-VP
+B-NP
+O
+[0..1) SBAR
+[1..3) NP
+[3..5) VP
+[6..7) NP
+[7..8) VP
+[8..9) NP
+[9..11) VP
+[11..14) NP
+[16..17) NP
+[17..18) PP
+[18..19) VP
+[19..20) NP
+
+
+Also , the tax will increase on the people who have more than enough of cars in their home .
+
+()
+
+Also_RB ,_, the_DT tax_NN will_MD increase_VB on_IN the_DT people_NNS who_WP have_VBP more_RBR than_IN enough_RB of_IN cars_NNS in_IN their_PRP$ home_NN ._.
+B-ADVP
+O
+B-NP
+I-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+B-NP
+B-VP
+I-VP
+I-VP
+B-ADVP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..4) NP
+[4..6) VP
+[6..7) PP
+[7..9) NP
+[9..10) NP
+[10..13) VP
+[13..14) ADVP
+[14..15) PP
+[15..16) NP
+[16..17) PP
+[17..19) NP
+
+
+People will go smoothly for the trains and planes for their transporations .
+
+()
+
+People_NNS will_MD go_VB smoothly_RB for_IN the_DT trains_NNS and_CC planes_NNS for_IN their_PRP$ transporations_NNS ._.
+B-NP
+B-VP
+I-VP
+B-ADVP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..3) VP
+[3..4) ADVP
+[4..5) PP
+[5..9) NP
+[9..10) PP
+[10..12) NP
+
+
+This will reduce the crowd , and they can arrive quickly without facing any troubles .
+
+()
+
+This_DT will_MD reduce_VB the_DT crowd_NN ,_, and_CC they_PRP can_MD arrive_VB quickly_RB without_IN facing_VBG any_DT troubles_NNS ._.
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+O
+B-NP
+B-VP
+I-VP
+B-ADVP
+B-PP
+B-VP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..3) VP
+[3..5) NP
+[7..8) NP
+[8..10) VP
+[10..11) ADVP
+[11..12) PP
+[12..13) VP
+[13..15) NP
+
+
+Also , the development of the technology will increase , and the people will go to the technology and they will not take care of the cars .
+
+()
+
+Also_RB ,_, the_DT development_NN of_IN the_DT technology_NN will_MD increase_VB ,_, and_CC the_DT people_NNS will_MD go_VB to_TO the_DT technology_NN and_CC they_PRP will_MD not_RB take_VB care_NN of_IN the_DT cars_NNS ._.
+B-ADVP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+O
+O
+B-NP
+I-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..4) NP
+[4..5) PP
+[5..7) NP
+[7..9) VP
+[11..13) NP
+[13..15) VP
+[15..16) PP
+[16..18) NP
+[19..20) NP
+[20..23) VP
+[23..24) NP
+[24..25) PP
+[25..27) NP
+
+
+According to my writing , I agree with this statement `` In twenty years there will be fewer cars in use than there are today '' .
+
+()
+
+According_VBG to_TO my_PRP$ writing_NN ,_, I_PRP agree_VBP with_IN this_DT statement_NN ``_`` In_IN twenty_CD years_NNS there_EX will_MD be_VB fewer_JJR cars_NNS in_IN use_NN than_IN there_RB are_VBP today_NN ''_'' ._.
+B-PP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+O
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+B-VP
+B-NP
+O
+O
+[0..1) PP
+[1..2) PP
+[2..4) NP
+[5..6) NP
+[6..7) VP
+[7..8) PP
+[8..10) NP
+[11..12) PP
+[12..14) NP
+[14..15) ADVP
+[15..17) VP
+[17..19) NP
+[19..20) PP
+[20..21) NP
+[21..22) PP
+[22..23) NP
+[23..24) VP
+[24..25) NP
+
+
+The live is in progress and will never stop , and it will come complicated .
+
+()
+
+The_DT live_JJ is_VBZ in_IN progress_NN and_CC will_MD never_RB stop_VB ,_, and_CC it_PRP will_MD come_VB complicated_VBN ._.
+B-NP
+I-NP
+B-VP
+B-PP
+B-NP
+O
+B-VP
+I-VP
+I-VP
+O
+O
+B-NP
+B-VP
+I-VP
+I-VP
+O
+[0..2) NP
+[2..3) VP
+[3..4) PP
+[4..5) NP
+[6..9) VP
+[11..12) NP
+[12..15) VP
+
+
+I disagree with the idea that the number of the cars in use will decline in two decades .
+
+()
+
+I_PRP disagree_VBP with_IN the_DT idea_NN that_IN the_DT number_NN of_IN the_DT cars_NNS in_IN use_NN will_MD decline_VB in_IN two_CD decades_NNS ._.
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..3) PP
+[3..5) NP
+[5..6) PP
+[6..8) NP
+[8..9) PP
+[9..11) NP
+[11..12) PP
+[12..13) NP
+[13..15) VP
+[15..16) PP
+[16..18) NP
+
+
+There are two reason for this : convinience and necessity .
+
+()
+
+There_EX are_VBP two_CD reason_NN for_IN this_DT :_: convinience_NN and_CC necessity_NN ._.
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+B-NP
+I-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..4) NP
+[4..5) PP
+[5..6) NP
+[7..10) NP
+
+
+First , cars are really convinient .
+
+()
+
+First_RB ,_, cars_NNS are_VBP really_RB convinient_JJ ._.
+B-ADVP
+O
+B-NP
+B-VP
+B-ADJP
+I-ADJP
+O
+[0..1) ADVP
+[2..3) NP
+[3..4) VP
+[4..6) ADJP
+
+
+It enables you to carry a lot of things when you go shopping and to go many sights like seaside area .
+
+()
+
+It_PRP enables_VBZ you_PRP to_TO carry_VB a_DT lot_NN of_IN things_NNS when_WRB you_PRP go_VBP shopping_NN and_CC to_TO go_VB many_JJ sights_NNS like_IN seaside_JJ area_NN ._.
+B-NP
+B-VP
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-ADVP
+B-NP
+B-VP
+B-NP
+O
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..3) NP
+[3..5) VP
+[5..7) NP
+[7..8) PP
+[8..9) NP
+[9..10) ADVP
+[10..11) NP
+[11..12) VP
+[12..13) NP
+[14..16) VP
+[16..18) NP
+[18..19) PP
+[19..21) NP
+
+
+Recent survey shows that two third of family in rural areas of Japan have their own cars to parchase things , go to work and so on .
+
+()
+
+Recent_JJ survey_NN shows_VBZ that_IN two_CD third_JJ of_IN family_NN in_IN rural_JJ areas_NNS of_IN Japan_NNP have_VBP their_PRP$ own_JJ cars_NNS to_TO parchase_VB things_NNS ,_, go_VB to_TO work_VB and_CC so_RB on_IN ._.
+B-NP
+I-NP
+B-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+O
+B-VP
+I-VP
+I-VP
+O
+B-ADVP
+I-ADVP
+O
+[0..2) NP
+[2..3) VP
+[3..4) PP
+[4..6) NP
+[6..7) PP
+[7..8) NP
+[8..9) PP
+[9..11) NP
+[11..12) PP
+[12..13) NP
+[13..14) VP
+[14..17) NP
+[17..19) VP
+[19..20) NP
+[21..24) VP
+[25..27) ADVP
+
+
+This fact illustrates that cars are necessary for these people .
+
+()
+
+This_DT fact_NN illustrates_VBZ that_IN cars_NNS are_VBP necessary_JJ for_IN these_DT people_NNS ._.
+B-NP
+I-NP
+B-VP
+B-SBAR
+B-NP
+B-VP
+B-ADJP
+B-PP
+B-NP
+I-NP
+O
+[0..2) NP
+[2..3) VP
+[3..4) SBAR
+[4..5) NP
+[5..6) VP
+[6..7) ADJP
+[7..8) PP
+[8..10) NP
+
+
+This trend is not going to be changed in twenty years as long as rural areas exist .
+
+()
+
+This_DT trend_NN is_VBZ not_RB going_VBG to_TO be_VB changed_VBN in_IN twenty_CD years_NNS as_RB long_RB as_IN rural_JJ areas_NNS exist_VBP ._.
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+I-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+B-ADVP
+I-ADVP
+B-PP
+B-NP
+I-NP
+B-VP
+O
+[0..2) NP
+[2..8) VP
+[8..9) PP
+[9..11) NP
+[11..13) ADVP
+[13..14) PP
+[14..16) NP
+[16..17) VP
+
+
+Moreover , cars are demanded even in city area .
+
+()
+
+Moreover_RB ,_, cars_NNS are_VBP demanded_VBN even_RB in_IN city_NN area_NN ._.
+B-ADVP
+O
+B-NP
+B-VP
+I-VP
+B-ADVP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..3) NP
+[3..5) VP
+[5..6) ADVP
+[6..7) PP
+[7..9) NP
+
+
+You can see much traffic jam in Tokyo , Osaka .
+
+()
+
+You_PRP can_MD see_VB much_JJ traffic_NN jam_NN in_IN Tokyo_NNP ,_, Osaka_NNP ._.
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+O
+B-NP
+O
+[0..1) NP
+[1..3) VP
+[3..6) NP
+[6..7) PP
+[7..8) NP
+[9..10) NP
+
+
+and Nagoya .
+
+()
+
+and_CC Nagoya_NNP ._.
+O
+B-NP
+O
+[1..2) NP
+
+
+So , people will continue to enjoy the convinience of the cars .
+
+()
+
+So_RB ,_, people_NNS will_MD continue_VB to_TO enjoy_VB the_DT convinience_NN of_IN the_DT cars_NNS ._.
+B-ADVP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..3) NP
+[3..7) VP
+[7..9) NP
+[9..10) PP
+[10..12) NP
+
+
+The second reason is that cars are necessary for developing country and countrys which have big soil .
+
+()
+
+The_DT second_JJ reason_NN is_VBZ that_IN cars_NNS are_VBP necessary_JJ for_IN developing_VBG country_NN and_CC countrys_NNS which_WDT have_VBP big_JJ soil_NN ._.
+B-NP
+I-NP
+I-NP
+B-VP
+B-SBAR
+B-NP
+B-VP
+B-ADJP
+B-PP
+B-VP
+B-NP
+I-NP
+I-NP
+B-NP
+B-VP
+B-NP
+I-NP
+O
+[0..3) NP
+[3..4) VP
+[4..5) SBAR
+[5..6) NP
+[6..7) VP
+[7..8) ADJP
+[8..9) PP
+[9..10) VP
+[10..13) NP
+[13..14) NP
+[14..15) VP
+[15..17) NP
+
+
+Cars play an important role to develop a country .
+
+()
+
+Cars_NNS play_VBP an_DT important_JJ role_NN to_TO develop_VB a_DT country_NN ._.
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..5) NP
+[5..7) VP
+[7..9) NP
+
+
+For example , things which is used to make hauses must be transported by cars .
+
+()
+
+For_IN example_NN ,_, things_NNS which_WDT is_VBZ used_VBN to_TO make_VB hauses_NNS must_MD be_VB transported_VBN by_IN cars_NNS ._.
+B-PP
+B-NP
+O
+B-NP
+B-NP
+B-VP
+I-VP
+I-VP
+I-VP
+B-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+O
+[0..1) PP
+[1..2) NP
+[3..4) NP
+[4..5) NP
+[5..9) VP
+[9..10) NP
+[10..13) VP
+[13..14) PP
+[14..15) NP
+
+
+Big countries ca n't make train rail
+
+()
+
+Big_JJ countries_NNS ca_MD n't_RB make_VB train_NN rail_NN
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+[0..2) NP
+[2..5) VP
+[5..7) NP
+
+
+In twenty year car will be fewer than today .
+
+()
+
+In_IN twenty_CD year_NN car_NN will_MD be_VB fewer_JJR than_IN today_NN ._.
+B-PP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+O
+[0..1) PP
+[1..4) NP
+[4..6) VP
+[6..7) NP
+[7..8) PP
+[8..9) NP
+
+
+I strongly to say agree .
+
+()
+
+I_PRP strongly_RB to_TO say_VB agree_VB ._.
+B-NP
+B-ADVP
+B-VP
+I-VP
+I-VP
+O
+[0..1) NP
+[1..2) ADVP
+[2..5) VP
+
+
+Fisrt , now a days gasolins fee inclusing day by day .
+
+()
+
+Fisrt_NNP ,_, now_RB a_DT days_NNS gasolins_IN fee_NN inclusing_VBG day_NN by_IN day_NN ._.
+B-NP
+O
+B-ADVP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+O
+[0..1) NP
+[2..3) ADVP
+[3..5) NP
+[5..6) PP
+[6..9) NP
+[9..10) PP
+[10..11) NP
+
+
+For example , last month gasolin cost was 128yen / little but , after 1month later cost is 134yen / litter this is what happening in Japan .
+
+()
+
+For_IN example_NN ,_, last_JJ month_NN gasolin_NN cost_NN was_VBD 128yen_CD /_JJ little_JJ but_CC ,_, after_IN 1month_JJ later_JJ cost_NN is_VBZ 134yen_JJ /_NN litter_IN this_DT is_VBZ what_WP happening_VBG in_IN Japan_NNP ._.
+B-PP
+B-NP
+O
+B-NP
+I-NP
+I-NP
+I-NP
+B-VP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+[0..1) PP
+[1..2) NP
+[3..7) NP
+[7..8) VP
+[8..13) NP
+[13..14) PP
+[14..17) NP
+[17..18) VP
+[18..20) NP
+[20..21) PP
+[21..22) NP
+[22..23) VP
+[23..25) NP
+[25..26) PP
+[26..27) NP
+
+
+So nobody want to drive a car .
+
+()
+
+So_IN nobody_NN want_VBP to_TO drive_VB a_DT car_NN ._.
+B-SBAR
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+O
+[0..1) SBAR
+[1..2) NP
+[2..5) VP
+[5..7) NP
+
+
+Drive a car , It is only waste money .
+
+()
+
+Drive_VB a_DT car_NN ,_, It_PRP is_VBZ only_RB waste_VB money_NN ._.
+B-VP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+O
+[0..1) VP
+[1..3) NP
+[4..5) NP
+[5..8) VP
+[8..9) NP
+
+
+Not only reason for a cost , between the people now trending NOT NEED A CAR LIFE wich means some helthy people do not need a car , they are taking walk , ride a bycicle or tak a subway not using taxi .
+
+()
+
+Not_RB only_JJ reason_NN for_IN a_DT cost_NN ,_, between_IN the_DT people_NNS now_RB trending_VBG NOT_NNP NEED_NNP A_DT CAR_NN LIFE_NNP wich_, means_VBZ some_DT helthy_JJ people_NNS do_VBP not_RB need_VB a_DT car_NN ,_, they_PRP are_VBP taking_VBG walk_NN ,_, ride_VB a_DT bycicle_NN or_CC tak_VB a_DT subway_NN not_RB using_VBG taxi_NN ._.
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-NP
+I-NP
+I-NP
+O
+B-VP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+O
+B-VP
+B-NP
+I-NP
+O
+B-VP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+O
+[0..3) NP
+[3..4) PP
+[4..6) NP
+[7..8) PP
+[8..10) NP
+[10..12) VP
+[12..14) NP
+[14..17) NP
+[18..19) VP
+[19..22) NP
+[22..25) VP
+[25..27) NP
+[28..29) NP
+[29..31) VP
+[31..32) NP
+[33..34) VP
+[34..36) NP
+[37..38) VP
+[38..40) NP
+[40..42) VP
+[42..43) NP
+
+
+people always care about money and helth .
+
+()
+
+people_NNS always_RB care_VBP about_IN money_NN and_CC helth_NN ._.
+B-NP
+B-ADVP
+B-VP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[0..1) NP
+[1..2) ADVP
+[2..3) VP
+[3..4) PP
+[4..7) NP
+
+
+Third reason we afraid of Oil peak .
+
+()
+
+Third_JJ reason_NN we_PRP afraid_JJ of_IN Oil_NNP peak_NN ._.
+B-NP
+I-NP
+B-NP
+B-ADJP
+B-PP
+B-NP
+I-NP
+O
+[0..2) NP
+[2..3) NP
+[3..4) ADJP
+[4..5) PP
+[5..7) NP
+
+
+according to the news that in 5years all of oil will be gone and nothing to grow up any other oil line .
+
+()
+
+according_VBG to_TO the_DT news_NN that_IN in_IN 5years_NNS all_DT of_IN oil_NN will_MD be_VB gone_VBN and_CC nothing_NN to_TO grow_VB up_IN any_DT other_JJ oil_NN line_NN ._.
+B-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-PP
+B-NP
+B-NP
+B-PP
+B-NP
+B-VP
+I-VP
+I-VP
+O
+B-NP
+B-VP
+I-VP
+B-PRT
+B-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) VP
+[1..2) PP
+[2..4) NP
+[4..5) PP
+[5..6) PP
+[6..7) NP
+[7..8) NP
+[8..9) PP
+[9..10) NP
+[10..13) VP
+[14..15) NP
+[15..17) VP
+[17..18) PRT
+[18..22) NP
+
+
+oil is nessary for our life eventhough people waste oil such as drive a car .
+
+()
+
+oil_NN is_VBZ nessary_JJ for_IN our_PRP$ life_NN eventhough_IN people_NNS waste_NN oil_NN such_JJ as_IN drive_NN a_DT car_NN ._.
+B-NP
+B-VP
+B-ADJP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-PP
+I-PP
+B-NP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..3) ADJP
+[3..4) PP
+[4..6) NP
+[6..7) PP
+[7..10) NP
+[10..12) PP
+[12..13) NP
+[13..15) NP
+
+
+This statement say In twenty years cars will be fewer than today but I think Its happen in 5yeasr .
+
+()
+
+This_DT statement_NN say_VBP In_IN twenty_CD years_NNS cars_NNS will_MD be_VB fewer_JJR than_IN today_NN but_CC I_PRP think_VBP Its_PRP$ happen_VBP in_IN 5yeasr_JJ ._.
+B-NP
+I-NP
+B-VP
+B-NP
+I-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-ADJP
+B-PP
+B-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+[0..2) NP
+[2..3) VP
+[3..7) NP
+[7..9) VP
+[9..10) ADJP
+[10..11) PP
+[11..12) NP
+[13..14) NP
+[14..15) VP
+[15..17) NP
+[17..18) PP
+[18..19) NP
+
+
+we are keeping waste oil now , how could be takes twenty years .
+
+()
+
+we_PRP are_VBP keeping_VBG waste_NN oil_NN now_RB ,_, how_WRB could_MD be_VB takes_VBZ twenty_CD years_NNS ._.
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-ADVP
+O
+B-ADVP
+B-VP
+I-VP
+B-VP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..3) VP
+[3..5) NP
+[5..6) ADVP
+[7..8) ADVP
+[8..10) VP
+[10..11) VP
+[11..13) NP
+
+
+its not such a long term it will be soon .
+
+()
+
+its_PRP$ not_RB such_JJ a_DT long_JJ term_NN it_PRP will_MD be_VB soon_RB ._.
+B-NP
+I-NP
+B-NP
+I-NP
+I-NP
+I-NP
+B-NP
+B-VP
+I-VP
+B-ADVP
+O
+[0..2) NP
+[2..6) NP
+[6..7) NP
+[7..9) VP
+[9..10) ADVP
+
+
+so I strongly to say agree cars will be fewer than today .
+
+()
+
+so_RB I_PRP strongly_RB to_TO say_VB agree_VBP cars_NNS will_MD be_VB fewer_JJR than_IN today_NN ._.
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-VP
+B-NP
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+O
+[1..2) NP
+[2..5) VP
+[5..6) VP
+[6..7) NP
+[7..9) VP
+[9..10) NP
+[10..11) PP
+[11..12) NP
+
+
+I agree with the following statement .
+
+()
+
+I_PRP agree_VBP with_IN the_DT following_VBG statement_NN ._.
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..3) PP
+[3..6) NP
+
+
+Because I think the sience and tecnology are developping .
+
+()
+
+Because_IN I_PRP think_VBP the_DT sience_NN and_CC tecnology_NN are_VBP developping_VBG ._.
+B-SBAR
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+I-NP
+B-VP
+I-VP
+O
+[0..1) SBAR
+[1..2) NP
+[2..3) VP
+[3..7) NP
+[7..9) VP
+
+
+The oldest age , People could not speak words and they did not have clothes and shoes .
+
+()
+
+The_DT oldest_JJS age_NN ,_, People_NNS could_MD not_RB speak_VB words_NNS and_CC they_PRP did_VBD not_RB have_VB clothes_NNS and_CC shoes_NNS ._.
+B-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+[0..3) NP
+[4..5) NP
+[5..8) VP
+[8..9) NP
+[10..11) NP
+[11..14) VP
+[14..17) NP
+
+
+Then they could cook a little bit .
+
+()
+
+Then_RB they_PRP could_MD cook_VB a_DT little_JJ bit_NN ._.
+O
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+[1..2) NP
+[2..4) VP
+[4..7) NP
+
+
+But nowaday , We can have a lot of clothes and shoes .
+
+()
+
+But_CC nowaday_RB ,_, We_PRP can_MD have_VB a_DT lot_NN of_IN clothes_NNS and_CC shoes_NNS ._.
+O
+B-ADVP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[1..2) ADVP
+[3..4) NP
+[4..6) VP
+[6..8) NP
+[8..9) PP
+[9..12) NP
+
+
+And We can cook lots of foods .
+
+()
+
+And_CC We_PRP can_MD cook_VB lots_NNS of_IN foods_NNS ._.
+O
+B-NP
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+O
+[1..2) NP
+[2..4) VP
+[4..5) NP
+[5..6) PP
+[6..7) NP
+
+
+Because People and siences and tecnologies have developped each other .
+
+()
+
+Because_IN People_NNS and_CC siences_NNS and_CC tecnologies_NNS have_VBP developped_VBN each_DT other_JJ ._.
+B-SBAR
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+[0..1) SBAR
+[1..6) NP
+[6..8) VP
+[8..10) NP
+
+
+If people did not find siences and tecnologies , We can not live such now .
+
+()
+
+If_IN people_NNS did_VBD not_RB find_VB siences_NNS and_CC tecnologies_NNS ,_, We_PRP can_MD not_RB live_VB such_JJ now_RB ._.
+B-SBAR
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+B-ADVP
+O
+[0..1) SBAR
+[1..2) NP
+[2..5) VP
+[5..8) NP
+[9..10) NP
+[10..13) VP
+[13..14) NP
+[14..15) ADVP
+
+
+So I think we can not live if old people could not find siences and tecnologies and they did not developped . ''
+
+()
+
+So_RB I_PRP think_VBP we_PRP can_MD not_RB live_VB if_IN old_JJ people_NNS could_MD not_RB find_VB siences_NNS and_CC tecnologies_NNS and_CC they_PRP did_VBD not_RB developped_VBN ._. ''_''
+O
+B-NP
+B-VP
+B-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+O
+O
+[1..2) NP
+[2..3) VP
+[3..4) NP
+[4..7) VP
+[7..8) PP
+[8..10) NP
+[10..13) VP
+[13..16) NP
+[17..18) NP
+[18..21) VP
+
+
+In twenty years there will be fewer cars in use than there are today . ''
+
+()
+
+In_IN twenty_CD years_NNS there_EX will_MD be_VB fewer_JJR cars_NNS in_IN use_NN than_IN there_RB are_VBP today_NN ._. ''_''
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+B-VP
+B-NP
+O
+O
+[0..1) PP
+[1..3) NP
+[3..4) ADVP
+[4..6) VP
+[6..8) NP
+[8..9) PP
+[9..10) NP
+[10..11) PP
+[11..12) NP
+[12..13) VP
+[13..14) NP
+
+
+I think so .
+
+()
+
+I_PRP think_VBP so_RB ._.
+B-NP
+B-VP
+B-ADVP
+O
+[0..1) NP
+[1..2) VP
+[2..3) ADVP
+
+
+Because People and sience and tecnologies are developping now .
+
+()
+
+Because_IN People_NNS and_CC sience_NN and_CC tecnologies_NNS are_VBP developping_VBG now_RB ._.
+B-SBAR
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-ADVP
+O
+[0..1) SBAR
+[1..6) NP
+[6..8) VP
+[8..9) ADVP
+
+
+For example , Now computers are one of the most useful things .
+
+()
+
+For_IN example_NN ,_, Now_RB computers_NNS are_VBP one_CD of_IN the_DT most_RBS useful_JJ things_NNS ._.
+B-PP
+B-NP
+O
+B-ADVP
+B-NP
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) PP
+[1..2) NP
+[3..4) ADVP
+[4..5) NP
+[5..6) VP
+[6..7) NP
+[7..8) PP
+[8..12) NP
+
+
+And There are a lot of the most useful in the world .
+
+()
+
+And_CC There_EX are_VBP a_DT lot_NN of_IN the_DT most_RBS useful_JJ in_IN the_DT world_NN ._.
+O
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[1..2) NP
+[2..3) VP
+[3..5) NP
+[5..6) PP
+[6..9) NP
+[9..10) PP
+[10..12) NP
+
+
+I think Car is one of the most useful things .
+
+()
+
+I_PRP think_VBP Car_NN is_VBZ one_CD of_IN the_DT most_RBS useful_JJ things_NNS ._.
+B-NP
+B-VP
+B-NP
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..3) NP
+[3..4) VP
+[4..5) NP
+[5..6) PP
+[6..10) NP
+
+
+Because , When I want to go shopping and fishing and driving , I can go to there soon .
+
+()
+
+Because_RB ,_, When_WRB I_PRP want_VBP to_TO go_VB shopping_NN and_CC fishing_NN and_CC driving_NN ,_, I_PRP can_MD go_VB to_TO there_RB soon_RB ._.
+B-ADVP
+O
+B-ADVP
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..3) ADVP
+[3..4) NP
+[4..7) VP
+[7..12) NP
+[13..14) NP
+[14..16) VP
+[16..17) PP
+[17..19) NP
+
+
+But I think Cara are developping .
+
+()
+
+But_CC I_PRP think_VBP Cara_NNP are_VBP developping_VBG ._.
+O
+B-NP
+B-VP
+B-NP
+B-VP
+I-VP
+O
+[1..2) NP
+[2..3) VP
+[3..4) NP
+[4..6) VP
+
+
+So I may think Next cars is faster than now cars .
+
+()
+
+So_IN I_PRP may_MD think_VB Next_JJ cars_NNS is_VBZ faster_JJR than_IN now_RB cars_NNS ._.
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) SBAR
+[1..2) NP
+[2..4) VP
+[4..6) NP
+[6..7) VP
+[7..8) NP
+[8..9) PP
+[9..11) NP
+
+
+And I think Next car are flying cars .
+
+()
+
+And_CC I_PRP think_VBP Next_JJ car_NN are_VBP flying_VBG cars_NNS ._.
+O
+B-NP
+B-VP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+O
+[1..2) NP
+[2..3) VP
+[3..5) NP
+[5..7) VP
+[7..8) NP
+
+
+So I think In tenty years there will be fewer cars in use than there are today .
+
+()
+
+So_RB I_PRP think_VBP In_IN tenty_CD years_NNS there_EX will_MD be_VB fewer_JJR cars_NNS in_IN use_NN than_IN there_RB are_VBP today_NN ._.
+O
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+B-VP
+B-NP
+O
+[1..2) NP
+[2..3) VP
+[3..4) PP
+[4..6) NP
+[6..7) ADVP
+[7..9) VP
+[9..11) NP
+[11..12) PP
+[12..13) NP
+[13..14) PP
+[14..15) NP
+[15..16) VP
+[16..17) NP
+
+
+I don not think people will hate cars .
+
+()
+
+I_PRP don_VBP not_RB think_VB people_NNS will_MD hate_VB cars_NNS ._.
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+B-VP
+I-VP
+B-NP
+O
+[0..1) NP
+[1..4) VP
+[4..5) NP
+[5..7) VP
+[7..8) NP
+
+
+People likes cars .
+
+()
+
+People_NNS likes_VBZ cars_NNS ._.
+B-NP
+B-VP
+B-NP
+O
+[0..1) NP
+[1..2) VP
+[2..3) NP
+
+
+Because Car is more useful than peple walks .
+
+()
+
+Because_IN Car_NNP is_VBZ more_RBR useful_JJ than_IN peple_NN walks_NNS ._.
+B-SBAR
+B-NP
+B-VP
+B-ADJP
+I-ADJP
+B-PP
+B-NP
+I-NP
+O
+[0..1) SBAR
+[1..2) NP
+[2..3) VP
+[3..5) ADJP
+[5..6) PP
+[6..8) NP
+
+
+So people will buy the next new cars .
+
+()
+
+So_IN people_NNS will_MD buy_VB the_DT next_JJ new_JJ cars_NNS ._.
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) SBAR
+[1..2) NP
+[2..4) VP
+[4..8) NP
+
+
+And people do not need now cars .
+
+()
+
+And_CC people_NNS do_VBP not_RB need_VB now_RB cars_NNS ._.
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+O
+[1..2) NP
+[2..5) VP
+[5..7) NP
+
+
+If Next cars is faster than now cars , and more useful , I will want to buy a new car .
+
+()
+
+If_IN Next_JJ cars_NNS is_VBZ faster_JJR than_IN now_RB cars_NNS ,_, and_CC more_RBR useful_JJ ,_, I_PRP will_MD want_VB to_TO buy_VB a_DT new_JJ car_NN ._.
+B-SBAR
+B-NP
+I-NP
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+O
+B-ADJP
+I-ADJP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+[0..1) SBAR
+[1..3) NP
+[3..4) VP
+[4..5) NP
+[5..6) PP
+[6..8) NP
+[10..12) ADJP
+[13..14) NP
+[14..18) VP
+[18..21) NP
+
+
+There is growing awarness of car problems all around the world .
+
+()
+
+There_EX is_VBZ growing_VBG awarness_NN of_IN car_NN problems_NNS all_DT around_IN the_DT world_NN ._.
+B-NP
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-PP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..3) VP
+[3..4) NP
+[4..5) PP
+[5..7) NP
+[7..8) ADVP
+[8..9) PP
+[9..11) NP
+
+
+Cars have brought us much convenience to transport while they have caused various social or ecological problems such as traffic jams , noise , traffic accidents , air pollution , too much consumption of petroleum and so on .
+
+()
+
+Cars_NNS have_VBP brought_VBN us_PRP much_JJ convenience_NN to_TO transport_VB while_IN they_PRP have_VBP caused_VBN various_JJ social_JJ or_CC ecological_JJ problems_NNS such_JJ as_IN traffic_NN jams_NNS ,_, noise_NN ,_, traffic_NN accidents_NNS ,_, air_NN pollution_NN ,_, too_RB much_JJ consumption_NN of_IN petroleum_NN and_CC so_RB on_IN ._.
+B-NP
+B-VP
+I-VP
+B-NP
+B-NP
+I-NP
+B-VP
+I-VP
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+B-PP
+I-PP
+B-NP
+I-NP
+O
+B-NP
+O
+B-NP
+I-NP
+O
+B-NP
+I-NP
+O
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+O
+B-ADVP
+I-ADVP
+O
+[0..1) NP
+[1..3) VP
+[3..4) NP
+[4..6) NP
+[6..8) VP
+[8..9) SBAR
+[9..10) NP
+[10..12) VP
+[12..17) NP
+[17..19) PP
+[19..21) NP
+[22..23) NP
+[24..26) NP
+[27..29) NP
+[30..33) NP
+[33..34) PP
+[34..35) NP
+[36..38) ADVP
+
+
+Now we have to solve these problems in order to survive on the earth .
+
+()
+
+Now_RB we_PRP have_VBP to_TO solve_VB these_DT problems_NNS in_IN order_NN to_TO survive_VB on_IN the_DT earth_NN ._.
+B-ADVP
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-SBAR
+O
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[1..2) NP
+[2..5) VP
+[5..7) NP
+[7..8) SBAR
+[9..11) VP
+[11..12) PP
+[12..14) NP
+
+
+I think it essential for us to reduce the number of cars .
+
+()
+
+I_PRP think_VBP it_PRP essential_JJ for_IN us_PRP to_TO reduce_VB the_DT number_NN of_IN cars_NNS ._.
+B-NP
+B-VP
+B-NP
+B-ADJP
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+O
+[0..1) NP
+[1..2) VP
+[2..3) NP
+[3..4) ADJP
+[4..5) SBAR
+[5..6) NP
+[6..8) VP
+[8..10) NP
+[10..11) PP
+[11..12) NP
+
+
+First of all , we have to spend much money to maintain our own automobiles .
+
+()
+
+First_RB of_IN all_DT ,_, we_PRP have_VBP to_TO spend_VB much_JJ money_NN to_TO maintain_VB our_PRP$ own_JJ automobiles_NNS ._.
+B-ADVP
+B-PP
+B-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+[0..1) ADVP
+[1..2) PP
+[2..3) NP
+[4..5) NP
+[5..8) VP
+[8..10) NP
+[10..12) VP
+[12..15) NP
+
+
+In our modern society , we have so much developed public traffic that we need not to transport with our cars .
+
+()
+
+In_IN our_PRP$ modern_JJ society_NN ,_, we_PRP have_VBP so_RB much_RB developed_VBN public_JJ traffic_NN that_IN we_PRP need_VBP not_RB to_TO transport_VB with_IN our_PRP$ cars_NNS ._.
+B-PP
+B-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-SBAR
+B-NP
+B-VP
+O
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+O
+[0..1) PP
+[1..4) NP
+[5..6) NP
+[6..10) VP
+[10..12) NP
+[12..13) SBAR
+[13..14) NP
+[14..15) VP
+[16..18) VP
+[18..19) PP
+[19..21) NP
+
+
+Although we would be involved terrible trafic jams , public traffic such as trains and subways are usually be punctual .
+
+()
+
+Although_IN we_PRP would_MD be_VB involved_VBN terrible_JJ trafic_NN jams_NNS ,_, public_JJ traffic_NN such_JJ as_IN trains_NNS and_CC subways_NNS are_VBP usually_RB be_VB punctual_JJ ._.
+B-SBAR
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+B-NP
+I-NP
+B-PP
+I-PP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-ADJP
+O
+[0..1) SBAR
+[1..2) NP
+[2..5) VP
+[5..8) NP
+[9..11) NP
+[11..13) PP
+[13..16) NP
+[16..19) VP
+[19..20) ADJP
+
+
+Moeover , in general , the fee of public traffic is inexpensive .
+
+()
+
+Moeover_RB ,_, in_IN general_JJ ,_, the_DT fee_NN of_IN public_JJ traffic_NN is_VBZ inexpensive_JJ ._.
+B-ADVP
+O
+B-PP
+B-ADJP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+B-ADJP
+O
+[0..1) ADVP
+[2..3) PP
+[3..4) ADJP
+[5..7) NP
+[7..8) PP
+[8..10) NP
+[10..11) VP
+[11..12) ADJP
+
+
+Therefore , we can save not only time but also money by using public traffic .
+
+()
+
+Therefore_RB ,_, we_PRP can_MD save_VB not_RB only_JJ time_NN but_CC also_RB money_NN by_IN using_VBG public_JJ traffic_NN ._.
+B-ADVP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+B-ADVP
+B-NP
+B-PP
+B-VP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..3) NP
+[3..5) VP
+[5..8) NP
+[9..10) ADVP
+[10..11) NP
+[11..12) PP
+[12..13) VP
+[13..15) NP
+
+
+The price of gasoline has gotten higher and higher recently , and the tendency is to be continued .
+
+()
+
+The_DT price_NN of_IN gasoline_NN has_VBZ gotten_VBN higher_RBR and_CC higher_RBR recently_RB ,_, and_CC the_DT tendency_NN is_VBZ to_TO be_VB continued_VBN ._.
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+I-VP
+B-ADVP
+I-ADVP
+I-ADVP
+I-ADVP
+O
+O
+B-NP
+I-NP
+B-VP
+B-VP
+I-VP
+I-VP
+O
+[0..2) NP
+[2..3) PP
+[3..4) NP
+[4..6) VP
+[6..10) ADVP
+[12..14) NP
+[14..15) VP
+[15..18) VP
+
+
+Second , there are no longer much place to park cars , especially in many cities .
+
+()
+
+Second_JJ ,_, there_EX are_VBP no_RB longer_RB much_JJ place_NN to_TO park_NN cars_NNS ,_, especially_RB in_IN many_JJ cities_NNS ._.
+B-ADVP
+O
+B-NP
+B-VP
+B-ADVP
+I-ADVP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-ADVP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..3) NP
+[3..4) VP
+[4..6) ADVP
+[6..8) NP
+[8..9) PP
+[9..11) NP
+[12..13) ADVP
+[13..14) PP
+[14..16) NP
+
+
+The world population has been getting more and more during this decade .
+
+()
+
+The_DT world_NN population_NN has_VBZ been_VBN getting_VBG more_JJR and_CC more_JJR during_IN this_DT decade_NN ._.
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..3) NP
+[3..6) VP
+[6..9) NP
+[9..10) PP
+[10..12) NP
+
+
+Now we have no longer much enough land to dwell on .
+
+()
+
+Now_RB we_PRP have_VBP no_RB longer_RB much_JJ enough_JJ land_NN to_TO dwell_VB on_IN ._.
+B-ADVP
+B-NP
+B-VP
+B-ADVP
+I-ADVP
+B-ADJP
+B-NP
+I-NP
+B-VP
+I-VP
+B-PP
+O
+[0..1) ADVP
+[1..2) NP
+[2..3) VP
+[3..5) ADVP
+[5..6) ADJP
+[6..8) NP
+[8..10) VP
+[10..11) PP
+
+
+Therefore , it will cost us too much to park our own cars in the city .
+
+()
+
+Therefore_RB ,_, it_PRP will_MD cost_VB us_PRP too_RB much_RB to_TO park_VB our_PRP$ own_JJ cars_NNS in_IN the_DT city_NN ._.
+B-ADVP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+B-ADVP
+I-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..3) NP
+[3..5) VP
+[5..6) NP
+[6..8) ADVP
+[8..10) VP
+[10..13) NP
+[13..14) PP
+[14..16) NP
+
+
+Many people have to shed their own cars in order to save their money and to save the area to live in .
+
+()
+
+Many_JJ people_NNS have_VBP to_TO shed_VB their_PRP$ own_JJ cars_NNS in_IN order_NN to_TO save_VB their_PRP$ money_NN and_CC to_TO save_VB the_DT area_NN to_TO live_VB in_IN ._.
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-SBAR
+O
+B-VP
+I-VP
+B-NP
+I-NP
+O
+B-VP
+I-VP
+B-NP
+I-NP
+B-VP
+I-VP
+B-PP
+O
+[0..2) NP
+[2..5) VP
+[5..8) NP
+[8..9) SBAR
+[10..12) VP
+[12..14) NP
+[15..17) VP
+[17..19) NP
+[19..21) VP
+[21..22) PP
+
+
+In conclusion , for these reasons , spending much money and insuficient space to park cars , I agree the statement `` there will be fewer cars than there are today in twenty years . ''
+
+()
+
+In_IN conclusion_NN ,_, for_IN these_DT reasons_NNS ,_, spending_VBG much_JJ money_NN and_CC insuficient_JJ space_NN to_TO park_VB cars_NNS ,_, I_PRP agree_VBP the_DT statement_NN ``_`` there_EX will_MD be_VB fewer_JJR cars_NNS than_IN there_RB are_VBP today_NN in_IN twenty_CD years_NNS ._. ''_''
+B-PP
+B-NP
+O
+B-PP
+B-NP
+I-NP
+O
+B-VP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+O
+[0..1) PP
+[1..2) NP
+[3..4) PP
+[4..6) NP
+[7..8) VP
+[8..10) NP
+[11..13) NP
+[13..15) VP
+[15..16) NP
+[17..18) NP
+[18..19) VP
+[19..21) NP
+[22..23) NP
+[23..25) VP
+[25..27) NP
+[27..28) PP
+[28..29) NP
+[29..30) VP
+[30..31) NP
+[31..32) PP
+[32..34) NP
+
+
+No body can deny that there are primary factors which serves afunction in the needs and the nessaiety of using the cars , and how it conterbuite as an important part of our lives , but in the same time we ca n't forget the negative effects of using these cars , on the environment and the health of the people , consequntley , there are many traists which became on the surface and suggeted that there must be arecent vision to use fewer cars in the future in order to decrease the factors of the pollution , and the etiologies of the crash in the streets and the traffic .
+
+()
+
+No_DT body_NN can_MD deny_VB that_IN there_EX are_VBP primary_JJ factors_NNS which_WDT serves_VBZ afunction_NN in_IN the_DT needs_NNS and_CC the_DT nessaiety_NN of_IN using_VBG the_DT cars_NNS ,_, and_CC how_WRB it_PRP conterbuite_RB as_IN an_DT important_JJ part_NN of_IN our_PRP$ lives_NNS ,_, but_CC in_IN the_DT same_JJ time_NN we_PRP ca_MD n't_RB forget_VB the_DT negative_JJ effects_NNS of_IN using_VBG these_DT cars_NNS ,_, on_IN the_DT environment_NN and_CC the_DT health_NN of_IN the_DT people_NNS ,_, consequntley_NN ,_, there_EX are_VBP many_JJ traists_NNS which_WDT became_VBD on_IN the_DT surface_NN and_CC suggeted_VBD that_IN there_EX must_MD be_VB arecent_JJ vision_NN to_TO use_VB fewer_JJR cars_NNS in_IN the_DT future_NN in_IN order_NN to_TO decrease_VB the_DT factors_NNS of_IN the_DT pollution_NN ,_, and_CC the_DT etiologies_NNS of_IN the_DT crash_NN in_IN the_DT streets_NNS and_CC the_DT traffic_NN ._.
+B-NP
+I-NP
+B-VP
+I-VP
+B-SBAR
+B-NP
+B-VP
+B-NP
+I-NP
+B-NP
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-PP
+B-VP
+B-NP
+I-NP
+O
+O
+B-ADVP
+B-NP
+B-ADVP
+B-PP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+O
+B-PP
+B-NP
+I-NP
+I-NP
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-VP
+B-NP
+I-NP
+O
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+O
+B-VP
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-SBAR
+O
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+O
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+O
+[0..2) NP
+[2..4) VP
+[4..5) SBAR
+[5..6) NP
+[6..7) VP
+[7..9) NP
+[9..10) NP
+[10..11) VP
+[11..12) NP
+[12..13) PP
+[13..15) NP
+[16..18) NP
+[18..19) PP
+[19..20) VP
+[20..22) NP
+[24..25) ADVP
+[25..26) NP
+[26..27) ADVP
+[27..28) PP
+[28..31) NP
+[31..32) PP
+[32..34) NP
+[36..37) PP
+[37..40) NP
+[40..41) NP
+[41..44) VP
+[44..47) NP
+[47..48) PP
+[48..49) VP
+[49..51) NP
+[52..53) PP
+[53..55) NP
+[56..58) NP
+[58..59) PP
+[59..61) NP
+[62..63) NP
+[64..65) NP
+[65..66) VP
+[66..68) NP
+[68..69) NP
+[69..70) VP
+[70..71) PP
+[71..73) NP
+[74..75) VP
+[75..76) SBAR
+[76..77) NP
+[77..79) VP
+[79..81) NP
+[81..83) VP
+[83..85) NP
+[85..86) PP
+[86..88) NP
+[88..89) SBAR
+[90..92) VP
+[92..94) NP
+[94..95) PP
+[95..97) NP
+[99..101) NP
+[101..102) PP
+[102..104) NP
+[104..105) PP
+[105..107) NP
+[108..110) NP
+
+
+Well I see that it is agood idea , but is it realiastic one which we can make it true ? .
+
+()
+
+Well_RB I_PRP see_VBP that_IN it_PRP is_VBZ agood_JJ idea_NN ,_, but_CC is_VBZ it_PRP realiastic_JJ one_CD which_WDT we_PRP can_MD make_VB it_PRP true_JJ ?_. ._.
+B-ADVP
+B-NP
+B-VP
+B-SBAR
+B-NP
+B-VP
+B-NP
+I-NP
+O
+O
+B-VP
+B-NP
+B-NP
+I-NP
+B-NP
+B-NP
+B-VP
+I-VP
+B-NP
+B-ADJP
+O
+O
+[0..1) ADVP
+[1..2) NP
+[2..3) VP
+[3..4) SBAR
+[4..5) NP
+[5..6) VP
+[6..8) NP
+[10..11) VP
+[11..12) NP
+[12..14) NP
+[14..15) NP
+[15..16) NP
+[16..18) VP
+[18..19) NP
+[19..20) ADJP
+
+
+That is the point , the researches are lots , the ideas , the studies and even the suggetions also are many , they talk about the cars and the solution they can be insight with it in their global vision ( the global vision of the sientifice and the researchers ) , but can they and I mean the responsibilites persons also , can they make the people use fewer cars in the future .
+
+()
+
+That_DT is_VBZ the_DT point_NN ,_, the_DT researches_NNS are_VBP lots_NNS ,_, the_DT ideas_NNS ,_, the_DT studies_NNS and_CC even_RB the_DT suggetions_NNS also_RB are_VBP many_JJ ,_, they_PRP talk_VBP about_IN the_DT cars_NNS and_CC the_DT solution_NN they_PRP can_MD be_VB insight_NN with_IN it_PRP in_IN their_PRP$ global_JJ vision_NN (_-LRB- the_DT global_JJ vision_NN of_IN the_DT sientifice_NN and_CC the_DT researchers_NNS )_-RRB- ,_, but_CC can_MD they_PRP and_CC I_PRP mean_VBP the_DT responsibilites_NNS persons_NNS also_RB ,_, can_MD they_PRP make_VB the_DT people_NNS use_VBP fewer_JJR cars_NNS in_IN the_DT future_NN ._.
+B-NP
+B-VP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-VP
+B-NP
+O
+B-NP
+I-NP
+O
+B-NP
+I-NP
+O
+B-NP
+I-NP
+I-NP
+B-ADVP
+B-VP
+B-ADJP
+O
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-NP
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+I-NP
+O
+O
+O
+B-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+B-ADVP
+O
+O
+B-NP
+B-VP
+B-NP
+I-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..4) NP
+[5..7) NP
+[7..8) VP
+[8..9) NP
+[10..12) NP
+[13..15) NP
+[16..19) NP
+[19..20) ADVP
+[20..21) VP
+[21..22) ADJP
+[23..24) NP
+[24..25) VP
+[25..26) PP
+[26..28) NP
+[29..31) NP
+[31..32) NP
+[32..34) VP
+[34..35) NP
+[35..36) PP
+[36..37) NP
+[37..38) PP
+[38..41) NP
+[41..42) PP
+[42..45) NP
+[45..46) PP
+[46..48) NP
+[49..52) NP
+[55..56) NP
+[57..58) NP
+[58..59) VP
+[59..62) NP
+[62..63) ADVP
+[65..66) NP
+[66..67) VP
+[67..69) NP
+[69..70) VP
+[70..72) NP
+[72..73) PP
+[73..75) NP
+
+
+Thus , I think that there must be taxes and laws which inforced by the responsiplers towards the people to use one car instead of four cars in the same house , anf that will be agood factor to make the count of the cars few , adiditionally , there must be lectures and programmes whish orgnizated for the people to increase their environmently consious tounderstand and know the aims and the distinations of the idea whish standing on using fewer cars in the futur , and educate them the main effects of that phenomenon ( using lage numbers of cars ) , the effects on their children health and what can it cause of the diseases of the smokes whish pushed from these cars to the environment , aquestion need an answer ...
+
+()
+
+Thus_RB ,_, I_PRP think_VBP that_IN there_EX must_MD be_VB taxes_NNS and_CC laws_NNS which_WDT inforced_VBD by_IN the_DT responsiplers_NNS towards_IN the_DT people_NNS to_TO use_VB one_CD car_NN instead_RB of_IN four_CD cars_NNS in_IN the_DT same_JJ house_NN ,_, anf_IN that_WDT will_MD be_VB agood_JJ factor_NN to_TO make_VB the_DT count_NN of_IN the_DT cars_NNS few_JJ ,_, adiditionally_RB ,_, there_EX must_MD be_VB lectures_NNS and_CC programmes_NNS whish_WDT orgnizated_VBD for_IN the_DT people_NNS to_TO increase_VB their_PRP$ environmently_RB consious_JJ tounderstand_NN and_CC know_VB the_DT aims_NNS and_CC the_DT distinations_NNS of_IN the_DT idea_NN whish_NN standing_VBG on_IN using_VBG fewer_JJR cars_NNS in_IN the_DT futur_NN ,_, and_CC educate_VB them_PRP the_DT main_JJ effects_NNS of_IN that_DT phenomenon_NN (_-LRB- using_VBG lage_NN numbers_NNS of_IN cars_NNS )_-RRB- ,_, the_DT effects_NNS on_IN their_PRP$ children_NNS health_NN and_CC what_WP can_MD it_PRP cause_VB of_IN the_DT diseases_NNS of_IN the_DT smokes_NNS whish_WDT pushed_VBD from_IN these_DT cars_NNS to_TO the_DT environment_NN ,_, aquestion_NN need_VB an_DT answer_NN ..._:
+B-ADVP
+O
+B-NP
+B-VP
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-CONJP
+I-CONJP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+B-PP
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-ADJP
+O
+B-ADVP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+I-NP
+O
+B-VP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-VP
+B-PP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+O
+B-VP
+B-NP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..3) NP
+[3..4) VP
+[4..5) SBAR
+[5..6) NP
+[6..8) VP
+[8..11) NP
+[11..12) NP
+[12..13) VP
+[13..14) PP
+[14..16) NP
+[16..17) PP
+[17..19) NP
+[19..21) VP
+[21..23) NP
+[23..25) CONJP
+[25..27) NP
+[27..28) PP
+[28..31) NP
+[32..33) PP
+[33..34) NP
+[34..36) VP
+[36..38) NP
+[38..40) VP
+[40..42) NP
+[42..43) PP
+[43..45) NP
+[45..46) ADJP
+[47..48) ADVP
+[49..50) NP
+[50..52) VP
+[52..55) NP
+[55..56) NP
+[56..57) VP
+[57..58) PP
+[58..60) NP
+[60..62) VP
+[62..66) NP
+[67..68) VP
+[68..70) NP
+[71..73) NP
+[73..74) PP
+[74..77) NP
+[77..78) VP
+[78..79) PP
+[79..80) VP
+[80..82) NP
+[82..83) PP
+[83..85) NP
+[87..88) VP
+[88..89) NP
+[89..92) NP
+[92..93) PP
+[93..95) NP
+[95..97) VP
+[97..99) NP
+[99..100) PP
+[100..102) NP
+[103..105) NP
+[105..106) PP
+[106..109) NP
+[110..111) NP
+[111..114) VP
+[114..115) PP
+[115..117) NP
+[117..118) PP
+[118..120) NP
+[120..121) NP
+[121..122) VP
+[122..123) PP
+[123..125) NP
+[125..126) PP
+[126..128) NP
+[129..130) NP
+[130..131) VP
+[131..133) NP
+
+
+why we ca n't try to use bicyles in stead of the cars if our works near our houses , or our tour will not be far away and leave the cars for the far away jobs ?
+
+()
+
+why_WRB we_PRP ca_MD n't_RB try_VB to_TO use_VB bicyles_NNS in_IN stead_RB of_IN the_DT cars_NNS if_IN our_PRP$ works_NNS near_IN our_PRP$ houses_NNS ,_, or_CC our_PRP$ tour_NN will_MD not_RB be_VB far_RB away_RB and_CC leave_VB the_DT cars_NNS for_IN the_DT far_RB away_RB jobs_NNS ?_.
+B-ADVP
+B-NP
+B-VP
+I-VP
+I-VP
+I-VP
+I-VP
+B-NP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+O
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-ADVP
+I-ADVP
+O
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) ADVP
+[1..2) NP
+[2..7) VP
+[7..8) NP
+[8..9) PP
+[9..10) NP
+[10..11) PP
+[11..13) NP
+[13..14) PP
+[14..16) NP
+[16..17) PP
+[17..19) NP
+[21..23) NP
+[23..26) VP
+[26..28) ADVP
+[29..30) VP
+[30..32) NP
+[32..33) PP
+[33..37) NP
+
+
+The energy and the motor have some relation in the world .
+
+()
+
+The_DT energy_NN and_CC the_DT motor_NN have_VBP some_DT relation_NN in_IN the_DT world_NN ._.
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..2) NP
+[3..5) NP
+[5..6) VP
+[6..8) NP
+[8..9) PP
+[9..11) NP
+
+
+If some one could find new energy that can replace the old energy -- oil , people in the world would continue using the motor .
+
+()
+
+If_IN some_DT one_NN could_MD find_VB new_JJ energy_NN that_WDT can_MD replace_VB the_DT old_JJ energy_NN --_: oil_NN ,_, people_NNS in_IN the_DT world_NN would_MD continue_VB using_VBG the_DT motor_NN ._.
+B-SBAR
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+B-NP
+O
+B-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+O
+[0..1) SBAR
+[1..3) NP
+[3..5) VP
+[5..7) NP
+[7..8) NP
+[8..10) VP
+[10..13) NP
+[14..15) NP
+[16..17) NP
+[17..18) PP
+[18..20) NP
+[20..23) VP
+[23..25) NP
+
+
+Therefore , the motor will not change and will be more and more .
+
+()
+
+Therefore_RB ,_, the_DT motor_NN will_MD not_RB change_VB and_CC will_MD be_VB more_JJR and_CC more_JJR ._.
+B-ADVP
+O
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+O
+B-VP
+I-VP
+B-ADJP
+I-ADJP
+I-ADJP
+O
+[0..1) ADVP
+[2..4) NP
+[4..7) VP
+[8..10) VP
+[10..13) ADJP
+
+
+We do not know the new energy will be found , so we cannot predicate the future .
+
+()
+
+We_PRP do_VBP not_RB know_VB the_DT new_JJ energy_NN will_MD be_VB found_VBN ,_, so_IN we_PRP cannot_MD predicate_VB the_DT future_NN ._.
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+I-VP
+O
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..4) VP
+[4..7) NP
+[7..10) VP
+[11..12) SBAR
+[12..13) NP
+[13..15) VP
+[15..17) NP
+
+
+However , we know one thing -- we want a clean environment in the world .
+
+()
+
+However_RB ,_, we_PRP know_VBP one_CD thing_NN --_: we_PRP want_VBP a_DT clean_JJ environment_NN in_IN the_DT world_NN ._.
+B-ADVP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..3) NP
+[3..4) VP
+[4..6) NP
+[7..8) NP
+[8..9) VP
+[9..12) NP
+[12..13) PP
+[13..15) NP
+
+
+On the other hand , If we finished the oil and also could't find new energy , the motor will be fewer ?
+
+()
+
+On_IN the_DT other_JJ hand_NN ,_, If_IN we_PRP finished_VBD the_DT oil_NN and_CC also_RB could't_MD find_VB new_JJ energy_NN ,_, the_DT motor_NN will_MD be_VB fewer_JJR ?_.
+B-PP
+B-NP
+I-NP
+I-NP
+O
+B-SBAR
+B-NP
+B-VP
+B-NP
+I-NP
+O
+B-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+B-VP
+I-VP
+B-ADJP
+O
+[0..1) PP
+[1..4) NP
+[5..6) SBAR
+[6..7) NP
+[7..8) VP
+[8..10) NP
+[11..12) ADVP
+[12..14) VP
+[14..16) NP
+[17..19) NP
+[19..21) VP
+[21..22) ADJP
+
+
+The answer is not exactly .
+
+()
+
+The_DT answer_NN is_VBZ not_RB exactly_RB ._.
+B-NP
+I-NP
+B-VP
+O
+B-ADVP
+O
+[0..2) NP
+[2..3) VP
+[4..5) ADVP
+
+
+Because people dorminate the world , they can do everything that they want including make new energy or not .
+
+()
+
+Because_IN people_NNS dorminate_VBP the_DT world_NN ,_, they_PRP can_MD do_VB everything_NN that_IN they_PRP want_VBP including_VBG make_VB new_JJ energy_NN or_CC not_RB ._.
+B-SBAR
+B-NP
+B-VP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+O
+O
+O
+[0..1) SBAR
+[1..2) NP
+[2..3) VP
+[3..5) NP
+[6..7) NP
+[7..9) VP
+[9..10) NP
+[10..11) SBAR
+[11..12) NP
+[12..14) VP
+[14..17) NP
+
+
+Now today , People beging to develop new energy like the hyper energy or electronic power .
+
+()
+
+Now_RB today_NN ,_, People_NNS beging_VBG to_TO develop_VB new_JJ energy_NN like_IN the_DT hyper_NN energy_NN or_CC electronic_JJ power_NN ._.
+B-ADVP
+B-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) ADVP
+[1..2) NP
+[3..4) NP
+[4..7) VP
+[7..9) NP
+[9..10) PP
+[10..16) NP
+
+
+All of the new energy of the purpose are to contiune the car 's operation .
+
+()
+
+All_DT of_IN the_DT new_JJ energy_NN of_IN the_DT purpose_NN are_VBP to_TO contiune_VB the_DT car_NN 's_POS operation_NN ._.
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..2) PP
+[2..5) NP
+[5..6) PP
+[6..8) NP
+[8..11) VP
+[11..13) NP
+[13..15) NP
+
+
+If you want me agree that twenty years later will be fewer cars in use than today , I wo n't agree .
+
+()
+
+If_IN you_PRP want_VBP me_PRP agree_VBP that_IN twenty_CD years_NNS later_RB will_MD be_VB fewer_JJR cars_NNS in_IN use_NN than_IN today_NN ,_, I_PRP wo_MD n't_RB agree_VB ._.
+B-SBAR
+B-NP
+B-VP
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+O
+B-NP
+B-VP
+I-VP
+I-VP
+O
+[0..1) SBAR
+[1..2) NP
+[2..3) VP
+[3..4) NP
+[4..5) VP
+[5..6) PP
+[6..8) NP
+[8..9) ADVP
+[9..11) VP
+[11..13) NP
+[13..14) PP
+[14..15) NP
+[15..16) PP
+[16..17) NP
+[18..19) NP
+[19..22) VP
+
+
+People wants more convient and good life because they are human .
+
+()
+
+People_NNS wants_VBZ more_RBR convient_JJ and_CC good_JJ life_NN because_IN they_PRP are_VBP human_JJ ._.
+B-NP
+B-VP
+B-ADJP
+I-ADJP
+O
+B-NP
+I-NP
+B-SBAR
+B-NP
+B-VP
+B-ADJP
+O
+[0..1) NP
+[1..2) VP
+[2..4) ADJP
+[5..7) NP
+[7..8) SBAR
+[8..9) NP
+[9..10) VP
+[10..11) ADJP
+
+
+i agree on that in the future ( around twenty years ) cars will be fewer , because other kind of transportation will improve and will be more easyer .
+
+()
+
+i_PRP agree_VBP on_IN that_DT in_IN the_DT future_NN (_-LRB- around_IN twenty_CD years_NNS )_-RRB- cars_NNS will_MD be_VB fewer_JJR ,_, because_IN other_JJ kind_NN of_IN transportation_NN will_MD improve_VB and_CC will_MD be_VB more_RBR easyer_RB ._.
+B-NP
+B-VP
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+B-VP
+B-NP
+I-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-ADJP
+O
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+I-VP
+O
+B-VP
+I-VP
+B-ADVP
+I-ADVP
+O
+[0..1) NP
+[1..2) VP
+[2..3) PP
+[3..4) NP
+[4..5) PP
+[5..7) NP
+[7..8) VP
+[8..11) NP
+[12..13) NP
+[13..15) VP
+[15..16) ADJP
+[17..18) PP
+[18..20) NP
+[20..21) PP
+[21..22) NP
+[22..24) VP
+[25..27) VP
+[27..29) ADVP
+
+
+for instant using trains with a fast speed and has many different stations will make man be more comfurtabule using it rather then his/her oun car .
+
+()
+
+for_IN instant_NN using_VBG trains_NNS with_IN a_DT fast_JJ speed_NN and_CC has_VBZ many_JJ different_JJ stations_NNS will_MD make_VB man_NN be_VB more_RBR comfurtabule_JJ using_VBG it_PRP rather_RB then_RB his/her_JJR oun_NN car_NN ._.
+B-PP
+B-NP
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+B-VP
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+B-VP
+B-ADJP
+I-ADJP
+B-VP
+B-NP
+B-PRT
+B-ADVP
+B-NP
+I-NP
+I-NP
+O
+[0..1) PP
+[1..2) NP
+[2..3) VP
+[3..4) NP
+[4..5) PP
+[5..8) NP
+[9..10) VP
+[10..13) NP
+[13..15) VP
+[15..16) NP
+[16..17) VP
+[17..19) ADJP
+[19..20) VP
+[20..21) NP
+[21..22) PRT
+[22..23) ADVP
+[23..26) NP
+
+
+also buses can give a big comfurtabule life for peaple .
+
+()
+
+also_RB buses_NNS can_MD give_VB a_DT big_JJ comfurtabule_JJ life_NN for_IN peaple_NN ._.
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+I-NP
+B-PP
+B-NP
+O
+[0..2) NP
+[2..4) VP
+[4..8) NP
+[8..9) PP
+[9..10) NP
+
+
+because peaple will not have to think about parking or even taking care of thier cars or any other careness .
+
+()
+
+because_IN peaple_NN will_MD not_RB have_VB to_TO think_VB about_IN parking_NN or_CC even_RB taking_VBG care_NN of_IN thier_NN cars_NNS or_CC any_DT other_JJ careness_NN ._.
+B-SBAR
+B-NP
+B-VP
+I-VP
+I-VP
+I-VP
+I-VP
+B-PP
+B-NP
+O
+B-VP
+I-VP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+I-NP
+O
+[0..1) SBAR
+[1..2) NP
+[2..7) VP
+[7..8) PP
+[8..9) NP
+[10..12) VP
+[12..13) NP
+[13..14) PP
+[14..16) NP
+[17..20) NP
+
+
+in addition , number of peaple will increase in the future , that will cause a lot of traffic and air pullotion .
+
+()
+
+in_IN addition_NN ,_, number_NN of_IN peaple_NN will_MD increase_VB in_IN the_DT future_NN ,_, that_WDT will_MD cause_VB a_DT lot_NN of_IN traffic_NN and_CC air_NN pullotion_NN ._.
+B-PP
+B-NP
+O
+B-NP
+B-PP
+B-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) PP
+[1..2) NP
+[3..4) NP
+[4..5) PP
+[5..6) NP
+[6..8) VP
+[8..9) PP
+[9..11) NP
+[12..13) NP
+[13..15) VP
+[15..17) NP
+[17..18) PP
+[18..22) NP
+
+
+so i think using other transportation other thene cars will give a big help for peaple to get to other places without any problems as mentioned above .
+
+()
+
+so_RB i_PRP think_VBP using_VBG other_JJ transportation_NN other_JJ thene_JJ cars_NNS will_MD give_VB a_DT big_JJ help_NN for_IN peaple_NN to_TO get_VB to_TO other_JJ places_NNS without_IN any_DT problems_NNS as_IN mentioned_VBN above_IN ._.
+B-ADVP
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+B-VP
+I-VP
+B-PP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-SBAR
+B-VP
+B-PP
+O
+[0..1) ADVP
+[1..2) NP
+[2..4) VP
+[4..9) NP
+[9..11) VP
+[11..14) NP
+[14..15) PP
+[15..16) NP
+[16..18) VP
+[18..19) PP
+[19..21) NP
+[21..22) PP
+[22..24) NP
+[24..25) SBAR
+[25..26) VP
+[26..27) PP
+
+
+therfor , i beleive human will begin to egnore cars and try to depend on more easeir and more comfurtabule tranportations to live a better , comfurtabule , cleaner life .
+
+()
+
+therfor_NN ,_, i_IN beleive_JJ human_NN will_MD begin_VB to_TO egnore_VB cars_NNS and_CC try_VBP to_TO depend_VB on_IN more_JJR easeir_NN and_CC more_JJR comfurtabule_NN tranportations_NNS to_TO live_VB a_DT better_JJR ,_, comfurtabule_JJ ,_, cleaner_JJR life_NN ._.
+B-NP
+O
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+I-VP
+B-NP
+O
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+O
+B-NP
+I-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) NP
+[2..3) PP
+[3..5) NP
+[5..9) VP
+[9..10) NP
+[11..14) VP
+[14..15) PP
+[15..17) NP
+[18..21) NP
+[21..23) VP
+[23..30) NP
+
+
+Have you ever seen a movie that the cars ride not on the road , but in the sky ?
+
+()
+
+Have_VBP you_PRP ever_RB seen_VBD a_DT movie_NN that_IN the_DT cars_NNS ride_VB not_RB on_IN the_DT road_NN ,_, but_CC in_IN the_DT sky_NN ?_.
+O
+B-NP
+B-ADVP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+I-NP
+B-VP
+B-ADVP
+B-PP
+B-NP
+I-NP
+O
+O
+B-PP
+B-NP
+I-NP
+O
+[1..2) NP
+[2..3) ADVP
+[3..4) VP
+[4..6) NP
+[6..7) PP
+[7..9) NP
+[9..10) VP
+[10..11) ADVP
+[11..12) PP
+[12..14) NP
+[16..17) PP
+[17..19) NP
+
+
+At least , most people have ever thought about the surprising situation .
+
+()
+
+At_IN least_JJS ,_, most_JJS people_NNS have_VBP ever_RB thought_VBN about_IN the_DT surprising_JJ situation_NN ._.
+B-ADVP
+I-ADVP
+O
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+I-NP
+I-NP
+O
+[0..2) ADVP
+[3..5) NP
+[5..8) VP
+[8..9) PP
+[9..12) NP
+
+
+I agree the statement that there will be fewer cars in use than there are today in twenty years .
+
+()
+
+I_PRP agree_VBP the_DT statement_NN that_IN there_EX will_MD be_VB fewer_JJR cars_NNS in_IN use_NN than_IN there_RB are_VBP today_NN in_IN twenty_CD years_NNS ._.
+B-NP
+B-VP
+B-NP
+I-NP
+B-SBAR
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+B-VP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..4) NP
+[4..5) SBAR
+[5..6) NP
+[6..8) VP
+[8..10) NP
+[10..11) PP
+[11..12) NP
+[12..13) PP
+[13..14) NP
+[14..15) VP
+[15..16) NP
+[16..17) PP
+[17..19) NP
+
+
+That 's because science technology developes rapidly and the air pollution is a crucial problem .
+
+()
+
+That_DT 's_VBZ because_IN science_NN technology_NN developes_NNS rapidly_RB and_CC the_DT air_NN pollution_NN is_VBZ a_DT crucial_JJ problem_NN ._.
+B-NP
+B-VP
+B-SBAR
+B-NP
+I-NP
+I-NP
+B-ADVP
+O
+B-NP
+I-NP
+I-NP
+B-VP
+B-NP
+I-NP
+I-NP
+O
+[0..1) NP
+[1..2) VP
+[2..3) SBAR
+[3..6) NP
+[6..7) ADVP
+[8..11) NP
+[11..12) VP
+[12..15) NP
+
+
+First of all , science technology 's development is rapid .
+
+()
+
+First_RB of_IN all_DT ,_, science_NN technology_NN 's_POS development_NN is_VBZ rapid_JJ ._.
+B-ADVP
+B-PP
+B-NP
+O
+B-NP
+I-NP
+B-NP
+I-NP
+B-VP
+B-ADJP
+O
+[0..1) ADVP
+[1..2) PP
+[2..3) NP
+[4..6) NP
+[6..8) NP
+[8..9) VP
+[9..10) ADJP
+
+
+Today people can send a e-mail to others who line in other country .
+
+()
+
+Today_NN people_NNS can_MD send_VB a_DT e-mail_NN to_TO others_NNS who_WP line_VBP in_IN other_JJ country_NN ._.
+B-NP
+I-NP
+B-VP
+I-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-NP
+B-VP
+B-PP
+B-NP
+I-NP
+O
+[0..2) NP
+[2..4) VP
+[4..6) NP
+[6..7) PP
+[7..8) NP
+[8..9) NP
+[9..10) VP
+[10..11) PP
+[11..13) NP
+
+
+and they can go easily abroad in several times .
+
+()
+
+and_CC they_PRP can_MD go_VB easily_RB abroad_RB in_IN several_JJ times_NNS ._.
+O
+B-NP
+B-VP
+I-VP
+B-ADVP
+I-ADVP
+B-PP
+B-NP
+I-NP
+O
+[1..2) NP
+[2..4) VP
+[4..6) ADVP
+[6..7) PP
+[7..9) NP
+
+
+So in twenty years , there will be more transpotation .
+
+()
+
+So_RB in_IN twenty_CD years_NNS ,_, there_EX will_MD be_VB more_RBR transpotation_NN ._.
+O
+B-PP
+B-NP
+I-NP
+O
+B-NP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+[1..2) PP
+[2..4) NP
+[5..6) NP
+[6..8) VP
+[8..10) NP
+
+
+then the use of cars is reduce .
+
+()
+
+then_RB the_DT use_NN of_IN cars_NNS is_VBZ reduce_VB ._.
+B-ADVP
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+I-VP
+O
+[0..1) ADVP
+[1..3) NP
+[3..4) PP
+[4..5) NP
+[5..7) VP
+
+
+In this s ense the neumber of cars is declined .
+
+()
+
+In_IN this_DT s_PRP ense_VBP the_DT neumber_NN of_IN cars_NNS is_VBZ declined_VBN ._.
+B-PP
+B-NP
+B-NP
+B-VP
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+I-VP
+O
+[0..1) PP
+[1..2) NP
+[2..3) NP
+[3..4) VP
+[4..6) NP
+[6..7) PP
+[7..8) NP
+[8..10) VP
+
+
+Next , the air polution is the main issue in terms of environment all over the world .
+
+()
+
+Next_NNP ,_, the_DT air_NN polution_NN is_VBZ the_DT main_JJ issue_NN in_IN terms_NNS of_IN environment_NN all_DT over_IN the_DT world_NN ._.
+B-ADVP
+O
+B-NP
+I-NP
+I-NP
+B-VP
+B-NP
+I-NP
+I-NP
+B-PP
+B-NP
+B-PP
+B-NP
+B-NP
+B-PP
+B-NP
+I-NP
+O
+[0..1) ADVP
+[2..5) NP
+[5..6) VP
+[6..9) NP
+[9..10) PP
+[10..11) NP
+[11..12) PP
+[12..13) NP
+[13..14) NP
+[14..15) PP
+[15..17) NP
+
+
+Each country tries to reduce harm material .
+
+()
+
+Each_DT country_NN tries_VBZ to_TO reduce_VB harm_NN material_NN ._.
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-NP
+I-NP
+O
+[0..2) NP
+[2..5) VP
+[5..7) NP
+
+
+One solution is restriction that person do n't allow drive .
+
+()
+
+One_CD solution_NN is_VBZ restriction_NN that_IN person_NN do_VBP n't_RB allow_VB drive_NN ._.
+B-NP
+I-NP
+B-VP
+B-NP
+B-PP
+B-NP
+B-VP
+I-VP
+I-VP
+B-NP
+O
+[0..2) NP
+[2..3) VP
+[3..4) NP
+[4..5) PP
+[5..6) NP
+[6..9) VP
+[9..10) NP
+
+
+In Korea , new policy announce that a day of week do n't have to drive .
+
+()
+
+In_IN Korea_NNP ,_, new_JJ policy_NN announce_VBP that_IN a_DT day_NN of_IN week_NN do_VBP n't_RB have_VB to_TO drive_VB ._.
+B-PP
+B-NP
+O
+B-NP
+I-NP
+B-VP
+B-SBAR
+B-NP
+I-NP
+B-PP
+B-NP
+B-VP
+I-VP
+I-VP
+I-VP
+I-VP
+O
+[0..1) PP
+[1..2) NP
+[3..5) NP
+[5..6) VP
+[6..7) SBAR
+[7..9) NP
+[9..10) PP
+[10..11) NP
+[11..16) VP
+
+
+In case of my father do n't drive in friday .
+
+()
+
+In_IN case_NN of_IN my_PRP$ father_NN do_VBP n't_RB drive_VB in_IN friday_NN ._.
+B-PP
+B-NP
+B-PP
+B-NP
+I-NP
+B-VP
+I-VP
+I-VP
+B-PP
+B-NP
+O
+[0..1) PP
+[1..2) NP
+[2..3) PP
+[3..5) NP
+[5..8) VP
+[8..9) PP
+[9..10) NP
+
+
+In conclusion .
+
+()
+
+In_IN conclusion_NN ._.
+B-PP
+B-NP
+O
+[0..1) PP
+[1..2) NP
+
+
+in twenty years there will be fewer cars , Due to technology and air pollution .
+
+()
+
+in_IN twenty_CD years_NNS there_EX will_MD be_VB fewer_JJR cars_NNS ,_, Due_JJ to_TO technology_NN and_CC air_NN pollution_NN ._.
+B-PP
+B-NP
+I-NP
+B-ADVP
+B-VP
+I-VP
+B-NP
+I-NP
+O
+B-ADJP
+B-PP
+B-NP
+I-NP
+I-NP
+I-NP
+O
+[0..1) PP
+[1..3) NP
+[3..4) ADVP
+[4..6) VP
+[6..8) NP
+[9..10) ADJP
+[10..11) PP
+[11..15) NP
