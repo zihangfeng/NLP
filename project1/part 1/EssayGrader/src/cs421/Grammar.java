@@ -86,14 +86,16 @@ public class Grammar {
 	
 	// score 1.b
 	
-	public boolean SentenceSubAgree(POSSample sentencePOS,
+	public void SentenceSubAgree(POSSample sentencePOS,
 			String[] sentenceChunk, Span[] sentenceSpan, EssayResult essayR) {
 		
 		// TO check the sentence sub agreement 
+		// case 1 NP VP 
+		// case 2 NP PP NP VP
+		// case 3  beginning with WH word
+		// case 4 start with do / does / are / is 
 		
-		
-		
-		return true;
+		 
 	}
  
 	
@@ -134,8 +136,8 @@ public class Grammar {
 					 
 							 POSSample sample = new POSSample(whitespaceTokenizerLine, tags);
 							 POSresult=sample;
-						//	System.out.println(sample.toString());
-						//	System.out.println("POS end");
+							System.out.println(sample.toString());
+							System.out.println("POS end");
 								perfMon.incrementCounter();
 						}
 					  //	perfMon.stopAndPrintFinalResult();
