@@ -1,3 +1,4 @@
+
 package cs421;
 
 import java.io.File;
@@ -23,7 +24,7 @@ public class TheMain {
 		String[] sentenceChunk=null;
 		Span[] sentenceSpan=null;
 	 
-		Grammar.getChunkPOS(" There are four hurdles to jump.", sentencePOS, sentenceChunk, sentenceSpan );
+		Grammar.getChunkPOS("I think these dogs under the tree is not good.", sentencePOS, sentenceChunk, sentenceSpan );
 	     EssayAnalysis grader=EssayAnalysis.getEAinstance();
 	     ArrayList<Essay> essaySet = new ArrayList<Essay>();
 	      try
@@ -56,3 +57,4 @@ public class TheMain {
 		
 
 }
+
