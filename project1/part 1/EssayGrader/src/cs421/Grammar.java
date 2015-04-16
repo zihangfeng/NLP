@@ -87,14 +87,14 @@ public class Grammar {
 	
 	// score 1.b
 	
-	public boolean SentenceSubAgree(POSSample sentencePOS,
+	public void SentenceSubAgree(POSSample sentencePOS,
 			String[] sentenceChunk, Span[] sentenceSpan, EssayResult essayR) {
 		
 		// TO check the sentence sub agreement 
 		
 		
 		
-		return true;
+		 
 	}
  
 	
