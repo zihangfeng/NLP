@@ -4083,64 +4083,9 @@ O
 [16..19) ADVP
 
 
-More convenient and safe traffic things will replace the cars in the near future .
-
-()
-
-More_RBR convenient_JJ and_CC safe_JJ traffic_NN things_NNS will_MD replace_VB the_DT cars_NNS in_IN the_DT near_JJ future_NN ._.
-B-NP
-I-NP
-I-NP
-I-NP
-I-NP
-I-NP
-B-VP
-I-VP
-B-NP
-I-NP
-B-PP
-B-NP
-I-NP
-I-NP
-O
-[0..6) NP
-[6..8) VP
-[8..10) NP
-[10..11) PP
-[11..14) NP
-
-
-So I think there will be less cars after twenty years later .
-
-()
-
-So_RB I_PRP think_VBP there_EX will_MD be_VB less_JJR cars_NNS after_IN twenty_CD years_NNS later_RBR ._.
-O
-B-NP
-B-VP
-B-NP
-B-VP
-I-VP
-B-NP
-I-NP
-B-PP
-B-NP
-I-NP
-B-ADVP
-O
-[1..2) NP
-[2..3) VP
-[3..4) NP
-[4..6) VP
-[6..8) NP
-[8..9) PP
-[9..11) NP
-[11..12) ADVP
-
-
 I do not agree that in twenty years there will be fewer cars in use that today because people have been having the desire of having their own car to have convieint life and in 20 years , the price of the cars will be lower .
 
-()
+(conveneint not convient)
 
 I_PRP do_VBP not_RB agree_VB that_IN in_IN twenty_CD years_NNS there_EX will_MD be_VB fewer_JJR cars_NNS in_IN use_NN that_IN today_NN because_IN people_NNS have_VBP been_VBN having_VBG the_DT desire_NN of_IN having_VBG their_PRP$ own_JJ car_NN to_TO have_VB convieint_JJ life_NN and_CC in_IN 20_CD years_NNS ,_, the_DT price_NN of_IN the_DT cars_NNS will_MD be_VB lower_JJR ._.
 B-NP
@@ -4220,39 +4165,9 @@ O
 [45..46) ADJP
 
 
-First , in 20 years , there will be even more cars than today .
-
-()
-
-First_RB ,_, in_IN 20_CD years_NNS ,_, there_EX will_MD be_VB even_RB more_JJR cars_NNS than_IN today_NN ._.
-B-ADVP
-O
-B-PP
-B-NP
-I-NP
-O
-B-NP
-B-VP
-I-VP
-B-NP
-I-NP
-I-NP
-B-PP
-B-NP
-O
-[0..1) ADVP
-[2..3) PP
-[3..5) NP
-[6..7) NP
-[7..9) VP
-[9..12) NP
-[12..13) PP
-[13..14) NP
-
-
 Out economy and the state of living conditon have been better and better .
 
-()
+(our not out)
 
 Out_IN economy_NN and_CC the_DT state_NN of_IN living_VBG conditon_NN have_VBP been_VBN better_JJR and_CC better_JJR ._.
 B-SBAR
@@ -4278,44 +4193,9 @@ O
 [10..13) ADVP
 
 
-These days , people generally do not need to worry about food , place to live and clothes .
-
-()
-
-These_DT days_NNS ,_, people_NNS generally_RB do_VBP not_RB need_VB to_TO worry_VB about_IN food_NN ,_, place_NN to_TO live_VB and_CC clothes_NNS ._.
-B-NP
-I-NP
-O
-B-NP
-B-ADVP
-B-VP
-I-VP
-I-VP
-I-VP
-I-VP
-B-PP
-B-NP
-O
-B-NP
-B-VP
-I-VP
-O
-B-NP
-O
-[0..2) NP
-[3..4) NP
-[4..5) ADVP
-[5..10) VP
-[10..11) PP
-[11..12) NP
-[13..14) NP
-[14..16) VP
-[17..18) NP
-
-
 Nowadays , it is the problem of choosing so many options to enhence out life .
 
-()
+(enhance not enhence, out not out)
 
 Nowadays_RB ,_, it_PRP is_VBZ the_DT problem_NN of_IN choosing_VBG so_RB many_JJ options_NNS to_TO enhence_VB out_RP life_NN ._.
 B-ADVP
@@ -4343,168 +4223,6 @@ O
 [8..11) NP
 [11..13) VP
 [13..15) NP
-
-
-Since we live in a great life , we want to have more comfortable and easy life .
-
-()
-
-Since_IN we_PRP live_VBP in_IN a_DT great_JJ life_NN ,_, we_PRP want_VBP to_TO have_VB more_RBR comfortable_JJ and_CC easy_JJ life_NN ._.
-B-SBAR
-B-NP
-B-VP
-B-PP
-B-NP
-I-NP
-I-NP
-O
-B-NP
-B-VP
-I-VP
-I-VP
-B-NP
-I-NP
-I-NP
-I-NP
-I-NP
-O
-[0..1) SBAR
-[1..2) NP
-[2..3) VP
-[3..4) PP
-[4..7) NP
-[8..9) NP
-[9..12) VP
-[12..17) NP
-
-
-There was an interesting article of driving a car instead of using pubblic transportation .
-
-()
-
-There_EX was_VBD an_DT interesting_JJ article_NN of_IN driving_VBG a_DT car_NN instead_RB of_IN using_VBG pubblic_JJ transportation_NN ._.
-B-NP
-B-VP
-B-NP
-I-NP
-I-NP
-B-PP
-B-VP
-B-NP
-I-NP
-B-ADVP
-B-PP
-B-VP
-B-NP
-I-NP
-O
-[0..1) NP
-[1..2) VP
-[2..5) NP
-[5..6) PP
-[6..7) VP
-[7..9) NP
-[9..10) ADVP
-[10..11) PP
-[11..12) VP
-[12..14) NP
-
-
-The article says even if people know that the rush hour is painful , they prefer to drive their own car because it is simple to go out and go to the place where they want .
-
-()
-
-The_DT article_NN says_VBZ even_RB if_IN people_NNS know_VBP that_IN the_DT rush_NN hour_NN is_VBZ painful_JJ ,_, they_PRP prefer_VBP to_TO drive_VB their_PRP$ own_JJ car_NN because_IN it_PRP is_VBZ simple_JJ to_TO go_VB out_RP and_CC go_VB to_TO the_DT place_NN where_WRB they_PRP want_VBP ._.
-B-NP
-I-NP
-B-VP
-B-ADVP
-B-PP
-B-NP
-B-VP
-B-SBAR
-B-NP
-I-NP
-I-NP
-B-VP
-B-ADJP
-O
-B-NP
-B-VP
-I-VP
-I-VP
-B-NP
-I-NP
-I-NP
-B-SBAR
-B-NP
-B-VP
-B-ADJP
-B-VP
-I-VP
-B-ADVP
-O
-B-VP
-B-PP
-B-NP
-I-NP
-B-ADVP
-B-NP
-B-VP
-O
-[0..2) NP
-[2..3) VP
-[3..4) ADVP
-[4..5) PP
-[5..6) NP
-[6..7) VP
-[7..8) SBAR
-[8..11) NP
-[11..12) VP
-[12..13) ADJP
-[14..15) NP
-[15..18) VP
-[18..21) NP
-[21..22) SBAR
-[22..23) NP
-[23..24) VP
-[24..25) ADJP
-[25..27) VP
-[27..28) ADVP
-[29..30) VP
-[30..31) PP
-[31..33) NP
-[33..34) ADVP
-[34..35) NP
-[35..36) VP
-
-
-Second , it will be easier to buy cars in the future .
-
-()
-
-Second_JJ ,_, it_PRP will_MD be_VB easier_JJR to_TO buy_VB cars_NNS in_IN the_DT future_NN ._.
-B-ADVP
-O
-B-NP
-B-VP
-I-VP
-B-ADJP
-B-VP
-I-VP
-B-NP
-B-PP
-B-NP
-I-NP
-O
-[0..1) ADVP
-[2..3) NP
-[3..5) VP
-[5..6) ADJP
-[6..8) VP
-[8..9) NP
-[9..10) PP
-[10..12) NP
 
 
 The things that were used to be very expesive so we could not buy well are getting cheaper and cheaper .
