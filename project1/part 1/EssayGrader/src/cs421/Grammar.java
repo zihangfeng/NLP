@@ -135,7 +135,7 @@ public class Grammar {
 					 
 							 POSSample sample = new POSSample(whitespaceTokenizerLine, tags);
 							 POSresult=sample;
-						//	System.out.println(sample.toString());
+						 	System.out.println(sample.toString());
 						//	System.out.println("POS end");
 								perfMon.incrementCounter();
 						}
