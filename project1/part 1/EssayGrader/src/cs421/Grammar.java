@@ -60,7 +60,7 @@ public class Grammar {
     	// using third part tool for spelling check
     	this.SentenceSpellingCheck(sentence, essayR);
     	// get the word POS tag, chunk information and Span information
-    	POSSample sentencePOS = null;
+    	String[] sentencePOS = null;
 		String[] sentenceChunk=null;
 		Span[] sentenceSpan=null;
 		this.getChunkPOS(sentence, sentencePOS, sentenceChunk, sentenceSpan );
@@ -87,8 +87,57 @@ public class Grammar {
 	
 	// score 1.b
 	
-	public void SentenceSubAgree(POSSample sentencePOS,
+	public void SentenceSubAgree(String[] sentencePOS,
 			String[] sentenceChunk, Span[] sentenceSpan, EssayResult essayR) {
+		// case 0, check the VP in the sentence
+		if( !sentencePOS.toString().contains("VB")) return; 
+		String[] pos=sentencePOS;
+		// check the auxiliary verbs
+		if(pos[0].contains("VB")){
+		 if(pos[0].contains("does")||pos[0].contains("Does")||pos[0].contains("Has")||pos[0].contains("has")) {
+			 // we find a singular auxiliary verbs
+			 // find the real verb and NB
+			 int vi=-1, ni=-1;
+			 
+			 for(int i=1; i<sentenceSpan.length; i++){
+				if(sentenceSpan[i].toString().contains("NP")&&vi==-1) {vi=i;}
+				if(sentenceSpan[i].toString().contains("VP")&&ni==-1) {ni=i;break;} 
+			 }
+			 if(ni==-1) {
+				 // something similar to "do it as soon as possible!"
+				 essayR.addResult ("1.b") ;
+				 return ;}
+			 if(vi==-1) {
+				 // can not find anything to match. format is wrong
+				 // essayR.addResult("1.c");
+				  return;
+			 }
+			 for(int i=sentenceSpan[vi].getStart(); i<=sentenceSpan[vi].getEnd();i++){
+				if(pos[i].contains("NNS")||pos[i].contains("NNPS")) {
+					 essayR.addResult ("1.b") ;
+				}
+			 }
+			 
+			 
+			 
+			 
+		    }	
+		 else if(pos[0].contains("do")||pos[0].contains("Do")||pos[0].contains("Have")||pos[0].contains("have")) {
+			 
+		    }
+		 else if(pos[0].contains("Is")||pos[0].contains("is")) {
+			 
+		    }
+		 else if(pos[0].contains("are")||pos[0].contains("Are")) {
+			 
+		    }
+		   
+		}
+		// check two special case  start with do and how
+         if(pos[0].contains("WRB")){
+			
+			
+		}
 		
 		// TO check the sentence sub agreement 
 		
@@ -108,7 +157,7 @@ public class Grammar {
 	}
 	
 	
-	public static void getChunkPOS(String input, POSSample POSresult, String[] Chunkresult , Span[] sentenceSpan) {
+	public static void getChunkPOS(String input, String[] POSresult, String[] Chunkresult , Span[] sentenceSpan) {
 		InputStream is;
 		ChunkerModel cModel;
 		ChunkerME chunkerME;
@@ -134,7 +183,7 @@ public class Grammar {
 							tags = tagger.tag(whitespaceTokenizerLine);
 					 
 							 POSSample sample = new POSSample(whitespaceTokenizerLine, tags);
-							 POSresult=sample;
+							 POSresult=sample.toString().split(" ");
 						 	System.out.println(sample.toString());
 						//	System.out.println("POS end");
 								perfMon.incrementCounter();

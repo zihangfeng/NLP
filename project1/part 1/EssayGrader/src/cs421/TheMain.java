@@ -20,11 +20,11 @@ public class TheMain {
 		folderName[0] = "high";
 		folderName[1] = "medium";
 		folderName[2] = "low";
-		POSSample sentencePOS = null;
+		String[] sentencePOS = null;
 		String[] sentenceChunk=null;
 		Span[] sentenceSpan=null;
 	 
-		Grammar.getChunkPOS("A bouquet of yellow roses lend color and fragrance to the room.", sentencePOS, sentenceChunk, sentenceSpan );
+		Grammar.getChunkPOS("A bouquet of yellow roses lends color and fragrance to the room.", sentencePOS, sentenceChunk, sentenceSpan );
 	     EssayAnalysis grader=EssayAnalysis.getEAinstance();
 	     ArrayList<Essay> essaySet = new ArrayList<Essay>();
 	      try
