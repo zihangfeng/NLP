@@ -122,11 +122,14 @@ public class Grammar {
 				if(sentenceSpan[i].toString().contains("VP")&&ni==-1) {ni=i;break;} 
 			 }
 			 if(ni==-1) {
+				 essayR.addResult("1.b");
 				 // something similar to "do it as soon as possible!"
-				 essayR.addResult ("1.b") ;  return ;}
+				    return ;
+				 }
 			 if(vi==-1) {
 				 // can not find anything to match. format is wrong
-				  essayR.addResult("1.c");
+				 essayR.addResult("1.c");
+				
 				  return;
 			 }
 	
@@ -146,6 +149,8 @@ public class Grammar {
 			 }
 			
 
+		
+		
 		 SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, ni+1, essayR);
 			 
 		    }	
