@@ -193,10 +193,28 @@ public class Grammar {
 
 		}
 		// check two special case  start with do and how
-         if(pos[beg].toLowerCase().contains("wrb")){
-			
-        	 
-        	 
+         if(pos[beg].toLowerCase().contains("what")||pos[beg].toLowerCase().contains("how")
+					||pos[beg].toLowerCase().contains("when")||pos[beg].toLowerCase().contains("where")
+					||pos[beg].toLowerCase().contains("who")||pos[beg].toLowerCase().contains("whose")
+					||pos[beg].toLowerCase().contains("why")||pos[beg].toLowerCase().contains("which")
+					){
+        	 // VP ~ NP
+        	 int vi=-1, ni=-1;
+			 for( i=beg+1; i<sentenceSpan.length; i++){
+				if(sentenceSpan[i].toString().contains("NP")&&vi==-1) {vi=i;}
+				if(sentenceSpan[i].toString().contains("VP")&&ni==-1) {ni=i;break;} 
+			 }
+			 if(ni==-1) {
+				 essayR.addResult("1.b");
+				 // something similar to "do it as soon as possible!"
+				    return ;
+				 }
+			 if(vi==-1) {
+				 // can not find anything to match. format is wrong
+				 essayR.addResult("1.c");
+				
+				  return;
+			 }
         	 
         	 
 			
@@ -221,6 +239,8 @@ public class Grammar {
 	// score 1.c
 	
 	public void SentenceVerbCheck(String sentence, EssayResult essayR) {
+		
+		
 		
 		
 	}
