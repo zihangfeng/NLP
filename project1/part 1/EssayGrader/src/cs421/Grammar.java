@@ -112,8 +112,8 @@ public class Grammar {
             
 			
 		 if(pos[beg].toLowerCase().contains("does")||
-				 pos[beg].toLowerCase().contains("Has")||
-				 pos[beg].toLowerCase().contains("do")||pos[beg].toLowerCase().contains("Have")) {
+				 pos[beg].toLowerCase().contains("has")||
+				 pos[beg].toLowerCase().contains("do")||pos[beg].toLowerCase().contains("have")) {
 			 // we find a singular auxiliary verbs
 			 // find the real verb and NB
 			 int vi=-1, ni=-1;
@@ -130,7 +130,7 @@ public class Grammar {
 				  return;
 			 }
 	
-		if(pos[beg].toLowerCase().contains("does")||pos[beg].toLowerCase().contains("Has")) {
+		if(pos[beg].toLowerCase().contains("does")||pos[beg].toLowerCase().contains("has")) {
 		      for( i=sentenceSpan[vi].getStart(); i<=sentenceSpan[vi].getEnd();i++){
 						if(pos[i].contains("NNS")||pos[i].contains("NNPS")) {
 							 essayR.addResult ("1.b") ;
@@ -149,7 +149,7 @@ public class Grammar {
 		 SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, ni+1, essayR);
 			 
 		    }	
-		 else if(pos[beg].toLowerCase().contains("Is") || pos[beg].toLowerCase().contains("are")) {
+		 else if(pos[beg].toLowerCase().contains("is") || pos[beg].toLowerCase().contains("are")) {
 			 int ni=-1;
 			 for( i=beg+1; i<sentenceSpan.length; i++){
 				if(sentenceSpan[i].toString().contains("NP")&&ni==-1) {ni=i; break;}
@@ -161,7 +161,7 @@ public class Grammar {
 				  return;
 			 }
 			 
-			 if(pos[beg].equalsIgnoreCase("is")) {
+			 if(pos[beg].toLowerCase().contains("is")) {
 			     for( i=sentenceSpan[ni].getStart(); i<=sentenceSpan[ni].getEnd();i++){
 						if(pos[i].contains("NNS")||pos[i].contains("NNPS")) {
 							 essayR.addResult ("1.b") ;
@@ -188,7 +188,7 @@ public class Grammar {
 
 		}
 		// check two special case  start with do and how
-         if(pos[beg].equalsIgnoreCase("WRB")){
+         if(pos[beg].toLowerCase().contains("wrb")){
 			
         	 
         	 
