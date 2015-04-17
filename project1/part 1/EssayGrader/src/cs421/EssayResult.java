@@ -58,19 +58,19 @@ public class EssayResult {
 	{
 		 switch (result) {
 		 case "1.a" :
-			return resultLevel[0]++;  
+			return resultLevel[0];  
 		 case "1.b" :
-			 return  resultLevel[1]++; 
+			 return  resultLevel[1]; 
 		 case "1.c" :
-			 return  resultLevel[2]++; 
+			 return  resultLevel[2]; 
 		 case "1.d" :
-			 return resultLevel[3]++; 
+			 return resultLevel[3]; 
 		 case "2.a" :
-			 return resultLevel[4]++;
+			 return resultLevel[4];
 		 case "2.b" :
-			 return resultLevel[5]++;
+			 return resultLevel[5];
 		 case "3.a" :
-			 return resultLevel[6]++;
+			 return resultLevel[6];
 		 default:
 			 System.out.println("The input result type is not correct.");
 			 return -1;
