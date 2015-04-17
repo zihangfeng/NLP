@@ -90,7 +90,12 @@ public class Grammar {
 	public void SentenceSubAgree(String[] sentencePOS,
 			String[] sentenceChunk, Span[] sentenceSpan, EssayResult essayR) {
 		// case 0, check the VP in the sentence
-		if( !sentencePOS.toString().contains("VB")) return; 
+		int i=0;
+		for(; i<sentencePOS.length; i++) {
+			if (sentencePOS[i].contains("VB")) break;
+			//if( !sentencePOS.toString().contains("VB")) return; 
+		}
+		if( !sentencePOS[i].contains("VB")) return; 
 		String[] pos=sentencePOS;
 		// check the auxiliary verbs
 		if(pos[0].contains("VB")){
@@ -99,7 +104,7 @@ public class Grammar {
 			 // find the real verb and NB
 			 int vi=-1, ni=-1;
 			 
-			 for(int i=1; i<sentenceSpan.length; i++){
+			 for( i=1; i<sentenceSpan.length; i++){
 				if(sentenceSpan[i].toString().contains("NP")&&vi==-1) {vi=i;}
 				if(sentenceSpan[i].toString().contains("VP")&&ni==-1) {ni=i;break;} 
 			 }
@@ -112,11 +117,12 @@ public class Grammar {
 				 // essayR.addResult("1.c");
 				  return;
 			 }
-			 for(int i=sentenceSpan[vi].getStart(); i<=sentenceSpan[vi].getEnd();i++){
+			 for( i=sentenceSpan[vi].getStart(); i<=sentenceSpan[vi].getEnd();i++){
 				if(pos[i].contains("NNS")||pos[i].contains("NNPS")) {
 					 essayR.addResult ("1.b") ;
 				}
 			 }
+			 
 			 
 			 
 			 
