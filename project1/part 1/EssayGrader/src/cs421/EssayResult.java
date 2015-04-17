@@ -34,6 +34,7 @@ public class EssayResult {
 	
 	public void addResult(String result)
 	{
+		System.out.println("We find an error of type "+ result);
 		 switch (result) {
 		 case "1.a" :
 			 resultLevel[0]++; break;

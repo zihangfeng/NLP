@@ -64,7 +64,7 @@ public class Grammar {
 		String[] sentenceChunk=null;
 		Span[] sentenceSpan=null;
 		this.getChunkPOS(sentence, sentencePOS, sentenceChunk, sentenceSpan );
-    	this.SentenceSubAgree(sentencePOS,sentenceChunk,sentenceSpan, essayR);
+    	this.SentenceSubAgree(sentencePOS,sentenceChunk,sentenceSpan, 0, essayR);
     	this.SentenceVerbCheck(sentence, essayR);
     }
 
@@ -86,55 +86,75 @@ public class Grammar {
 	}
 	
 	// score 1.b
+	private void SentenceSubCheckWithoutHead(String[] sentencePOS,
+			String[] sentenceChunk, Span[] sentenceSpan, int beg,  EssayResult essayR){
+		int i=beg;
+		for(; i<sentencePOS.length; i++) {
+			if (sentencePOS[i].contains("VB")) break; 			
+			}
+		if( !sentencePOS[i].contains("VB")) return; 
+		
+		
+	}
 	
 	public void SentenceSubAgree(String[] sentencePOS,
-			String[] sentenceChunk, Span[] sentenceSpan, EssayResult essayR) {
+			String[] sentenceChunk, Span[] sentenceSpan, int beg,  EssayResult essayR) {
 		// case 0, check the VP in the sentence
-		int i=0;
+		int i=beg;
 		for(; i<sentencePOS.length; i++) {
-			if (sentencePOS[i].contains("VB")) break;
-			//if( !sentencePOS.toString().contains("VB")) return; 
-		}
+			if (sentencePOS[i].contains("VB")) break; 			
+			}
 		if( !sentencePOS[i].contains("VB")) return; 
+		
 		String[] pos=sentencePOS;
 		// check the auxiliary verbs
-		if(pos[0].contains("VB")){
-		 if(pos[0].contains("does")||pos[0].contains("Does")||pos[0].contains("Has")||pos[0].contains("has")) {
-			 // we find a singular auxiliary verbs
-			 // find the real verb and NB
-			 int vi=-1, ni=-1;
-			 
-			 for( i=1; i<sentenceSpan.length; i++){
+		if(pos[beg].contains("VB")){
+             int vi=-1, ni=-1;
+			 for( i=beg+1; i<sentenceSpan.length; i++){
 				if(sentenceSpan[i].toString().contains("NP")&&vi==-1) {vi=i;}
 				if(sentenceSpan[i].toString().contains("VP")&&ni==-1) {ni=i;break;} 
 			 }
 			 if(ni==-1) {
 				 // something similar to "do it as soon as possible!"
-				 essayR.addResult ("1.b") ;
-				 return ;}
+				 essayR.addResult ("1.b") ;  return ;}
 			 if(vi==-1) {
 				 // can not find anything to match. format is wrong
-				 // essayR.addResult("1.c");
+				  essayR.addResult("1.c");
 				  return;
 			 }
+	
+			
+		 if(pos[beg].contains("does")||pos[beg].contains("Does")||pos[beg].contains("Has")||pos[beg].contains("has")) {
+			 // we find a singular auxiliary verbs
+			 // find the real verb and NB
+			
+			 
 			 for( i=sentenceSpan[vi].getStart(); i<=sentenceSpan[vi].getEnd();i++){
 				if(pos[i].contains("NNS")||pos[i].contains("NNPS")) {
 					 essayR.addResult ("1.b") ;
 				}
 			 }
-			 
-			 
+
+		 SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, ni+1, essayR);
 			 
 			 
 			 
 		    }	
-		 else if(pos[0].contains("do")||pos[0].contains("Do")||pos[0].contains("Have")||pos[0].contains("have")) {
+		 else if(pos[beg].contains("do")||pos[beg].contains("Do")||pos[beg].contains("Have")||pos[beg].contains("have")) {
+            
+			 
+			 for( i=sentenceSpan[vi].getStart(); i<=sentenceSpan[vi].getEnd();i++){
+				if(pos[i].contains("NNS")||pos[i].contains("NNPS")) {
+					 essayR.addResult ("1.b") ;
+				}
+			 }
+
+			 SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, ni+1, essayR);
+		    }
+		 else if(pos[beg].contains("Is")||pos[beg].contains("is")) {
 			 
 		    }
-		 else if(pos[0].contains("Is")||pos[0].contains("is")) {
-			 
-		    }
-		 else if(pos[0].contains("are")||pos[0].contains("Are")) {
+		 else if(pos[beg].contains("are")||pos[beg].contains("Are")) {
 			 
 		    }
 		   
@@ -206,7 +226,7 @@ public class Grammar {
 						for (Span s : span)
 							System.out.println(s.toString());
 				        sentenceSpan=span;
-					 
+				        Chunkresult=result;
 					 
 					 
 					 

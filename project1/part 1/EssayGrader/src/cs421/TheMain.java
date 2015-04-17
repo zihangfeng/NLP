@@ -24,7 +24,7 @@ public class TheMain {
 		String[] sentenceChunk=null;
 		Span[] sentenceSpan=null;
 	 
-		Grammar.getChunkPOS("A bouquet of yellow roses lends color and fragrance to the room.", sentencePOS, sentenceChunk, sentenceSpan );
+		Grammar.getChunkPOS("I think that A bouquet of yellow roses lends color and fragrance to the room.", sentencePOS, sentenceChunk, sentenceSpan );
 	     EssayAnalysis grader=EssayAnalysis.getEAinstance();
 	     ArrayList<Essay> essaySet = new ArrayList<Essay>();
 	      try
