@@ -63,7 +63,7 @@ public class Grammar {
     	String[] sentencePOS = null;
 		String[] sentenceChunk=null;
 		Span[] sentenceSpan=null;
-		this.getChunkPOS(sentence, sentencePOS, sentenceChunk, sentenceSpan );
+		getChunkPOS(sentence, sentencePOS, sentenceChunk, sentenceSpan );
     	this.SentenceSubAgree(sentencePOS,sentenceChunk,sentenceSpan, 0, essayR);
     	this.SentenceVerbCheck(sentence, essayR);
     }
@@ -109,7 +109,14 @@ public class Grammar {
 		String[] pos=sentencePOS;
 		// check the auxiliary verbs
 		if(pos[beg].contains("VB")){
-             int vi=-1, ni=-1;
+            
+			
+		 if(pos[beg].toLowerCase().contains("does")||
+				 pos[beg].toLowerCase().contains("Has")||
+				 pos[beg].toLowerCase().contains("do")||pos[beg].toLowerCase().contains("Have")) {
+			 // we find a singular auxiliary verbs
+			 // find the real verb and NB
+			 int vi=-1, ni=-1;
 			 for( i=beg+1; i<sentenceSpan.length; i++){
 				if(sentenceSpan[i].toString().contains("NP")&&vi==-1) {vi=i;}
 				if(sentenceSpan[i].toString().contains("VP")&&ni==-1) {ni=i;break;} 
@@ -123,47 +130,78 @@ public class Grammar {
 				  return;
 			 }
 	
-			
-		 if(pos[beg].contains("does")||pos[beg].contains("Does")||pos[beg].contains("Has")||pos[beg].contains("has")) {
-			 // we find a singular auxiliary verbs
-			 // find the real verb and NB
-			
-			 
-			 for( i=sentenceSpan[vi].getStart(); i<=sentenceSpan[vi].getEnd();i++){
-				if(pos[i].contains("NNS")||pos[i].contains("NNPS")) {
-					 essayR.addResult ("1.b") ;
-				}
+		if(pos[beg].toLowerCase().contains("does")||pos[beg].toLowerCase().contains("Has")) {
+		      for( i=sentenceSpan[vi].getStart(); i<=sentenceSpan[vi].getEnd();i++){
+						if(pos[i].contains("NNS")||pos[i].contains("NNPS")) {
+							 essayR.addResult ("1.b") ;
+						}
+					 }	 
+			 }	
+	    else {
+				 for( i=sentenceSpan[vi].getStart(); i<=sentenceSpan[vi].getEnd();i++){
+						if(pos[i].contains("NN")&& !(pos[i].contains("NNS")||pos[i].contains("NNPS"))) {
+							 essayR.addResult ("1.b") ;
+						}
+					 }		 
 			 }
+			
 
 		 SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, ni+1, essayR);
 			 
-			 
-			 
 		    }	
-		 else if(pos[beg].contains("do")||pos[beg].contains("Do")||pos[beg].contains("Have")||pos[beg].contains("have")) {
-            
-			 
-			 for( i=sentenceSpan[vi].getStart(); i<=sentenceSpan[vi].getEnd();i++){
-				if(pos[i].contains("NNS")||pos[i].contains("NNPS")) {
-					 essayR.addResult ("1.b") ;
-				}
+		 else if(pos[beg].toLowerCase().contains("Is") || pos[beg].toLowerCase().contains("are")) {
+			 int ni=-1;
+			 for( i=beg+1; i<sentenceSpan.length; i++){
+				if(sentenceSpan[i].toString().contains("NP")&&ni==-1) {ni=i; break;}
 			 }
+	 
+			 if(ni==-1) {
+				 // can not find anything to match. format is wrong
+				  essayR.addResult("1.c");
+				  return;
+			 }
+			 
+			 if(pos[beg].equalsIgnoreCase("is")) {
+			     for( i=sentenceSpan[ni].getStart(); i<=sentenceSpan[ni].getEnd();i++){
+						if(pos[i].contains("NNS")||pos[i].contains("NNPS")) {
+							 essayR.addResult ("1.b") ;
+						}
+					 }	 
+				 
+				 
+			 }
+			 else {
+				 
+				 for( i=sentenceSpan[ni].getStart(); i<=sentenceSpan[ni].getEnd();i++){
+						if(pos[i].contains("NN")&& !(pos[i].contains("NNS")||pos[i].contains("NNPS"))) {
+							 essayR.addResult ("1.b") ;
+						}
+					 }	
+				 
+				 
+				 
+			 }
+			 
+			 
+			 
+		    }
 
-			 SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, ni+1, essayR);
-		    }
-		 else if(pos[beg].contains("Is")||pos[beg].contains("is")) {
-			 
-		    }
-		 else if(pos[beg].contains("are")||pos[beg].contains("Are")) {
-			 
-		    }
-		   
 		}
 		// check two special case  start with do and how
-         if(pos[0].contains("WRB")){
+         if(pos[beg].equalsIgnoreCase("WRB")){
 			
+        	 
+        	 
+        	 
+        	 
 			
 		}
+         else{
+        	 
+        SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, beg, essayR);	 
+        	 
+         } 
+        
 		
 		// TO check the sentence sub agreement 
 		
