@@ -105,7 +105,10 @@ public class EssayResult {
 	 
 	public void addtwo(EssayResult res1)
 	{
-		
+		for(int i = 0; i < 7; i++)
+		{
+			doubleValue[i]+= res1.getReslutDoubleValue()[i];
+		}
 	}
 	
 	public String toString()
