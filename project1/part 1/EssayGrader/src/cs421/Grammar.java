@@ -54,7 +54,7 @@ public class Grammar {
 
     public void getGrammarScore(Essay essay)throws IOException{
     	for(String s:essay.getEssay()){
-    		
+    		getSentenceScore(s, essay.getResultV());
     	}
      
     	
