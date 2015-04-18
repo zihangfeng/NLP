@@ -122,7 +122,8 @@ public class Grammar {
 				if(sentenceSpan[i].toString().contains("VP")&&ni==-1) {ni=i;break;} 
 			 }
 			 if(ni==-1) {
-				 essayR.addResult("1.b");
+				 // need to detemine
+				 essayR.addResult("1.c");
 				 // something similar to "do it as soon as possible!"
 				    return ;
 				 }
@@ -135,7 +136,8 @@ public class Grammar {
 	
 		if(pos[beg].toLowerCase().contains("does")||pos[beg].toLowerCase().contains("has")) {
 		      for( i=sentenceSpan[vi].getStart(); i<=sentenceSpan[vi].getEnd();i++){
-						if(pos[i].contains("NNS")||pos[i].contains("NNPS")) {
+						if(pos[i].contains("NNS")||pos[i].contains("NNPS")
+								||pos[i].toLowerCase().contains("you")||pos[i].toLowerCase().contains("i")) {
 							 essayR.addResult ("1.b") ;
 						}
 					 }	 
@@ -199,23 +201,42 @@ public class Grammar {
 					||pos[beg].toLowerCase().contains("why")||pos[beg].toLowerCase().contains("which")
 					){
         	 // VP ~ NP
-        	 int vi=-1, ni=-1;
+        	 int ni=-1, vi=-1;
 			 for( i=beg+1; i<sentenceSpan.length; i++){
-				if(sentenceSpan[i].toString().contains("NP")&&vi==-1) {vi=i;}
-				if(sentenceSpan[i].toString().contains("VP")&&ni==-1) {ni=i;break;} 
+				if(sentenceSpan[i].toString().contains("NP")&&ni==-1) {ni=i;}
+				if(sentenceSpan[i].toString().contains("VP")&&vi==-1) {vi=i;} 
 			 }
-			 if(ni==-1) {
-				 essayR.addResult("1.b");
+			 if(ni==-1 || vi==-1 || vi>ni) {
+				 essayR.addResult("1.c");
 				 // something similar to "do it as soon as possible!"
 				    return ;
 				 }
-			 if(vi==-1) {
-				 // can not find anything to match. format is wrong
-				 essayR.addResult("1.c");
-				
-				  return;
+		   // check NP and VP
+			 int NPflag=1, VPflag=1;
+		     for( i=sentenceSpan[ni].getStart(); i<=sentenceSpan[ni].getEnd();i++){
+						if(pos[i].contains("NNS")||pos[i].contains("NNPS")) {
+							NPflag=2;
+						}
+					 }	
+		     for( i=sentenceSpan[vi].getStart(); i<=sentenceSpan[vi].getEnd();i++){
+					if(pos[i].contains("VBZ")) { NPflag=1; 	}
+					else  {
+						 VPflag=2; 	
+					}
+				 }	
+			 // find a error
+		     if(NPflag>VPflag){
+		    	 essayR.addResult ("1.b") ;
+		     }
+		     i=ni+1;
+        	   vi=-1;
+			 for( ; i<sentenceSpan.length; i++){
+				if(sentenceSpan[i].toString().contains("VP")&&vi==-1) {vi=i; break;} 
 			 }
-        	 
+			 if(vi==-1) {return;}
+			 else {
+		  SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, vi+1, essayR);		 
+			 }
         	 
 			
 		}
@@ -226,7 +247,7 @@ public class Grammar {
          } 
         
 		
-		// TO check the sentence sub agreement 
+	
 		
 		
 		
