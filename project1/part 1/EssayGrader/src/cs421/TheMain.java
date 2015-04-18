@@ -22,7 +22,7 @@ public class TheMain {
 		folderName[2] = "low";
 		chunkResult CR=new chunkResult();
 		EssayResult essayR=new EssayResult();
-		Grammar.getChunkPOS("does you like this room?", CR );
+		Grammar.getChunkPOS("Have she like this room?", CR );
 	    Grammar.getInstance().SentenceSubAgree(CR, 0, essayR);	 
 		EssayAnalysis grader=EssayAnalysis.getEAinstance();
 	     ArrayList<Essay> essaySet = new ArrayList<Essay>();
