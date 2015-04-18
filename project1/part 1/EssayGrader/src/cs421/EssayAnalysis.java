@@ -26,9 +26,7 @@ public class EssayAnalysis {
 				analysisGrammer(content.get(i));
 				analysisSemantic(content.get(i));
 				analysisWords(content.get(i));
-				
 			}
-
 
 	}
     // we need to do some grammar check here
@@ -44,6 +42,7 @@ public class EssayAnalysis {
 	
 	private void analysisWords(Essay essay) {
 		LengthAndWord lengObj = LengthAndWord.getInstance();
+		lengObj.getLengthScore(essay);
 	}
 	
 	

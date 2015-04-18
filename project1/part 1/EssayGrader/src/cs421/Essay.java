@@ -55,6 +55,14 @@ public class Essay {
         }
 	}
 	
+	public ArrayList<String> getEssay()
+	{
+		return essay;
+	}
 	
 	
+	public void outputEssayStat()
+	{
+		
+	}
 }

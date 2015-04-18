@@ -24,26 +24,26 @@ public class LengthAndWord {
 		return LAWinstance;
 	}
 	
-	public double getLengthScore(ArrayList<String> theEssay)
+	public double getLengthScore(Essay essay)
 	{
-		if(theEssay.size() == 0)
+		if(essay.getEssay().size() == 0)
 			return 0.0;
 		
 		double length, adAdj;
-		length = EssayLength(theEssay);
-		adAdj = FindAdverbAdj(theEssay);
+		length = EssayLength(essay.getEssay());
+		adAdj = FindAdverbAdj(essay.getEssay());
 		LengthScores = length + adAdj;
 		return LengthScores;
 	}
 	
-	private double EssayLength(ArrayList<String> theEssay)
+	private double EssayLength(ArrayList<String> essay)
 	{
-		int size = theEssay.size();
+		int size = essay.size();
 		
 		int sum = 0;
 		for(int i = 0; i < size; i++)
 		{
-			StringTokenizer temp = new StringTokenizer(theEssay.get(i));
+			StringTokenizer temp = new StringTokenizer(essay.get(i));
 			sum += temp.countTokens() - 1;
 		}
 		
@@ -51,16 +51,16 @@ public class LengthAndWord {
 		return average;
 	}
 	
-	private double FindAdverbAdj(ArrayList<String> theEssay)
+	private double FindAdverbAdj(ArrayList<String> essay)
 	{
 
 	//	MaxentTagger tagger =  new MaxentTagger("english-left3words-distsim.tagger");
 		
-		int size = theEssay.size();
+		int size = essay.size();
 		int j=0;
 		for(int i = 0; i < size; i++)
 		{
-			String tagged = tagger.tagString(theEssay.get(i));
+			String tagged = tagger.tagString(essay.get(i));
 		    
 		    Pattern p = Pattern.compile("JJ");
 		    Matcher m = p.matcher(tagged);
