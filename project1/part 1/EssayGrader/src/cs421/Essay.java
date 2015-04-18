@@ -25,7 +25,10 @@ public class Essay {
 	}
 	
 	 
-
+	public String getmarkedResult()
+	{
+		return markedLevel;
+	}
 	public void setEssay(File file, String level) throws IOException
 	{
 		// we also need to update the file's final result

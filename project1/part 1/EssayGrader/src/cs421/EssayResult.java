@@ -103,7 +103,7 @@ public class EssayResult {
 		 }
 	}
 	 
-	public void addAverage(EssayResult res1, EssayResult res2)
+	public void addtwo(EssayResult res1)
 	{
 		
 	}

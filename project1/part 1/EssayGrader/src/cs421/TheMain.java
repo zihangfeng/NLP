@@ -54,24 +54,10 @@ public class TheMain {
 			        		 essaySet.add(essays);
 			        	 }
 		         }
-		         
-		 		
-		         
-		         EssayResult low = new EssayResult();
-		         EssayResult medium = new EssayResult();
-		         EssayResult high = new EssayResult();
-		         int lowSize = 0;
-		         int mediumSize = 0;
-		         int highSize = 0;
-		         int size = essaySet.size();
-		         for(int j = currentLevelFile; j < size; j++)
-		         {
-		        	
-		         }
+
 	    	 }
 	    	 
 
-	    	 
 	    	 
 	    	 EssayAnalysis analysisObj = EssayAnalysis.getEAinstance();
 	    	 analysisObj.analysisAll(essaySet);
@@ -85,6 +71,50 @@ public class TheMain {
 	    	 }
 	    	 
 	    	 
+
+	         EssayResult low = new EssayResult();
+	         EssayResult medium = new EssayResult();
+	         EssayResult high = new EssayResult();
+	         int lowSize = 0;
+	         int mediumSize = 0;
+	         int highSize = 0;
+	    	 
+	         for(int i=0; i<size;i++){
+	        	 EssayResult er= essaySet.get(i).getResultV();
+	        	 if(essaySet.get(i).getmarkedResult().equals("high"))
+	        	 {
+	        		highSize++;
+	        		high.addtwo(er);
+	        	 }
+	        	 else if(essaySet.get(i).getmarkedResult().equals("medium"))
+	        	 {
+		        		mediumSize++;
+		        		medium.addtwo(er);	        		 
+	        	 }
+	        	 else if(essaySet.get(i).getmarkedResult().equals("low"))
+	        	 {
+		        		lowSize++;
+		        		low.addtwo(er);	        		 
+	        	 }
+	        	 else
+	        	 {
+	        		 System.out.println("Something is wrong with file");
+	        	 }
+	   
+	        	 
+	     		String[] testPath = new String[3]; 
+	     		testPath[0] = "P5\\P5-tokenized\\high";
+	     		testPath[1] = "P5\\P5-tokenized\\medium";
+	     		testPath[2] = "P5\\P5-tokenized\\low";
+	    		
+	    		String[] testName = new String[3];
+	    		testName[0] = "high";
+	    		testName[1] = "low";
+	    		testName[2] = "medium"; 
+	        	 
+	         }
+	         
+	         
 	      }
 	      catch(Exception e)
 	      {
