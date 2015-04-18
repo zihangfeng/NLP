@@ -105,9 +105,9 @@ public class Grammar {
 			String[] sentenceChunk, Span[] sentenceSpan, int beg,  EssayResult essayR) {
 		// case 0, check the VP in the sentence
 		int i=beg;
-		if(sentencePOS==null &&sentenceChunk==null ) {System.out.println("the index " + i); return;}
+				
 		for( ;i<sentencePOS.length; i++) {
-			System.out.println("the index" + i);
+		
 			if (sentencePOS[i].contains("VB")) break; 			
 			}
 		if( !sentencePOS[i].contains("VB")) return; 
@@ -123,10 +123,12 @@ public class Grammar {
 			 // we find a singular auxiliary verbs
 			 // find the real verb and NB
 			 int vi=-1, ni=-1;
-			 for( i=beg+1; i<sentenceSpan.length; i++){
+			 for( i=beg; i<sentenceSpan.length; i++){
+			//	 System.out.println("the index i " + i + "   "+ sentenceSpan[i].toString() );
 				if(sentenceSpan[i].toString().contains("NP")&&vi==-1) {vi=i;}
 				if(sentenceSpan[i].toString().contains("VP")&&ni==-1) {ni=i;break;} 
 			 }
+			//	System.out.println("the index ni " + ni + " vi "+ vi + " beg " + beg);
 			 if(ni==-1) {
 				 // need to detemine
 				 essayR.addResult("1.c");
@@ -144,14 +146,16 @@ public class Grammar {
 		      for( i=sentenceSpan[vi].getStart(); i<=sentenceSpan[vi].getEnd();i++){
 						if(pos[i].contains("NNS")||pos[i].contains("NNPS")
 								||pos[i].toLowerCase().contains("you")||pos[i].toLowerCase().contains("i")) {
-							 essayR.addResult ("1.b") ;
+	   System.out.println(" Case 1======================" );
+							essayR.addResult ("1.b") ;
 						}
 					 }	 
 			 }	
 	    else {
 				 for( i=sentenceSpan[vi].getStart(); i<=sentenceSpan[vi].getEnd();i++){
 						if((pos[i].contains("NN") && !(pos[i].contains("NNS")||pos[i].contains("NNPS")))||pos[i].toLowerCase().contains("he")) {
-							 essayR.addResult ("1.b") ;
+			System.out.println(" Case 2======================" );					
+							essayR.addResult ("1.b") ;
 						}
 					 }		 
 			 }
