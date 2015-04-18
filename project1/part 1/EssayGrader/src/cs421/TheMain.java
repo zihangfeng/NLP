@@ -69,7 +69,7 @@ public class TheMain {
 	    	 analysisObj.analysisAll(essaySet);
 	    	     	 
 	    	 PrintWriter outputStream = null;
-	    	 outputStream = new PrintWriter(new FileOutputStream("FinalScores.txt"));
+	    	 outputStream = new PrintWriter(new FileOutputStream("FinalScores.txt"), true);
 	    	 int size = essaySet.size();
 	    	 for(int i = 0; i < size; i++)
 	    	 {

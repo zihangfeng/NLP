@@ -53,7 +53,9 @@ public class Grammar {
 	
 
     public void getGrammarScore(Essay essay)throws IOException{
-    	
+    	for(essay.getEssay()){
+    		
+    	}
      
     	
     }
