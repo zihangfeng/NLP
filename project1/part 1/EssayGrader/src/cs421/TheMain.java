@@ -26,11 +26,13 @@ public class TheMain {
 		folderName[0] = "high";
 		folderName[1] = "medium";
 		folderName[2] = "low";
-		chunkResult CR=new chunkResult();
-		EssayResult essayR=new EssayResult();
-		Grammar.getChunkPOS("why they like this room?", CR );
-	    Grammar.getInstance().SentenceSubAgree(CR, 0, essayR);	
-	    Grammar.getInstance().SentenceSpellingCheck( "ss", essayR);
+		
+	//	chunkResult CR=new chunkResult();
+    //	EssayResult essayR=new EssayResult();
+	//	Grammar.getChunkPOS("why they like this room?", CR );
+	//    Grammar.getInstance().SentenceSubAgree(CR, 0, essayR);	
+	//    Grammar.getInstance().SentenceSpellingCheck( "ss", essayR);
+		
 	 	EssayAnalysis grader=EssayAnalysis.getEAinstance();
 	     ArrayList<Essay> essaySet = new ArrayList<Essay>();
 	      try
