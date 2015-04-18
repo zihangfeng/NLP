@@ -158,7 +158,8 @@ public class Grammar {
 	SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, sentenceSpan[ni].getEnd(), essayR);
 				 
 			    }	
-			 else if(pos[beg].toLowerCase().contains("is_vb") || pos[beg].toLowerCase().contains("are_vb")) {
+			 else if(pos[beg].toLowerCase().contains("is_vb") 
+					 || pos[beg].toLowerCase().contains("are_vb")) {
 				 int ni=-1;
 				 for( i=beg; i<sentenceSpan.length; i++){
 					if(sentenceSpan[i].toString().contains("NP")&&ni==-1) {ni=i; break;}
@@ -178,7 +179,7 @@ public class Grammar {
 									||pos[i].toLowerCase().contains("they_prp")
 									) {
 					System.out.println(" Case 3======================"+ pos[i] + "==== " +i );
-								 essayR.addResult ("1.b") ;
+								 essayR.addResult ("1.b") ; break;
 							}
 						 }	 
 					 
@@ -190,7 +191,7 @@ public class Grammar {
 						 if((pos[i].contains("NN") && !(pos[i].contains("NNS")||pos[i].contains("NNPS")))
 								 ||pos[i].toLowerCase().contains("he_prp")) {
 				System.out.println(" Case 4======================"+ pos[i] + "==== " +i );
-								 essayR.addResult ("1.b") ;
+								 essayR.addResult ("1.b") ; break;
 							}
 						 }	
 					 
