@@ -1,5 +1,6 @@
 package cs421;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class EssayAnalysis {
@@ -11,7 +12,7 @@ public class EssayAnalysis {
 		return EAinstance;
 	}
 	
-	public void analysisAll(ArrayList<Essay> content)
+	public void analysisAll(ArrayList<Essay> content) throws IOException
 	{
 		int size = content.size();
 		
@@ -30,7 +31,7 @@ public class EssayAnalysis {
 
 	}
     // we need to do some grammar check here
-	private void analysisGrammer(Essay essay){
+	private void analysisGrammer(Essay essay) throws IOException{
 		Grammar gramObj= Grammar.getInstance();
 		gramObj.getGrammarScore(essay);
 		

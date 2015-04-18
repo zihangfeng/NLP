@@ -52,7 +52,9 @@ public class Grammar {
 	}
 	
 
-    public void getGrammarScore(Essay essay){
+    public void getGrammarScore(Essay essay)throws IOException{
+    	
+     
     	
     }
 	
@@ -60,12 +62,12 @@ public class Grammar {
     	// using third part tool for spelling check
     	this.SentenceSpellingCheck(sentence, essayR);
     	// get the word POS tag, chunk information and Span information
-    	String[] sentencePOS = null;
-		String[] sentenceChunk=null;
-		Span[] sentenceSpan=null;
-	//	getChunkPOS(sentence, sentencePOS, sentenceChunk, sentenceSpan );
-    //	this.SentenceSubAgree(sentencePOS,sentenceChunk,sentenceSpan, 0, essayR);
-    //	this.SentenceVerbCheck(sentence, essayR);
+    	chunkResult CR=new chunkResult();
+    	getChunkPOS(sentence, CR );
+    	SentenceSpellingCheck(sentence, essayR);
+    	SentenceSubAgree(CR, 0, essayR);
+    	SentenceVerbCheck(CR, 0, essayR);
+	
     }
 
 
@@ -110,6 +112,8 @@ public class Grammar {
 				essayR.addResult("1.c"); return;
 			}
 			else {
+				
+				
 				
 			}
 			
@@ -320,7 +324,7 @@ public class Grammar {
 	
 	// score 1.c
 	
-	public void SentenceVerbCheck(String sentence, EssayResult essayR) {
+	public void SentenceVerbCheck(chunkResult CR, int beg, EssayResult essayR) {
 		
 		
 		
