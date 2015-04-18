@@ -2,6 +2,8 @@
 package cs421;
 
 import java.io.File;
+import java.io.FileOutputStream;
+import java.io.PrintWriter;
 import java.util.*;
 
 import opennlp.tools.postag.POSSample;
@@ -28,6 +30,7 @@ public class TheMain {
 	     ArrayList<Essay> essaySet = new ArrayList<Essay>();
 	      try
 	      {      
+	    	 int currentLevelFile = 0;
 	    	 for(int i = 0; i < 3; i++)
 	    	 {
 	    	 
@@ -44,7 +47,29 @@ public class TheMain {
 			        		 essaySet.add(essays);
 			        	 }
 		         }
+		         
+		         int size = essaySet.size();
+		         for(int j = currentLevelFile; j < size; j++)
+		         {
+		        	 
+		         }
 	    	 }
+	    	 
+
+	    	 
+	    	 
+	    	 EssayAnalysis analysisObj = EssayAnalysis.getEAinstance();
+	    	 analysisObj.analysisAll(essaySet);
+	    	     	 
+	    	 PrintWriter outputStream = null;
+	    	 outputStream = new PrintWriter(new FileOutputStream("FinalScores.txt"));
+	    	 int size = essaySet.size();
+	    	 for(int i = 0; i < size; i++)
+	    	 {
+	    		 essaySet.get(i).outputEssayStat(outputStream);
+	    	 }
+	    	 
+	    	 
 	      }
 	      catch(Exception e)
 	      {

@@ -5,11 +5,13 @@ import java.util.ArrayList;
 public class EssayResult {
 	private int[] resultLevel;
 	private double[] doubleValue;
+	private double sum;
 	 
 	public EssayResult()
 	{
 		resultLevel = new int[7];
 		doubleValue = new double[7];
+		sum = 0.0;
 	}
 	
 	public void update(int value)
@@ -111,6 +113,15 @@ public class EssayResult {
 				Integer.toString(resultLevel[5]) + " " +
 				Integer.toString(resultLevel[6]);
 			   
+	}
+	
+	public double getFinalValue()
+	{
+		for(int i = 0; i < 7; i++)
+		{
+			sum += doubleValue[i]; 
+		}
+		return sum;
 	}
  
 }
