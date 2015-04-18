@@ -72,15 +72,18 @@ public class Grammar {
 
 	// score 1.a
 	public void SentenceSpellingCheck(String sentence, EssayResult essayR) throws IOException
-	{
-		List<RuleMatch> matches = langTool.check(" He have all my documents .");
+	{    // sentence=" He have all my docments .";
+		List<RuleMatch> matches = langTool.check(sentence);
 		 
 		for (RuleMatch match : matches) {
-		  System.out.println("Potential error at line " +
-		      match.getLine() + ", column " +
-		      match.getColumn() + ": " + match.getMessage());
-		  System.out.println("Suggested correction: " +
-		      match.getSuggestedReplacements());
+		 if(	match.getMessage().contains("spelling mistake")) {
+			 essayR.addResult("1.a"); 
+		 }
+		 // System.out.println("Potential error at line " +
+		  //    match.getLine() + ", column " +
+		 //     match.getColumn() + ": " + match.getMessage());
+		 // System.out.println("Suggested correction: " +
+		 //     match.getSuggestedReplacements());
 		}
 		
 	}
