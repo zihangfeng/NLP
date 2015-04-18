@@ -42,7 +42,7 @@ public class EssayAnalysis {
 	
 	private void analysisWords(Essay essay) {
 		LengthAndWord lengObj = LengthAndWord.getInstance();
-		lengObj.getLengthScore(essay);
+		lengObj.setLengthScore(essay);
 	}
 	
 	

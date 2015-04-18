@@ -24,16 +24,17 @@ public class LengthAndWord {
 		return LAWinstance;
 	}
 	
-	public double getLengthScore(Essay essay)
+	public void setLengthScore(Essay essay)
 	{
 		if(essay.getEssay().size() == 0)
-			return 0.0;
+			return;
 		
 		double length, adAdj;
 		length = EssayLength(essay.getEssay());
 		adAdj = FindAdverbAdj(essay.getEssay());
 		LengthScores = length + adAdj;
-		return LengthScores;
+		EssayResult res = essay.getResultV();
+		res.setResult("3a", (int)LengthScores);
 	}
 	
 	private double EssayLength(ArrayList<String> essay)

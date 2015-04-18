@@ -63,6 +63,10 @@ public class Essay {
 		return essay;
 	}
 	
+	public EssayResult getResultV()
+	{
+		return res;
+	}
 	
 	public void outputEssayStat(PrintWriter outputStream)
 	{
