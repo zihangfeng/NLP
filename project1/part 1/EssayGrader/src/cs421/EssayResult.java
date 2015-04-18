@@ -4,10 +4,34 @@ import java.util.ArrayList;
 // 1.a 1.b 1.c 1.d  2.a 2.b 3.a
 public class EssayResult {
 	private int[] resultLevel;
+	private double[] doubleValue;
 	 
 	public EssayResult()
 	{
 		resultLevel = new int[7];
+		doubleValue = new double[7];
+	}
+	
+	public void update(int value)
+	{
+		if(value > 0)
+		{
+			for(int i = 0; i < 7; i++)
+			{
+				doubleValue[i] = (double)resultLevel[i]/value;
+			}
+		}
+		else
+		{
+			System.out.println("value can't be 0 or under");
+			System.exit(0);
+		}
+		
+	}
+	
+	public double[] getReslutDoubleValue()
+	{
+		return doubleValue;
 	}
 	
 	public void setResult(String result, int count)
