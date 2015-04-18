@@ -100,7 +100,7 @@ public class Grammar {
 		for(; i<sentencePOS.length; i++) {
 			if (sentencePOS[i].contains("VB")) break; 			
 			}
-		if( !sentencePOS[i].contains("VB")) return; 
+		if( i < sentencePOS.length && !sentencePOS[i].contains("VB")) return; 
 		// we need find the start point of the span
 		int spanbeg=0;
 		for(; spanbeg<sentenceSpan.length; spanbeg++) {
@@ -303,7 +303,7 @@ public class Grammar {
 		
 			if (sentencePOS[i].contains("VB")) break; 			
 			}
-		if( !sentencePOS[i].contains("VB")) {  essayR.addResult("1.c"); return;} 
+		if( i < sentencePOS.length && !sentencePOS[i].contains("VB")) {  essayR.addResult("1.c"); return;} 
 		
 		String[] pos=sentencePOS;
           

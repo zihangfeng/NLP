@@ -55,6 +55,7 @@ public class TheMain {
 			        	 }
 		         }
 		         
+		 		
 		         int size = essaySet.size();
 		         for(int j = currentLevelFile; j < size; j++)
 		         {
