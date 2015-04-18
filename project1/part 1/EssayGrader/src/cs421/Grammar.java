@@ -101,66 +101,66 @@ public class Grammar {
 	public void SentenceSubAgree(chunkResult CR, int beg, EssayResult essayR){
 		SentenceSubAgree(CR.sentencePOS, CR.sentenceChunk, CR.sentenceSpan, beg, essayR);
 	}
+	
+	
 	private void checkSubAgreeRule1(String[] sentencePOS,
-			String[] sentenceChunk, Span[] sentenceSpan, int beg,  EssayResult essayR){
+		String[] sentenceChunk, Span[] sentenceSpan, int beg,  EssayResult essayR){
 		int i=beg;
 		String[] pos=sentencePOS;
 		if(pos[beg].contains("VB")){
             
 			
-			 if(pos[beg].toLowerCase().contains("does")||
-					 pos[beg].toLowerCase().contains("has")||
-					 pos[beg].toLowerCase().contains("do")||pos[beg].toLowerCase().contains("have")) {
+			 if(pos[beg].toLowerCase().contains("does_vb")||
+					 pos[beg].toLowerCase().contains("has_vb")||
+					 pos[beg].toLowerCase().contains("do_vb")
+					 ||pos[beg].toLowerCase().contains("have_vb")) {
 				 // we find a singular auxiliary verbs
 				 // find the real verb and NB
 				 int vi=-1, ni=-1;
 				 for( i=beg; i<sentenceSpan.length; i++){
 				//	 System.out.println("the index i " + i + "   "+ sentenceSpan[i].toString() );
 					if(sentenceSpan[i].toString().contains("NP")&&vi==-1) {vi=i;}
-					if(sentenceSpan[i].toString().contains("VP")&&ni==-1) {ni=i;break;} 
+					if(sentenceSpan[i].toString().contains("VP")&&ni==-1) {ni=i;} 
 				 }
 				//	System.out.println("the index ni " + ni + " vi "+ vi + " beg " + beg);
-				 if(ni==-1) {
+				 if(ni==-1 || vi==-1) {
 					 // need to detemine
 					 essayR.addResult("1.c");
 					 // something similar to "do it as soon as possible!"
 					    return ;
 					 }
-				 if(vi==-1) {
-					 // can not find anything to match. format is wrong
-					 essayR.addResult("1.c");
-					
-					  return;
-				 }
+				
 		
 			if(pos[beg].toLowerCase().contains("does")||pos[beg].toLowerCase().contains("has")) {
 			      for( i=sentenceSpan[vi].getStart(); i<sentenceSpan[vi].getEnd();i++){
 							if(pos[i].contains("NNS")||pos[i].contains("NNPS")
-									||pos[i].toLowerCase().contains("you_prp")||pos[i].toLowerCase().contains("i_prp")) {
-		   System.out.println(" Case 1======================"+ pos[i] + "==== " +i );
-								essayR.addResult ("1.b") ;
+									||pos[i].toLowerCase().contains("you_prp")
+									||pos[i].toLowerCase().contains("i_prp")
+									||pos[i].toLowerCase().contains("they_prp")
+									) {
+		 //  System.out.println(" Case 1======================"+ pos[i] + "==== " +i );
+								essayR.addResult ("1.b") ; break;
 							}
 						 }	 
 				 }	
 		    else {
-					 for( i=sentenceSpan[vi].getStart(); i<sentenceSpan[vi].getEnd();i++){
+		for( i=sentenceSpan[vi].getStart(); i<sentenceSpan[vi].getEnd();i++){
 							if((pos[i].contains("NN") && !(pos[i].contains("NNS")
-									||pos[i].contains("NNPS")))||pos[i].toLowerCase().contains("he_prp")) {
-				System.out.println(" Case 2======================" );					
-								essayR.addResult ("1.b") ;
+									||pos[i].contains("NNPS")))
+									||pos[i].toLowerCase().contains("he_prp")) {
+			//	System.out.println(" Case 2======================" );					
+								essayR.addResult ("1.b") ; break;
 							}
 						 }		 
 				 }
 				
 
-			
-			
-			 SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, ni+1, essayR);
+	SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, sentenceSpan[ni].getEnd(), essayR);
 				 
 			    }	
-			 else if(pos[beg].toLowerCase().contains("is") || pos[beg].toLowerCase().contains("are")) {
+			 else if(pos[beg].toLowerCase().contains("is_vb") || pos[beg].toLowerCase().contains("are_vb")) {
 				 int ni=-1;
-				 for( i=beg+1; i<sentenceSpan.length; i++){
+				 for( i=beg; i<sentenceSpan.length; i++){
 					if(sentenceSpan[i].toString().contains("NP")&&ni==-1) {ni=i; break;}
 				 }
 		 
@@ -171,10 +171,13 @@ public class Grammar {
 				 }
 				 
 				 if(pos[beg].toLowerCase().contains("is")) {
-				     for( i=sentenceSpan[ni].getStart(); i<=sentenceSpan[ni].getEnd();i++){
+				     for( i=sentenceSpan[ni].getStart(); i<sentenceSpan[ni].getEnd();i++){
 							if(pos[i].contains("NNS")||pos[i].contains("NNPS")
 									||pos[i].toLowerCase().contains("you_prp")
-									||pos[i].toLowerCase().contains("i_prp")	) {
+									||pos[i].toLowerCase().contains("i_prp")
+									||pos[i].toLowerCase().contains("they_prp")
+									) {
+					System.out.println(" Case 3======================"+ pos[i] + "==== " +i );
 								 essayR.addResult ("1.b") ;
 							}
 						 }	 
@@ -183,9 +186,10 @@ public class Grammar {
 				 }
 				 else {
 					 
-					 for( i=sentenceSpan[ni].getStart(); i<=sentenceSpan[ni].getEnd();i++){
+					 for( i=sentenceSpan[ni].getStart(); i<sentenceSpan[ni].getEnd();i++){
 						 if((pos[i].contains("NN") && !(pos[i].contains("NNS")||pos[i].contains("NNPS")))
 								 ||pos[i].toLowerCase().contains("he_prp")) {
+				System.out.println(" Case 4======================"+ pos[i] + "==== " +i );
 								 essayR.addResult ("1.b") ;
 							}
 						 }	
@@ -272,8 +276,9 @@ public class Grammar {
 		
 		String[] pos=sentencePOS;
           
-        	 
-        SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, beg, essayR);	 
+		checkSubAgreeRule1(sentencePOS, sentenceChunk, sentenceSpan, beg, essayR);
+		checkSubAgreeRule2(sentencePOS, sentenceChunk, sentenceSpan, beg, essayR); 
+      // SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, beg, essayR);	 
         	 
          
         
