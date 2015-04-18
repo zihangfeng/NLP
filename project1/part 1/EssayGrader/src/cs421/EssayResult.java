@@ -4,11 +4,9 @@ import java.util.ArrayList;
 // 1.a 1.b 1.c 1.d  2.a 2.b 3.a
 public class EssayResult {
 	private int[] resultLevel;
-	private String essayLevel;
 	 
 	public EssayResult()
 	{
-		essayLevel = null;
 		resultLevel = new int[7];
 	}
 	
@@ -77,10 +75,6 @@ public class EssayResult {
 			 System.out.println("The input result type is not correct.");
 			 return -1;
 		 }
-	}
-	public void getReslut(int index)
-	{
-		 
 	}
 	 
 	public String toString()
