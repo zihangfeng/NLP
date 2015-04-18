@@ -37,7 +37,6 @@ public class TheMain {
 	     ArrayList<Essay> essaySet = new ArrayList<Essay>();
 	      try
 	      {      
-	    	 int currentLevelFile = 0;
 	    	 for(int i = 0; i < 3; i++)
 	    	 {
 	    	 
@@ -102,18 +101,35 @@ public class TheMain {
 	        	 }
 	   
 	        	 
-	     		String[] testPath = new String[3]; 
-	     		testPath[0] = "P5\\P5-tokenized\\high";
-	     		testPath[1] = "P5\\P5-tokenized\\medium";
-	     		testPath[2] = "P5\\P5-tokenized\\low";
-	    		
-	    		String[] testName = new String[3];
-	    		testName[0] = "high";
-	    		testName[1] = "low";
-	    		testName[2] = "medium"; 
 	        	 
+	        	 //test parts
+	     		String testPath = "input\\test\\tokenized"; 
+	     		
+	     		ArrayList<Essay> testEssays = new ArrayList<>();
+	     		File folder = new File(testPath);
+	 		   
+		         File[] listFiles = folder.listFiles();
+		         
+		         for(File pathname : listFiles)
+		         {	 	        	
+			        if(pathname.isFile())
+			        	 {   
+			        		 Essay essays = new Essay();
+			        		 essays.setEssay(pathname, "any");
+			        		 testEssays.add(essays);
+			        	 }
+		         }
+	        
+		         PrintWriter outputStream2 = null;
+		    	 outputStream2 = new PrintWriter(new FileOutputStream("FinalTestScores.txt"), true);
+		    	 int size2 = testEssays.size();
+		    	 for(int j = 0; j < size2; i++)
+		    	 {
+		    		 essaySet.get(j).outputEssayStat(outputStream2);
+		    	 }
 	         }
 	         
+	    	 
 	         
 	      }
 	      catch(Exception e)
