@@ -20,12 +20,10 @@ public class TheMain {
 		folderName[0] = "high";
 		folderName[1] = "medium";
 		folderName[2] = "low";
-		String[] sentencePOS = null;
-		String[] sentenceChunk=null;
-		Span[] sentenceSpan=null;
-	    EssayResult essayR=new EssayResult();
-		Grammar.getChunkPOS("I think that A bouquet of yellow roses lends color and fragrance to the room.", sentencePOS, sentenceChunk, sentenceSpan );
-	    Grammar.getInstance().SentenceSubAgree(sentencePOS, sentenceChunk, sentenceSpan, 0, essayR);	 
+		chunkResult CR=new chunkResult();
+		EssayResult essayR=new EssayResult();
+		Grammar.getChunkPOS("does you like this room?", CR );
+	    Grammar.getInstance().SentenceSubAgree(CR, 0, essayR);	 
 		EssayAnalysis grader=EssayAnalysis.getEAinstance();
 	     ArrayList<Essay> essaySet = new ArrayList<Essay>();
 	      try
