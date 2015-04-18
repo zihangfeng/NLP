@@ -109,7 +109,7 @@ public class TheMain {
 	     		File folder = new File(testPath);
 	 		   
 		         File[] listFiles = folder.listFiles();
-		         
+		        
 		         for(File pathname : listFiles)
 		         {	 	        	
 			        if(pathname.isFile())
@@ -123,9 +123,11 @@ public class TheMain {
 		         PrintWriter outputStream2 = null;
 		    	 outputStream2 = new PrintWriter(new FileOutputStream("FinalTestScores.txt"), true);
 		    	 int size2 = testEssays.size();
-		    	 for(int j = 0; j < size2; i++)
+		    	 //System.out.println(size2);
+		    	 //System.exit(0);
+		    	 for(int j = 0; j < size2; j++)
 		    	 {
-		    		 essaySet.get(j).outputEssayStat(outputStream2);
+		    		 testEssays.get(j).outputEssayStat(outputStream2);
 		    	 }
 	         }
 	         
