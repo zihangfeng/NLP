@@ -2,6 +2,7 @@
 package cs421;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.*;
 
 import opennlp.tools.postag.POSSample;
@@ -9,7 +10,7 @@ import opennlp.tools.util.Span;
 
 public class TheMain {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		//  
 		String[] folderPath = new String[3]; 
 		folderPath[0] = "P5\\P5-tokenized\\high";
@@ -22,9 +23,9 @@ public class TheMain {
 		folderName[2] = "low";
 		chunkResult CR=new chunkResult();
 		EssayResult essayR=new EssayResult();
-		Grammar.getChunkPOS("Is they like this room?", CR );
-	    Grammar.getInstance().SentenceSubAgree(CR, 0, essayR);	 
-		EssayAnalysis grader=EssayAnalysis.getEAinstance();
+		Grammar.getChunkPOS("why they like this room?", CR );
+	    Grammar.getInstance().SentenceSubAgree(CR, 0, essayR);	
+	 	EssayAnalysis grader=EssayAnalysis.getEAinstance();
 	     ArrayList<Essay> essaySet = new ArrayList<Essay>();
 	      try
 	      {      

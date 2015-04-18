@@ -88,12 +88,32 @@ public class Grammar {
 	// score 1.b
 	private void SentenceSubCheckWithoutHead(String[] sentencePOS,
 			String[] sentenceChunk, Span[] sentenceSpan, int beg,  EssayResult essayR){
-		  System.out.println(" in side the head======================" );
+	//	  System.out.println(" in side the head======================" );
 		int i=beg;
 		for(; i<sentencePOS.length; i++) {
 			if (sentencePOS[i].contains("VB")) break; 			
 			}
 		if( !sentencePOS[i].contains("VB")) return; 
+		// we need find the start point of the span
+		int spanbeg=0;
+		for(; spanbeg<sentenceSpan.length; spanbeg++) {
+			if(sentenceSpan[spanbeg].getStart()==beg) break;
+		}
+		String[] pos=sentencePOS;
+		if(pos[beg].contains("_VB")||pos[beg].contains("_W")){}
+		else{
+		 // always NP --> VP
+			if(!pos[beg].contains("_NP")){
+				essayR.addResult("1.c"); return;
+			}
+			else {
+				
+			}
+			
+			
+		}
+		
+		
 		
 		
 	}
@@ -107,7 +127,7 @@ public class Grammar {
 		String[] sentenceChunk, Span[] sentenceSpan, int beg,  EssayResult essayR){
 		int i=beg;
 		String[] pos=sentencePOS;
-		if(pos[beg].contains("VB")){
+		if(pos[beg].contains("_VB")){
             
 			
 			 if(pos[beg].toLowerCase().contains("does_vb")||
@@ -178,7 +198,7 @@ public class Grammar {
 									||pos[i].toLowerCase().contains("i_prp")
 									||pos[i].toLowerCase().contains("they_prp")
 									) {
-					System.out.println(" Case 3======================"+ pos[i] + "==== " +i );
+				//	System.out.println(" Case 3======================"+ pos[i] + "==== " +i );
 								 essayR.addResult ("1.b") ; break;
 							}
 						 }	 
@@ -190,7 +210,7 @@ public class Grammar {
 					 for( i=sentenceSpan[ni].getStart(); i<sentenceSpan[ni].getEnd();i++){
 						 if((pos[i].contains("NN") && !(pos[i].contains("NNS")||pos[i].contains("NNPS")))
 								 ||pos[i].toLowerCase().contains("he_prp")) {
-				System.out.println(" Case 4======================"+ pos[i] + "==== " +i );
+		//		System.out.println(" Case 4======================"+ pos[i] + "==== " +i );
 								 essayR.addResult ("1.b") ; break;
 							}
 						 }	
@@ -232,13 +252,15 @@ public class Grammar {
 				 }
 		   // check NP and VP
 			 int NPflag=1, VPflag=1;
-		     for( i=sentenceSpan[ni].getStart(); i<=sentenceSpan[ni].getEnd();i++){
+		     for( i=sentenceSpan[ni].getStart(); i<sentenceSpan[ni].getEnd();i++){
 						if(pos[i].contains("NNS")||pos[i].contains("NNPS")
-								||pos[i].toLowerCase().contains("you_prp")||pos[i].toLowerCase().contains("i_prp")	) {
+								||pos[i].toLowerCase().contains("you_prp")
+								||pos[i].toLowerCase().contains("they_prp")
+								||pos[i].toLowerCase().contains("i_prp")	) {
 							NPflag=2;
 						}
 					 }	
-		     for( i=sentenceSpan[vi].getStart(); i<=sentenceSpan[vi].getEnd();i++){
+		     for( i=sentenceSpan[vi].getStart(); i<sentenceSpan[vi].getEnd();i++){
 					if(pos[i].contains("VBZ")) { NPflag=1; 	}
 					else  {
 						 VPflag=2; 	
@@ -249,14 +271,14 @@ public class Grammar {
 		    	 essayR.addResult ("1.b") ;
 		     }
 		     i=ni+1;
-        	   vi=-1;
+        	 vi=-1;
 			 for( ; i<sentenceSpan.length; i++){
 				if(sentenceSpan[i].toString().contains("VP")&&vi==-1) {vi=i; break;} 
 			 }
 			 if(vi==-1) {return;}
 			 else {
 				 
-		  SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, vi+1, essayR);		 
+		  SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, sentenceSpan[vi].getEnd(), essayR);		 
 			 }
         	 
 			
@@ -268,7 +290,6 @@ public class Grammar {
 			String[] sentenceChunk, Span[] sentenceSpan, int beg,  EssayResult essayR) {
 		// case 0, check the VP in the sentence
        int i=beg;
-		
 		for( ;i<sentencePOS.length; i++) {
 		
 			if (sentencePOS[i].contains("VB")) break; 			
@@ -279,7 +300,7 @@ public class Grammar {
           
 		checkSubAgreeRule1(sentencePOS, sentenceChunk, sentenceSpan, beg, essayR);
 		checkSubAgreeRule2(sentencePOS, sentenceChunk, sentenceSpan, beg, essayR); 
-      // SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, beg, essayR);	 
+        SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, beg, essayR);	 
         	 
          
         
