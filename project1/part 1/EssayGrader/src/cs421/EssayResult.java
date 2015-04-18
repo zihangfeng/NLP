@@ -83,6 +83,16 @@ public class EssayResult {
 		 
 	}
 	 
-
+	public String toString()
+	{
+		return 	Integer.toString(resultLevel[0]) + " " +
+				Integer.toString(resultLevel[1]) + " " +
+				Integer.toString(resultLevel[2]) + " " +
+				Integer.toString(resultLevel[3]) + " " +
+				Integer.toString(resultLevel[4]) + " " +
+				Integer.toString(resultLevel[5]) + " " +
+				Integer.toString(resultLevel[6]);
+			   
+	}
  
 }

@@ -3,6 +3,7 @@ package cs421;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.StringTokenizer;
 import java.io.FileReader;
 import java.io.IOException;
@@ -12,11 +13,13 @@ public class Essay {
 	private ArrayList<String> essay;
 	private EssayResult res;
 	private String markedResult;
+	private String fileName;
 	
 	public Essay()
 	{
 		essay = new ArrayList<String>();
 		res= new EssayResult();
+		fileName = null;
 	}
 	
 	 
@@ -29,7 +32,7 @@ public class Essay {
 
         try {
             inputStream = new BufferedReader(new FileReader(file));
-            
+            fileName = file.getName();
            
             String line = null;
 
@@ -61,8 +64,8 @@ public class Essay {
 	}
 	
 	
-	public void outputEssayStat()
+	public void outputEssayStat(PrintWriter outputStream)
 	{
-		
+		outputStream.println(fileName + " " + res.toString() + " " + markedResult);
 	}
 }
