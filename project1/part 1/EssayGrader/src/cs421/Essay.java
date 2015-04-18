@@ -9,13 +9,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 // the class for each essay
 public class Essay {
-	private ArrayList<ArrayList<String>> content;
+	private ArrayList<String> essay;
 	private EssayResult res;
 	private String markedResult;
 	
 	public Essay()
 	{
-		content = new ArrayList<ArrayList<String>>();
+		essay = new ArrayList<String>();
 		res= new EssayResult();
 	}
 	
@@ -26,7 +26,6 @@ public class Essay {
 		// we also need to update the file's final result
 		markedResult = level;
 		BufferedReader inputStream = null;
-		ArrayList<String> essay = new ArrayList<String>();
 
         try {
             inputStream = new BufferedReader(new FileReader(file));
@@ -40,7 +39,6 @@ public class Essay {
             		essay.add(line);
             	}
             }
-            content.add(essay); 
 		}
 		catch(FileNotFoundException e)
 		{
