@@ -14,7 +14,7 @@ import edu.stanford.nlp.tagger.maxent.MaxentTagger;
  */
 
 public class LengthAndWord {
-	private double LengthScores;
+	private int LengthScores;
 	private static final LengthAndWord  LAWinstance= new LengthAndWord ();
 	MaxentTagger tagger;
 	private LengthAndWord(){
@@ -29,15 +29,15 @@ public class LengthAndWord {
 		if(essay.getEssay().size() == 0)
 			return;
 		
-		double length, adAdj;
+		int length, adAdj;
 		length = EssayLength(essay.getEssay());
 		adAdj = FindAdverbAdj(essay.getEssay());
 		LengthScores = length + adAdj;
 		EssayResult res = essay.getResultV();
-		res.setResult("3a", (int)LengthScores);
+		res.setResult("3a", LengthScores);
 	}
 	
-	private double EssayLength(ArrayList<String> essay)
+	private int EssayLength(ArrayList<String> essay)
 	{
 		int size = essay.size();
 		
@@ -45,17 +45,15 @@ public class LengthAndWord {
 		for(int i = 0; i < size; i++)
 		{
 			StringTokenizer temp = new StringTokenizer(essay.get(i));
-			sum += temp.countTokens() - 1;
+			sum += temp.countTokens();
 		}
 		
-		double average = (double)sum/size;
+		int average = (sum/size);
 		return average;
 	}
 	
-	private double FindAdverbAdj(ArrayList<String> essay)
+	private int FindAdverbAdj(ArrayList<String> essay)
 	{
-
-	//	MaxentTagger tagger =  new MaxentTagger("english-left3words-distsim.tagger");
 		
 		int size = essay.size();
 		int j=0;
@@ -100,7 +98,7 @@ public class LengthAndWord {
 		    }
 		}
 		
-		double average = (double)j/size; 
+		int average = j/size; 
 		
 		return average;
 	}

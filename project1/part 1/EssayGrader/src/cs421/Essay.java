@@ -12,14 +12,16 @@ import java.util.ArrayList;
 public class Essay {
 	private ArrayList<String> essay;
 	private EssayResult res;
-	private String markedResult;
+	private String markedLevel;
 	private String fileName;
+	private double finalScore;
 	
 	public Essay()
 	{
 		essay = new ArrayList<String>();
 		res= new EssayResult();
 		fileName = null;
+		finalScore = 0.0;
 	}
 	
 	 
@@ -27,7 +29,7 @@ public class Essay {
 	public void setEssay(File file, String level) throws IOException
 	{
 		// we also need to update the file's final result
-		markedResult = level;
+		markedLevel = level;
 		BufferedReader inputStream = null;
 
         try {
@@ -70,6 +72,7 @@ public class Essay {
 	
 	public void outputEssayStat(PrintWriter outputStream)
 	{
-		outputStream.println(fileName + " " + res.toString() + " " + markedResult);
+		finalScore = res.getFinalValue();
+		outputStream.println(fileName + " " + res.toString() + " " + markedLevel + " " + finalScore);
 	}
 }
