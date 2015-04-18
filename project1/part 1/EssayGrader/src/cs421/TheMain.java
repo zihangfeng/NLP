@@ -2,12 +2,12 @@
 package cs421;
 
 import java.io.File;
-<<<<<<< HEAD
+
 import java.io.IOException;
-=======
+
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
->>>>>>> refs/remotes/origin/master
+
 import java.util.*;
 
 import opennlp.tools.postag.POSSample;
@@ -30,6 +30,7 @@ public class TheMain {
 		EssayResult essayR=new EssayResult();
 		Grammar.getChunkPOS("why they like this room?", CR );
 	    Grammar.getInstance().SentenceSubAgree(CR, 0, essayR);	
+	    Grammar.getInstance().SentenceSpellingCheck( "ss", essayR);
 	 	EssayAnalysis grader=EssayAnalysis.getEAinstance();
 	     ArrayList<Essay> essaySet = new ArrayList<Essay>();
 	      try
