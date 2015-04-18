@@ -34,7 +34,7 @@ public class LengthAndWord {
 		adAdj = FindAdverbAdj(essay.getEssay());
 		LengthScores = length + adAdj;
 		EssayResult res = essay.getResultV();
-		res.setResult("3a", LengthScores);
+		res.setResult("3.a", LengthScores);
 	}
 	
 	private int EssayLength(ArrayList<String> essay)

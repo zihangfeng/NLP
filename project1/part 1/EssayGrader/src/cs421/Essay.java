@@ -74,5 +74,6 @@ public class Essay {
 	{
 		finalScore = res.getFinalValue();
 		outputStream.println(fileName + " " + res.toString() + " " + markedLevel + " " + finalScore);
+		System.out.println(fileName + " " + res.toString() + " " + markedLevel + " " + finalScore);
 	}
 }
