@@ -103,6 +103,11 @@ public class EssayResult {
 		 }
 	}
 	 
+	public void addAverage(EssayResult res1, EssayResult res2)
+	{
+		
+	}
+	
 	public String toString()
 	{
 		return 	Integer.toString(resultLevel[0]) + " " +

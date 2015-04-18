@@ -24,8 +24,8 @@ public class TheMain {
 		
 		String[] folderName = new String[3];
 		folderName[0] = "high";
-		folderName[1] = "medium";
-		folderName[2] = "low";
+		folderName[1] = "low";
+		folderName[2] = "medium";
 		
 	//	chunkResult CR=new chunkResult();
     //	EssayResult essayR=new EssayResult();
@@ -56,10 +56,17 @@ public class TheMain {
 		         }
 		         
 		 		
+		         
+		         EssayResult low = new EssayResult();
+		         EssayResult medium = new EssayResult();
+		         EssayResult high = new EssayResult();
+		         int lowSize = 0;
+		         int mediumSize = 0;
+		         int highSize = 0;
 		         int size = essaySet.size();
 		         for(int j = currentLevelFile; j < size; j++)
 		         {
-		        	 
+		        	
 		         }
 	    	 }
 	    	 
