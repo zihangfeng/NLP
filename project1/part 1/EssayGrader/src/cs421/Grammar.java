@@ -63,9 +63,9 @@ public class Grammar {
     	String[] sentencePOS = null;
 		String[] sentenceChunk=null;
 		Span[] sentenceSpan=null;
-		getChunkPOS(sentence, sentencePOS, sentenceChunk, sentenceSpan );
-    	this.SentenceSubAgree(sentencePOS,sentenceChunk,sentenceSpan, 0, essayR);
-    	this.SentenceVerbCheck(sentence, essayR);
+	//	getChunkPOS(sentence, sentencePOS, sentenceChunk, sentenceSpan );
+    //	this.SentenceSubAgree(sentencePOS,sentenceChunk,sentenceSpan, 0, essayR);
+    //	this.SentenceVerbCheck(sentence, essayR);
     }
 
 
@@ -97,11 +97,17 @@ public class Grammar {
 		
 	}
 	
+	public void SentenceSubAgree(chunkResult CR, int beg, EssayResult essayR){
+		SentenceSubAgree(CR.sentencePOS, CR.sentenceChunk, CR.sentenceSpan, beg, essayR);
+	}
+	
 	public void SentenceSubAgree(String[] sentencePOS,
 			String[] sentenceChunk, Span[] sentenceSpan, int beg,  EssayResult essayR) {
 		// case 0, check the VP in the sentence
 		int i=beg;
-		for(; i<sentencePOS.length; i++) {
+		if(sentencePOS==null &&sentenceChunk==null ) {System.out.println("the index " + i); return;}
+		for( ;i<sentencePOS.length; i++) {
+			System.out.println("the index" + i);
 			if (sentencePOS[i].contains("VB")) break; 			
 			}
 		if( !sentencePOS[i].contains("VB")) return; 
@@ -144,7 +150,7 @@ public class Grammar {
 			 }	
 	    else {
 				 for( i=sentenceSpan[vi].getStart(); i<=sentenceSpan[vi].getEnd();i++){
-						if(pos[i].contains("NN")&& !(pos[i].contains("NNS")||pos[i].contains("NNPS"))) {
+						if((pos[i].contains("NN") && !(pos[i].contains("NNS")||pos[i].contains("NNPS")))||pos[i].toLowerCase().contains("he")) {
 							 essayR.addResult ("1.b") ;
 						}
 					 }		 
@@ -170,7 +176,8 @@ public class Grammar {
 			 
 			 if(pos[beg].toLowerCase().contains("is")) {
 			     for( i=sentenceSpan[ni].getStart(); i<=sentenceSpan[ni].getEnd();i++){
-						if(pos[i].contains("NNS")||pos[i].contains("NNPS")) {
+						if(pos[i].contains("NNS")||pos[i].contains("NNPS")
+								||pos[i].toLowerCase().contains("you")||pos[i].toLowerCase().contains("i")	) {
 							 essayR.addResult ("1.b") ;
 						}
 					 }	 
@@ -180,7 +187,7 @@ public class Grammar {
 			 else {
 				 
 				 for( i=sentenceSpan[ni].getStart(); i<=sentenceSpan[ni].getEnd();i++){
-						if(pos[i].contains("NN")&& !(pos[i].contains("NNS")||pos[i].contains("NNPS"))) {
+					 if((pos[i].contains("NN") && !(pos[i].contains("NNS")||pos[i].contains("NNPS")))||pos[i].toLowerCase().contains("he")) {
 							 essayR.addResult ("1.b") ;
 						}
 					 }	
@@ -214,7 +221,8 @@ public class Grammar {
 		   // check NP and VP
 			 int NPflag=1, VPflag=1;
 		     for( i=sentenceSpan[ni].getStart(); i<=sentenceSpan[ni].getEnd();i++){
-						if(pos[i].contains("NNS")||pos[i].contains("NNPS")) {
+						if(pos[i].contains("NNS")||pos[i].contains("NNPS")
+								||pos[i].toLowerCase().contains("you")||pos[i].toLowerCase().contains("i")	) {
 							NPflag=2;
 						}
 					 }	
@@ -267,7 +275,7 @@ public class Grammar {
 	}
 	
 	
-	public static void getChunkPOS(String input, String[] POSresult, String[] Chunkresult , Span[] sentenceSpan) {
+	public static void getChunkPOS(String input, chunkResult CR) {
 		InputStream is;
 		ChunkerModel cModel;
 		ChunkerME chunkerME;
@@ -293,7 +301,7 @@ public class Grammar {
 							tags = tagger.tag(whitespaceTokenizerLine);
 					 
 							 POSSample sample = new POSSample(whitespaceTokenizerLine, tags);
-							 POSresult=sample.toString().split(" ");
+							 CR.sentencePOS=sample.toString().split(" ");
 						 	System.out.println(sample.toString());
 						//	System.out.println("POS end");
 								perfMon.incrementCounter();
@@ -309,8 +317,8 @@ public class Grammar {
 						Span[] span = chunkerME.chunkAsSpans(whitespaceTokenizerLine, tags);
 						for (Span s : span)
 							System.out.println(s.toString());
-				        sentenceSpan=span;
-				        Chunkresult=result;
+				        CR.sentenceSpan=span;
+				        CR.sentenceChunk=result;
 					 
 					 
 					 
