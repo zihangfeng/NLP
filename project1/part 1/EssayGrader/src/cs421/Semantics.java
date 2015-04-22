@@ -10,4 +10,33 @@ public class Semantics {
 	public static Semantics getInstance() {
 		return Seminstance;
 	}
+	
+	public void setSemScore(Essay essay)
+	{
+		int coherentScore = 0;
+		int addressTopicScore = 0;
+		
+		EssayResult res = essay.getResultObject();
+		
+		coherentScore = coherent(essay);
+		addressTopicScore = addressTopic(essay);
+		res.setResult("2.a", coherentScore);
+		res.setResult("2.b", addressTopicScore);
+	}
+	
+	private int coherent(Essay essay)
+	{
+		int coherentScore = 0;
+		
+		
+		return coherentScore;
+	}
+	
+	private int addressTopic(Essay essay)
+	{
+		int addressTopicScore = 0;
+		
+		
+		return addressTopicScore;
+	}
 }

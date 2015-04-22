@@ -39,6 +39,7 @@ public class EssayAnalysis {
 	
 	private void analysisSemantic(Essay essay){
 		Semantics semObj = Semantics.getInstance();
+		semObj.setSemScore(essay);
 	}
 	
 	private void analysisWords(Essay essay) {

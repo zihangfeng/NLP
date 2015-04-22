@@ -1,6 +1,5 @@
 package cs421;
 
-import java.util.ArrayList;
 // 1.a 1.b 1.c 1.d  2.a 2.b 3.a
 public class EssayResult {
 	private int[] resultLevel;
