@@ -12,9 +12,9 @@ public class EssayAnalysis {
 		return EAinstance;
 	}
 	
-	public void analysisAll(ArrayList<Essay> content) throws IOException
+	public void analysisAll(ArrayList<Essay> essaySet) throws IOException
 	{
-		int size = content.size();
+		int size = essaySet.size();
 		
 		if(size < 0)
 		{
@@ -24,9 +24,9 @@ public class EssayAnalysis {
 		
 			for(int i = 0; i < size; i++)
 			{
-				analysisGrammer(content.get(i));
-				analysisSemantic(content.get(i));
-				analysisWords(content.get(i));
+				analysisGrammer(essaySet.get(i));
+				analysisSemantic(essaySet.get(i));
+				analysisWords(essaySet.get(i));
 			}
 
 	}

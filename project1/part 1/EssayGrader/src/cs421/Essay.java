@@ -68,7 +68,7 @@ public class Essay {
 		return essay;
 	}
 	
-	public EssayResult getResultV()
+	public EssayResult getResultObject()
 	{
 		return res;
 	}

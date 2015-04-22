@@ -33,7 +33,7 @@ public class LengthAndWord {
 		length = EssayLength(essay.getEssay());
 		adAdj = FindAdverbAdj(essay.getEssay());
 		LengthScores = length + adAdj;
-		EssayResult res = essay.getResultV();
+		EssayResult res = essay.getResultObject();
 		res.setResult("3.a", LengthScores);
 	}
 	
