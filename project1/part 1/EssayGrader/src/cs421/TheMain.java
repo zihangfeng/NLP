@@ -22,18 +22,25 @@ public class TheMain {
 	//    Grammar.getInstance().SentenceSubAgree(CR, 0, essayR);	
 	//    Grammar.getInstance().SentenceSpellingCheck( "ss", essayR);
 		
-	 	EssayAnalysis grader=EssayAnalysis.getEAinstance();
+	 	graderModer grader= new graderModer();
 	    ArrayList<Essay> essaySet = new ArrayList<Essay>();
-	      try
-	      {      
-
+	    HashMap<String, String> topicRelatedWords = new HashMap<String, String>();
+	    
+	    topicRelatedWords.put("car","car");
+	    topicRelatedWords.put("cars", "cars");
+	    topicRelatedWords.put("vehicle", "vehicle");
+	    topicRelatedWords.put("vehicles","vehicles");
+	    topicRelatedWords.put("automobile","automobile");
+	    topicRelatedWords.put("automobiles","automobiles");
+	    
+	    grader.readTrainingData(essaySet);
+	    grader.analysisTrainingData(essaySet,topicRelatedWords);
+	    grader.updateAutoGraderModel(essaySet);
+   	  
+	    
 	         
 	    	  String testPath = "input\\test\\tokenized";
-	      }
-	      catch(Exception e)
-	      {
-	         e.printStackTrace();
-	      }
+	   
 	      
 	      
 	   }

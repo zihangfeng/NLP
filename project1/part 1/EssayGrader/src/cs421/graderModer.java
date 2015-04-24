@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class graderModer {
 	//private ArrayList<Essay> essaySet;
@@ -48,11 +49,11 @@ public class graderModer {
    	 
 	}
     
-	public void analysisTrainingData(ArrayList<Essay> essaySet){
+	public void analysisTrainingData(ArrayList<Essay> essaySet, HashMap<String,String> topicRelatedWords){
 		
 	   	 EssayAnalysis analysisObj = EssayAnalysis.getEAinstance();
 	   	 try {
-			analysisObj.analysisAll(essaySet);
+			analysisObj.analysisAll(essaySet, topicRelatedWords);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -93,6 +94,8 @@ public class graderModer {
 	       		 System.out.println("Something is wrong with file");
 	       	 }
         }
+        
+        
 		
 	}
 	
@@ -126,11 +129,19 @@ public class graderModer {
 		PrintWriter outputStream = null;
 		try
 		{
+			 
+			// check if the file exists and deletes
+			File f = new File(outputFileName);
+			if(f.exists() && !f.isDirectory())
+			{
+				f.delete(); 
+			}
+			
 	    	outputStream = new PrintWriter(new FileOutputStream(outputFileName), true);
 			for(int j = 0; j < size; j++)
-		   	 {
+		   	{
 		   		 essaySet.get(j).outputEssayStat(outputStream);
-		   	 }
+		   	}
 		}
 		catch(IOException e)
 		{

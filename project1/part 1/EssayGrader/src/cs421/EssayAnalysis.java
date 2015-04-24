@@ -2,6 +2,7 @@ package cs421;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class EssayAnalysis {
 	private static final EssayAnalysis EAinstance= new EssayAnalysis();
@@ -12,7 +13,7 @@ public class EssayAnalysis {
 		return EAinstance;
 	}
 	
-	public void analysisAll(ArrayList<Essay> essaySet) throws IOException
+	public void analysisAll(ArrayList<Essay> essaySet, HashMap<String,String> topicRelatedWords) throws IOException
 	{
 		int size = essaySet.size();
 		
@@ -25,7 +26,7 @@ public class EssayAnalysis {
 			for(int i = 0; i < size; i++)
 			{
 				analysisGrammer(essaySet.get(i));
-				analysisSemantic(essaySet.get(i));
+				analysisSemantic(essaySet.get(i), topicRelatedWords);
 				analysisWords(essaySet.get(i));
 			}
 
@@ -37,9 +38,9 @@ public class EssayAnalysis {
 		
 	}
 	
-	private void analysisSemantic(Essay essay){
+	private void analysisSemantic(Essay essay, HashMap<String, String> topicRelatedWords){
 		Semantics semObj = Semantics.getInstance();
-		semObj.setSemScore(essay);
+		semObj.setEssaySemScore(essay, topicRelatedWords);
 	}
 	
 	private void analysisWords(Essay essay) {
