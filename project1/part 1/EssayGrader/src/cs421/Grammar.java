@@ -61,11 +61,11 @@ public class Grammar {
     }
 	
     public void getSentenceScore(String sentence, EssayResult essayR) throws IOException{
-    	// using third part tool for spelling check
-    	this.SentenceSpellingCheck(sentence, essayR);
+       	
     	// get the word POS tag, chunk information and Span information
     	chunkResult CR=new chunkResult();
     	getChunkPOS(sentence, CR );
+    	// using third part tool for spelling check
     	SentenceSpellingCheck(sentence, essayR);
     	SentenceSubAgree(CR, 0, essayR);
     	SentenceVerbCheck(CR, 0, essayR);
@@ -83,11 +83,7 @@ public class Grammar {
 		 if(	match.getMessage().contains("spelling mistake")) {
 			 essayR.addResult("1.a"); 
 		 }
-		 // System.out.println("Potential error at line " +
-		  //    match.getLine() + ", column " +
-		 //     match.getColumn() + ": " + match.getMessage());
-		 // System.out.println("Suggested correction: " +
-		 //     match.getSuggestedReplacements());
+
 		}
 		
 	}
