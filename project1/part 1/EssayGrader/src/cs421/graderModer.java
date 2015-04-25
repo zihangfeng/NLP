@@ -1,11 +1,15 @@
 package cs421;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.StringTokenizer;
 
 public class graderModer {
 	//private ArrayList<Essay> essaySet;
@@ -49,8 +53,33 @@ public class graderModer {
    	 
 	}
     
-	public void analysisTrainingData(ArrayList<Essay> essaySet, HashMap<String,String> topicRelatedWords){
+	public void analysisTrainingData(ArrayList<Essay> essaySet) throws IOException{
 		
+  	  BufferedReader inputStream = null;
+  	  HashMap<String, String> topicRelatedWords = new HashMap<String, String>();
+	    try {
+	    	inputStream = new BufferedReader(new FileReader("relatedTopicWords.txt"));
+	    	
+	    	String words = null;
+	        while((words = inputStream.readLine()) != null)
+	        {
+	        	StringTokenizer tokens = new StringTokenizer(words);
+	        	while(tokens.hasMoreTokens())
+	        	{
+	        		String temp = tokens.nextToken();
+	        		topicRelatedWords.put(temp, temp);
+	        	}
+	        }
+	    } catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+	        inputStream.close();
+	    }
+	    
 	   	 EssayAnalysis analysisObj = EssayAnalysis.getEAinstance();
 	   	 try {
 			analysisObj.analysisAll(essaySet, topicRelatedWords);
