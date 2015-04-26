@@ -103,11 +103,46 @@ public class Grammar {
 	
 	private void checkNPvsVP(String[] sentencePOS,
 			String[] sentenceChunk, Span[] sentenceSpan, int NPin, int VPin,  EssayResult essayR){
+
+		for(int i=sentenceSpan[VPin].getStart();i<sentenceSpan[VPin].getEnd(); i++){
+			if(sentencePOS[i].contains("VB")){
+				// verb is VBZ
+				if(sentencePOS[i].contains("VBZ")) {
+			         for(int j=sentenceSpan[NPin].getStart();j<sentenceSpan[NPin].getEnd(); j++){
+			         		
+			        	  
+						}	
+					
+				}
+				else if(sentencePOS[i].contains("VBP")) {
+			         for(int j=sentenceSpan[NPin].getStart();j<sentenceSpan[NPin].getEnd(); j++){
+							
+			        	  
+						}
+					
+					
+				}
+				
+				
+	 
+				
+			}
+		 
+			
+			
+		}
+		
+	
+		
+	}
+	
+	private void checkNPvsVPcase3(String[] sentencePOS,
+			String[] sentenceChunk, Span[] sentenceSpan, int NPin, int VPin,  EssayResult essayR){
+		// check for case 3  neither or and or nor
 		
 		
 		
 	}
-	
 	
 	
 	private void SentenceSubCheckNPVP(String[] sentencePOS,
@@ -137,8 +172,8 @@ public class Grammar {
 			   &&sentenceSpan[beg+1].toString().contains("NP")
 			   &&sentenceSpan[beg+2].toString().contains("VP")
 			   ){
-		   printlog("check NP NP VP ___ case 1");
-		   
+		   printlog("check NP NP VP ___ case 3");
+		   checkNPvsVPcase3(sentencePOS, sentenceChunk, sentenceSpan,  beg, beg+2,  essayR);  
 		   
 	   }  
 	   
