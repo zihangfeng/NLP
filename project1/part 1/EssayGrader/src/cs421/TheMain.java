@@ -1,16 +1,8 @@
 
 package cs421;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.FileOutputStream;
-import java.io.PrintWriter;
-import java.util.*;
 
-import opennlp.tools.postag.POSSample;
-import opennlp.tools.util.Span;
+import java.io.IOException;
 
 public class TheMain {
 
@@ -24,7 +16,7 @@ public class TheMain {
 	//    Grammar.getInstance().SentenceSubAgree(CR, 0, essayR);	
 	//    Grammar.getInstance().SentenceSpellingCheck( "ss", essayR);
 		
-	       	  String testPath = "input\\test\\tokenized";
+	       	  
 	    	  
 	    	 graderModer grader= new graderModer();
 	    	    
@@ -32,6 +24,8 @@ public class TheMain {
 	    	 grader.readTrainingData();
 	    	 grader.analysisTrainingData();
 	    	 grader.updateAutoGraderModel();
+	    	 grader.examineTestFile("input\\test\\tokenized");
+	    	 grader.outputResult();
 	       	  
 	   }
 		
