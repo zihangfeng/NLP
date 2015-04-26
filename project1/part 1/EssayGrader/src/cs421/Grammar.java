@@ -61,7 +61,7 @@ public class Grammar {
     }
 	
     private static void printlog(String s) {
-         	System.out.println(s);
+        	System.out.println(s);
     }
     public void getSentenceScore(String sentence, EssayResult essayR) throws IOException{
        	
@@ -109,14 +109,31 @@ public class Grammar {
 				// verb is VBZ
 				if(sentencePOS[i].contains("VBZ")) {
 			         for(int j=sentenceSpan[NPin].getStart();j<sentenceSpan[NPin].getEnd(); j++){
-			         		
+			 if(sentencePOS[j].contains("NNS")||sentencePOS[j].contains("NNPS")
+					 ||sentencePOS[j].toLowerCase().contains("you_prp")
+					 ||sentencePOS[j].toLowerCase().contains("i_prp")
+					 ||sentencePOS[j].toLowerCase().contains("they_prp")
+					 ||sentencePOS[j].toLowerCase().contains("those_ex")
+					 ||sentencePOS[j].toLowerCase().contains("these_ex")
+					 ||sentencePOS[j].toLowerCase().contains("there_ex") 
+					 ){
+				   printlog("checkNPvsVP for case 1");
+					essayR.addResult ("1.b") ; break;       		 
+			        	 }      		
 			        	  
 						}	
 					
 				}
 				else if(sentencePOS[i].contains("VBP")) {
 			         for(int j=sentenceSpan[NPin].getStart();j<sentenceSpan[NPin].getEnd(); j++){
-							
+			        	 if((sentencePOS[j].contains("NN") && !(sentencePOS[j].contains("NNS")||sentencePOS[j].contains("NNPS")))
+								 ||sentencePOS[j].toLowerCase().contains("he_prp")
+								 ||sentencePOS[j].toLowerCase().contains("that") 
+								 ||sentencePOS[j].toLowerCase().contains("this") 
+								  ){
+			        		  printlog("checkNPvsVP for case 2");
+			        			essayR.addResult ("1.b") ; break;     
+			        	 }		
 			        	  
 						}
 					
@@ -139,7 +156,9 @@ public class Grammar {
 	private void checkNPvsVPcase3(String[] sentencePOS,
 			String[] sentenceChunk, Span[] sentenceSpan, int NPin, int VPin,  EssayResult essayR){
 		// check for case 3  neither or and or nor
+		// if contains and  VP is VPZ error
 		
+		// else neither nor , or   VP is VBP error
 		
 		
 	}
@@ -319,6 +338,9 @@ public class Grammar {
 									||pos[i].toLowerCase().contains("you_prp")
 									||pos[i].toLowerCase().contains("i_prp")
 									||pos[i].toLowerCase().contains("they_prp")
+									||pos[i].toLowerCase().contains("those_ex")
+								    ||pos[i].toLowerCase().contains("these_ex")
+								    ||pos[i].toLowerCase().contains("there_ex")
 									) {
 			printlog(" Case 3======================"+ pos[i] + "==== " +i );
 								 essayR.addResult ("1.b") ; break;
@@ -331,7 +353,10 @@ public class Grammar {
 					 
 					 for( i=sentenceSpan[ni].getStart(); i<sentenceSpan[ni].getEnd();i++){
 						 if((pos[i].contains("NN") && !(pos[i].contains("NNS")||pos[i].contains("NNPS")))
-								 ||pos[i].toLowerCase().contains("he_prp")) {
+								 ||pos[i].toLowerCase().contains("he_prp")
+								 ||pos[i].toLowerCase().contains("that") 
+								 ||pos[i].toLowerCase().contains("this") 
+								  ) {
 		 printlog(" Case 4======================"+ pos[i] + "==== " +i );
 								 essayR.addResult ("1.b") ; break;
 							}
@@ -377,10 +402,13 @@ public class Grammar {
 			 int NPflag=1, VPflag=1;
 		     for( i=sentenceSpan[ni].getStart(); i<sentenceSpan[ni].getEnd();i++){
 						if(pos[i].contains("NNS")||pos[i].contains("NNPS")
+								||pos[i].toLowerCase().contains("those_ex")
+								||pos[i].toLowerCase().contains("these_ex")
+								||pos[i].toLowerCase().contains("there_ex")
 								||pos[i].toLowerCase().contains("you_prp")
 								||pos[i].toLowerCase().contains("they_prp")
 								||pos[i].toLowerCase().contains("i_prp")	) {
-							NPflag=2;
+							NPflag=2; break;
 						}
 					 }	
 		     for( i=sentenceSpan[vi].getStart(); i<sentenceSpan[vi].getEnd();i++){
