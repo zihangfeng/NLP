@@ -99,7 +99,7 @@ public class Grammar {
 	}
 	
 	private void SentenceSubCheckNPVP(String[] sentencePOS,
-			String[] sentenceChunk, Span[] sentenceSpan, int beg,  EssayResult essayR){
+			String[] sentenceChunk, Span[] sentenceSpan, int beg, int end,  EssayResult essayR){
 		
 		
 	}
@@ -110,11 +110,14 @@ public class Grammar {
 	 
 		int i=beg;
 		for(; i<sentencePOS.length; i++) {
-			if (sentencePOS[i].contains("VB")) break; 			
+			if (sentencePOS[i].contains("_VB")) break; 			
 			}
-		if( i < sentencePOS.length && !sentencePOS[i].contains("VB")) return; 
+		
+		if(( i < sentencePOS.length && !sentencePOS[i].contains("_VB"))
+				||(i >= sentencePOS.length)) return; 
 		// we need find the start point of the span  
 		int spanbeg=0;
+		
 		for(; spanbeg<sentenceSpan.length; spanbeg++) {
 			if(sentenceSpan[spanbeg].getStart()==beg) break;
 		}
@@ -131,11 +134,20 @@ public class Grammar {
 			}
 			else {
 				
+			//	if(sentenceSpan[spanbeg].toString().contains("SBAR")
+			//			||sentenceSpan[spanbeg].toString().contains("SBARQ"))	{spanbeg++;}
+				int start=spanbeg;
+				for(int j=spanbeg; j<sentenceSpan.length; j++){
+					if(sentenceSpan[j].toString().contains("VP")){
+						
+    	SentenceSubCheckNPVP(sentencePOS,sentenceChunk, sentenceSpan, start,j,  essayR);
+    	start=j+1;
+					}	
+					
+					
+				}
 				
-				if(sentenceSpan[spanbeg].toString().contains("SBAR")
-						||sentenceSpan[spanbeg].toString().contains("SBARQ"))	{spanbeg++;}
 				
-				SentenceSubCheckNPVP(sentencePOS,sentenceChunk, sentenceSpan, spanbeg,  essayR);
 				
 				
 				
