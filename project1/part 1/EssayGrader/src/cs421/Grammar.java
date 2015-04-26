@@ -116,6 +116,7 @@ public class Grammar {
 					||sentenceSpan[beg].toString().contains("SBARQ"))	{beg++;}
 		
 		// case 1 NP VP
+	
 	   if((beg+1<sentenceSpan.length)&&sentenceSpan[beg].toString().contains("NP")
 			   &&sentenceSpan[beg+1].toString().contains("VP")){
 		   printlog("check NP VP ___ case 1");
@@ -164,6 +165,7 @@ public class Grammar {
 		for(; spanbeg<sentenceSpan.length; spanbeg++) {
 			if(sentenceSpan[spanbeg].getStart()==beg) break;
 		}
+		if(spanbeg>=sentenceSpan.length) return;
 		String[] pos=sentencePOS;
 		if(pos[beg].contains("_VB")||pos[beg].contains("_W")){}
 		else{
