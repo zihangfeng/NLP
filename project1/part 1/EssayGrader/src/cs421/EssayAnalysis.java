@@ -24,12 +24,12 @@ public class EssayAnalysis {
 			}
 			
 			
-				for(int i = 0; i < size; i++)
-				{
-					analysisGrammer(essaySet.get(i));
-					analysisSemantic(essaySet.get(i));
-					analysisWords(essaySet.get(i));
-				}
+			for(int i = 0; i < size; i++)
+			{
+				analysisGrammer(essaySet.get(i));
+				analysisSemantic(essaySet.get(i));
+				analysisWords(essaySet.get(i));
+			}
 
 	}
     // we need to do some grammar check here

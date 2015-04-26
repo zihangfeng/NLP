@@ -13,13 +13,13 @@ public class EssayResult {
 		sum = 0.0;
 	}
 	
-	public void update(int value)
+	public void update(int numSentence)
 	{
-		if(value > 0)
+		if(numSentence > 0)
 		{
 			for(int i = 0; i < 7; i++)
 			{
-				doubleValue[i] = (double)resultLevel[i]/value;
+				doubleValue[i] = (double)resultLevel[i]/numSentence;
 			}
 		}
 		else
@@ -102,7 +102,7 @@ public class EssayResult {
 		 }
 	}
 	 
-	public void addtwo(EssayResult res1)
+	public void addTwoResult(EssayResult res1)
 	{
 		for(int i = 0; i < 7; i++)
 		{

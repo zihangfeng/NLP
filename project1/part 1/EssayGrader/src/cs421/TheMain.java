@@ -19,12 +19,11 @@ public class TheMain {
 	       	  
 	    	  
 	    	 graderModer grader= new graderModer();
-	    	    
-	    	    
 	    	 grader.readTrainingData();
 	    	 grader.analysisTrainingData();
 	    	 grader.updateAutoGraderModel();
-	    	 grader.examineTestFile("input\\test\\tokenized");
+	    	 grader.updateModelFromfile();
+	    	 grader.examineTestFile("input\\test\\tokenized\\trainingFile");
 	    	 grader.outputResult();
 	       	  
 	   }
