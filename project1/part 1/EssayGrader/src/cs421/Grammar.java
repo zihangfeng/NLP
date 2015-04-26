@@ -101,7 +101,12 @@ public class Grammar {
 	}
 	
 	
-	
+	private void checkNPvsVP(String[] sentencePOS,
+			String[] sentenceChunk, Span[] sentenceSpan, int NPin, int VPin,  EssayResult essayR){
+		
+		
+		
+	}
 	
 	
 	
@@ -114,16 +119,16 @@ public class Grammar {
 	   if((beg+1<sentenceSpan.length)&&sentenceSpan[beg].toString().contains("NP")
 			   &&sentenceSpan[beg+1].toString().contains("VP")){
 		   printlog("check NP VP ___ case 1");
-		   
+		   checkNPvsVP(sentencePOS, sentenceChunk, sentenceSpan,  beg, beg+1,  essayR);   
 		   
 	   } 
 	    // case 2 NP PP NP VP
 	   else if((beg+2<sentenceSpan.length)&&sentenceSpan[beg].toString().contains("NP")
 			   &&sentenceSpan[beg+1].toString().contains("PP")
-			   &&sentenceSpan[beg+2].toString().contains("NP")
+			   &&(sentenceSpan[beg+2].toString().contains("NP")||sentenceSpan[beg+2].toString().contains("PP"))
 			   ){
 		   printlog("check NP PP NP VP ___ case 2");   
-		   
+		checkNPvsVP(sentencePOS, sentenceChunk, sentenceSpan,  beg, end,  essayR);  
 		   
 	   }
 	   // case 3 NP NP VP without CC words  and  case 4 NP NP VP with CC words
