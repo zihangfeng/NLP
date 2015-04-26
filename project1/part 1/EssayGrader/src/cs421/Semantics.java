@@ -1,5 +1,9 @@
 package cs421;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.StringTokenizer;
 
@@ -10,18 +14,73 @@ import java.util.StringTokenizer;
  */
 public class Semantics {
 	private static final Semantics  Seminstance= new Semantics ();
-	private Semantics(){}
+	private static HashMap<String, String> topicRelatedWords;
+	private static HashMap<String, String> coherenceWords;
+	private Semantics(){
+		
+		BufferedReader inputStream1 = null;
+		BufferedReader inputStream2 = null;
+		topicRelatedWords = new HashMap<String, String>();
+		coherenceWords = new HashMap<String, String>();
+	    try {
+	    	inputStream1 = new BufferedReader(new FileReader("relatedTopicWords.txt"));
+	    	
+	    	String words = null;
+	        while((words = inputStream1.readLine()) != null)
+	        {
+	        	StringTokenizer tokens = new StringTokenizer(words);
+	        	while(tokens.hasMoreTokens())
+	        	{
+	        		String temp = tokens.nextToken();
+	        		topicRelatedWords.put(temp, temp);
+
+	        	}
+	        	
+	        }
+	        
+	        inputStream2 = new BufferedReader(new FileReader("coherenceWords.txt"));
+	        words = null;
+	        while((words = inputStream1.readLine()) != null)
+	        {
+	        	StringTokenizer tokens = new StringTokenizer(words);
+	        	while(tokens.hasMoreTokens())
+	        	{
+	        		String temp = tokens.nextToken();
+	        		coherenceWords.put(temp, temp);
+	        	}
+	        }
+	        
+	    } catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+	        try {
+				inputStream1.close();
+				inputStream2.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+	    }
+	    
+	}
 	public static Semantics getInstance() {
+		
 		return Seminstance;
 	}
 	
-	public void setEssaySemScore(Essay essay, HashMap<String, String> topicRelatedWords )
+	public void setEssaySemScore(Essay essay) throws IOException
 	{
 		int coherentScore = 0;
 		int addressTopicScore = 0;
 		
+		
+		
 		coherentScore = coherent(essay);
-		addressTopicScore = addressTopic(essay, topicRelatedWords);
+		addressTopicScore = addressTopic(essay);
 		essay.getResultObject().setResult("2.a", coherentScore);
 		essay.getResultObject().setResult("2.b", addressTopicScore);
 	}
@@ -30,26 +89,6 @@ public class Semantics {
 	{
 		int coherentScore = 0;
 		int size = essay.getEssay().size();
-		HashMap<String, String> coherenceWords = new HashMap<String, String>();
-		coherenceWords.put("first", "first");
-		coherenceWords.put("second", "second");
-		coherenceWords.put("third", "third");
-		coherenceWords.put("these", "these");
-		coherenceWords.put("this", "this");
-		coherenceWords.put("for example", "for example");
-		coherenceWords.put("for instance", "for instance");
-		coherenceWords.put("conclusion", "conclusion");
-		coherenceWords.put("one hand", "one hand");
-		coherenceWords.put("other hand", "other hand");
-		coherenceWords.put("another", "another");
-		coherenceWords.put("finally", "finally");
-		coherenceWords.put("first", "first");
-		coherenceWords.put("in addition", "in addition");
-		coherenceWords.put("also", "also");
-		coherenceWords.put("but", "but");
-		coherenceWords.put("and", "and");
-		coherenceWords.put("however", "however");
-		
 		
 		for(int i = 0; i < size; i++)
 		{
@@ -66,7 +105,7 @@ public class Semantics {
 		return coherentScore;
 	}
 	
-	private int addressTopic(Essay essay, HashMap<String, String> topicRelatedWords)
+	private int addressTopic(Essay essay)
 	{
 		int addressTopicScore = 0;
 		int size = essay.getEssay().size();

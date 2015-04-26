@@ -2,7 +2,7 @@ package cs421;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
+
 
 public class EssayAnalysis {
 	private static final EssayAnalysis EAinstance= new EssayAnalysis();
@@ -13,22 +13,23 @@ public class EssayAnalysis {
 		return EAinstance;
 	}
 	
-	public void analysisAll(ArrayList<Essay> essaySet, HashMap<String,String> topicRelatedWords) throws IOException
+	public void analysisAll(ArrayList<Essay> essaySet) throws IOException
 	{
-		int size = essaySet.size();
-		
-		if(size < 0)
-		{
-			System.out.println("You have no files input!");
-			return;
-		}
-		
-			for(int i = 0; i < size; i++)
+			int size = essaySet.size();
+			
+			if(size < 0)
 			{
-				analysisGrammer(essaySet.get(i));
-				analysisSemantic(essaySet.get(i), topicRelatedWords);
-				analysisWords(essaySet.get(i));
+				System.out.println("You have no files input!");
+				return;
 			}
+			
+			
+				for(int i = 0; i < size; i++)
+				{
+					analysisGrammer(essaySet.get(i));
+					analysisSemantic(essaySet.get(i));
+					analysisWords(essaySet.get(i));
+				}
 
 	}
     // we need to do some grammar check here
@@ -38,9 +39,9 @@ public class EssayAnalysis {
 		
 	}
 	
-	private void analysisSemantic(Essay essay, HashMap<String, String> topicRelatedWords){
+	private void analysisSemantic(Essay essay) throws IOException{
 		Semantics semObj = Semantics.getInstance();
-		semObj.setEssaySemScore(essay, topicRelatedWords);
+		semObj.setEssaySemScore(essay);
 	}
 	
 	private void analysisWords(Essay essay) {

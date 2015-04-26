@@ -26,16 +26,12 @@ public class TheMain {
 		
 	       	  String testPath = "input\\test\\tokenized";
 	    	  
-	    	  
-
-	      
-	    	 	graderModer grader= new graderModer();
-	    	    ArrayList<Essay> essaySet = new ArrayList<Essay>();
+	    	 graderModer grader= new graderModer();
 	    	    
 	    	    
-	    	    grader.readTrainingData(essaySet);
-	    	    grader.analysisTrainingData(essaySet);
-	    	    grader.updateAutoGraderModel(essaySet);
+	    	 grader.readTrainingData();
+	    	 grader.analysisTrainingData();
+	    	 grader.updateAutoGraderModel();
 	       	  
 	   }
 		

@@ -1,25 +1,20 @@
 package cs421;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.StringTokenizer;
 
 public class graderModer {
-	//private ArrayList<Essay> essaySet;
+	private ArrayList<Essay> essaySet;
 	private EssayResult[] model;
 	public graderModer(){ 
-		//essaySet=new ArrayList<Essay>();
+		essaySet=new ArrayList<Essay>();
 		model=new EssayResult[3];
 	}
     
-	public void readTrainingData(ArrayList<Essay> essaySet) throws IOException{
+	public void readTrainingData() throws IOException{
 		
 		String[] folderPath = new String[3]; 
 		folderPath[0] = "P5\\P5-tokenized\\high";
@@ -53,36 +48,13 @@ public class graderModer {
    	 
 	}
     
-	public void analysisTrainingData(ArrayList<Essay> essaySet) throws IOException{
+	public void analysisTrainingData() throws IOException{
 		
-  	  BufferedReader inputStream = null;
-  	  HashMap<String, String> topicRelatedWords = new HashMap<String, String>();
-	    try {
-	    	inputStream = new BufferedReader(new FileReader("relatedTopicWords.txt"));
-	    	
-	    	String words = null;
-	        while((words = inputStream.readLine()) != null)
-	        {
-	        	StringTokenizer tokens = new StringTokenizer(words);
-	        	while(tokens.hasMoreTokens())
-	        	{
-	        		String temp = tokens.nextToken();
-	        		topicRelatedWords.put(temp, temp);
-	        	}
-	        }
-	    } catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} finally {
-	        inputStream.close();
-	    }
+  	  
 	    
 	   	 EssayAnalysis analysisObj = EssayAnalysis.getEAinstance();
 	   	 try {
-			analysisObj.analysisAll(essaySet, topicRelatedWords);
+			analysisObj.analysisAll(essaySet);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -90,7 +62,7 @@ public class graderModer {
 	}
 	
 	
-	public void updateAutoGraderModel(ArrayList<Essay> essaySet){
+	public void updateAutoGraderModel(){
 		EssayResult low = new EssayResult();
         EssayResult medium = new EssayResult();
         EssayResult high = new EssayResult();
@@ -128,7 +100,7 @@ public class graderModer {
 		
 	}
 	
-	public void updateModelFromfile(ArrayList<Essay> essaySet, String testPath){
+	public void updateModelFromfile(String testPath){
 		 //test parts
  		 
  		
@@ -153,7 +125,7 @@ public class graderModer {
 
 	}
 	
-	public void outputResult(ArrayList<Essay> essaySet, String outputFileName){
+	public void outputResult(String outputFileName){
 		int size = essaySet.size();
 		PrintWriter outputStream = null;
 		try
