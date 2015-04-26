@@ -1,10 +1,14 @@
 package cs421;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class graderModer {
 	private ArrayList<Essay> TrainingEssaySet;
@@ -14,6 +18,10 @@ public class graderModer {
 		TrainingEssaySet = new ArrayList<Essay>();
 		TestEssaySet = new ArrayList<Essay>();
 		model=new EssayResult[3];
+		for(int i = 0; i < 3; i++)
+		{
+			model[i] = new EssayResult();
+		}
 	}
     
 	public void readTrainingData() throws IOException{
@@ -108,10 +116,10 @@ public class graderModer {
 			outputStream.println("high	" + temp[0]/highSize + " " + temp[1]/highSize + " " + temp[2]/highSize + " " + temp[3]/highSize + " " + temp[4]/highSize + " " + temp[5]/highSize + " " + temp[6]/highSize);
 			
 			temp = medium.getReslutDoubleValue();
-			outputStream.println("high	" + temp[0]/mediumSize + " " + temp[1]/mediumSize + " " + temp[2]/mediumSize + " " + temp[3]/mediumSize + " " + temp[4]/mediumSize + " " + temp[5]/mediumSize + " " + temp[6]/mediumSize);
+			outputStream.println("medium	" + temp[0]/mediumSize + " " + temp[1]/mediumSize + " " + temp[2]/mediumSize + " " + temp[3]/mediumSize + " " + temp[4]/mediumSize + " " + temp[5]/mediumSize + " " + temp[6]/mediumSize);
 
 			temp = low.getReslutDoubleValue();
-			outputStream.println("high	" + temp[0]/lowSize + " " + temp[1]/lowSize + " " + temp[2]/lowSize + " " + temp[3]/lowSize + " " + temp[4]/lowSize + " " + temp[5]/lowSize + " " + temp[6]/lowSize);
+			outputStream.println("low		" + temp[0]/lowSize + " " + temp[1]/lowSize + " " + temp[2]/lowSize + " " + temp[3]/lowSize + " " + temp[4]/lowSize + " " + temp[5]/lowSize + " " + temp[6]/lowSize);
 		}
 		catch(IOException e)
 		{
@@ -135,7 +143,32 @@ public class graderModer {
 	}
 	
 	public void updateModelFromfile(){
- 	
+		Scanner inputStream = null;
+
+		try{
+			inputStream = new Scanner(new FileInputStream("trainingReslutAvg.txt"));
+			for(int i = 0; i < 3; i++)
+			{
+				System.out.println(model[i].getReslutDoubleValue()[0]);
+				if(inputStream.hasNextLine())
+				{
+					String temp = inputStream.nextLine();
+					StringTokenizer tokens = new StringTokenizer(temp);
+					tokens.nextToken();// no need to get the level;
+					for(int j = 0; j < 7; j++)
+					{	
+						model[i].getReslutDoubleValue()[j] = Double.parseDouble(tokens.nextToken());
+					}
+				}
+			}
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally
+		{
+			inputStream.close();
+		}
 	}
 
 	public void examineTestFile(String path)
