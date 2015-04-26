@@ -85,8 +85,10 @@ public class Grammar {
 		List<RuleMatch> matches = langTool.check(sentence);
 		 
 		for (RuleMatch match : matches) {
-		 if(	match.getMessage().contains("spelling mistake")) {
-			  printlog("Potential error at line " +
+		 if(	match.getMessage().contains("spelling mistake")
+				 && !match.getSuggestedReplacements().toString().contains("[SS, is")
+				 ) {
+			   printlog("Potential error at line " +
 			     match.getLine() + ", column " +
 			      match.getColumn() + ": " + match.getMessage());
 			  printlog("Suggested correction: " +
@@ -98,8 +100,44 @@ public class Grammar {
 		
 	}
 	
+	
+	
+	
+	
+	
 	private void SentenceSubCheckNPVP(String[] sentencePOS,
 			String[] sentenceChunk, Span[] sentenceSpan, int beg, int end,  EssayResult essayR){
+	if(sentenceSpan[beg].toString().contains("SBAR")
+					||sentenceSpan[beg].toString().contains("SBARQ"))	{beg++;}
+		
+		// case 1 NP VP
+	   if((beg+1<sentenceSpan.length)&&sentenceSpan[beg].toString().contains("NP")
+			   &&sentenceSpan[beg+1].toString().contains("VP")){
+		   printlog("check NP VP ___ case 1");
+		   
+		   
+	   } 
+	    // case 2 NP PP NP VP
+	   else if((beg+2<sentenceSpan.length)&&sentenceSpan[beg].toString().contains("NP")
+			   &&sentenceSpan[beg+1].toString().contains("PP")
+			   &&sentenceSpan[beg+2].toString().contains("NP")
+			   ){
+		   printlog("check NP PP NP VP ___ case 2");   
+		   
+		   
+	   }
+	   // case 3 NP NP VP without CC words  and  case 4 NP NP VP with CC words
+	   else if((beg+2<sentenceSpan.length)&&sentenceSpan[beg].toString().contains("NP")
+			   &&sentenceSpan[beg+1].toString().contains("NP")
+			   &&sentenceSpan[beg+2].toString().contains("VP")
+			   ){
+		   printlog("check NP NP VP ___ case 1");
+		   
+		   
+	   }  
+	   
+	
+	  
 		
 		
 	}
@@ -126,30 +164,25 @@ public class Grammar {
 		else{
 		 // always NP --> VP
 		 
-			if(!sentenceSpan[spanbeg].toString().contains("NP")
-					||!sentenceSpan[spanbeg].toString().contains("SBAR")
-					||!sentenceSpan[spanbeg].toString().contains("SBARQ")){
-				printlog("SentenceSubCheckWithoutHead for type 1.c  " + pos[beg]);
+			if (!(sentenceSpan[spanbeg].toString().contains("NP")
+					||sentenceSpan[spanbeg].toString().contains("SBAR")
+					||sentenceSpan[spanbeg].toString().contains("SBARQ"))){
+	printlog("SentenceSubCheckWithoutHead for type 1.c  " + pos[beg]+"   "+sentenceSpan[spanbeg]);
 				essayR.addResult("1.c"); return;
 			}
 			else {
 				
-			//	if(sentenceSpan[spanbeg].toString().contains("SBAR")
-			//			||sentenceSpan[spanbeg].toString().contains("SBARQ"))	{spanbeg++;}
+			
 				int start=spanbeg;
 				for(int j=spanbeg; j<sentenceSpan.length; j++){
 					if(sentenceSpan[j].toString().contains("VP")){
 						
-    	SentenceSubCheckNPVP(sentencePOS,sentenceChunk, sentenceSpan, start,j,  essayR);
+    	SentenceSubCheckNPVP(sentencePOS,sentenceChunk, sentenceSpan, start,j, essayR);
     	start=j+1;
 					}	
 					
 					
 				}
-				
-				
-				
-				
 				
 				
 				
@@ -353,12 +386,7 @@ public class Grammar {
 	 	checkSubAgreeRule2(sentencePOS, sentenceChunk, sentenceSpan, beg, essayR); 
         SentenceSubCheckWithoutHead(sentencePOS, sentenceChunk, sentenceSpan, beg, essayR);	 
         	 
-         
-        
-		
-	
-		
-		
+ 	
 		
 		 
 	}
@@ -421,13 +449,6 @@ public class Grammar {
 				        CR.sentenceSpan=span;
 				        CR.sentenceChunk=result;
 					 
-					 
-					 
-					 
-					 
-					 
-					 
-					 
 				} catch (InvalidFormatException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -439,13 +460,7 @@ public class Grammar {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
-		 
-			
-	 
 	
-	  
-		
 	}
 	
 	
