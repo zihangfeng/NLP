@@ -13,6 +13,11 @@ import java.util.List;
 import opennlp.tools.chunker.ChunkerME;
 import opennlp.tools.chunker.ChunkerModel;
 import opennlp.tools.cmdline.PerformanceMonitor;
+import opennlp.tools.cmdline.parser.ParserTool;
+import opennlp.tools.parser.Parse;
+import opennlp.tools.parser.Parser;
+import opennlp.tools.parser.ParserFactory;
+import opennlp.tools.parser.ParserModel;
 import opennlp.tools.postag.POSModel;
 import opennlp.tools.postag.POSSample;
 import opennlp.tools.postag.POSTaggerME;
@@ -74,7 +79,8 @@ public class Grammar {
     	SentenceSubAgree(CR, 0, essayR);
     	// use some rule for error type 1.c
     	SentenceVerbCheck(CR, 0, essayR);
-	
+	    // use some rule for error type 1.d
+    	SentenceFormationCheck(CR, 0, essayR);
     }
 
 
@@ -130,6 +136,7 @@ public class Grammar {
 								 ||sentencePOS[j].toLowerCase().contains("he_prp")
 								 ||sentencePOS[j].toLowerCase().contains("that") 
 								 ||sentencePOS[j].toLowerCase().contains("this") 
+								 ||sentencePOS[j].toLowerCase().contains("it") 
 								  ){
 			        		  printlog("checkNPvsVP for case 2");
 			        			essayR.addResult ("1.b") ; break;     
@@ -351,6 +358,7 @@ public class Grammar {
 		for( i=sentenceSpan[vi].getStart(); i<sentenceSpan[vi].getEnd();i++){
 							if((pos[i].contains("NN") && !(pos[i].contains("NNS")
 									||pos[i].contains("NNPS")))
+									||pos[i].toLowerCase().contains("it_prp")
 									||pos[i].toLowerCase().contains("he_prp")) {
 			printlog(" Case 2======================" );					
 								essayR.addResult ("1.b") ; break;
@@ -398,6 +406,7 @@ public class Grammar {
 					 for( i=sentenceSpan[ni].getStart(); i<sentenceSpan[ni].getEnd();i++){
 						 if((pos[i].contains("NN") && !(pos[i].contains("NNS")||pos[i].contains("NNPS")))
 								 ||pos[i].toLowerCase().contains("he_prp")
+								 ||pos[i].toLowerCase().contains("it_prp")
 								 ||pos[i].toLowerCase().contains("that") 
 								 ||pos[i].toLowerCase().contains("this") 
 								  ) {
@@ -492,7 +501,8 @@ public class Grammar {
 			}
 		if( i < sentencePOS.length && !sentencePOS[i].contains("VB")) { 
 			 printlog("checkSubAgree for type 1.c -----1");
-			essayR.addResult("1.c"); return;} 
+			essayR.addResult("1.c"); 
+			return;} 
 		
 		 
           
@@ -505,13 +515,59 @@ public class Grammar {
 		 
 	}
  
+	// score 1.d
+	public void SentenceFormationCheck(chunkResult CR, int beg, EssayResult essayR){
+		 for (Parse p : CR.sentenceParse){
+			 if(p.toString().toLowerCase().contains("FRAG")){
+		    	 printlog("SentenceFormationCheck for fragment"+ p.toString());
+		    	 essayR.addResult ("1.d") ;
+			 }
+			 
+		 }
 	
+		
+	}
 	
+    private boolean checkVPconnector(chunkResult CR, int beg, ArrayList<Integer> VPlist){
+    	int VP1=VPlist.get(beg-1);
+    	int VP2=VPlist.get(beg);
+    	for(int i=VP1+1; i<VP2; i++ ){
+    		if(CR.sentenceSpan[i].toString().contains("SBAR")) 
+    			return false;
+    	}
+    	
+    	for(int i=CR.sentenceSpan[VP1].getEnd(); i<CR.sentenceSpan[VP2].getStart(); i++){
+    	 if(CR.sentencePOS[i].contains("_CC")
+    			 ||CR.sentencePOS[i].contains("_TO"))	
+    		    return false;
+    	}
+    	
+    	return true;
+    }
 	
 	// score 1.c
 	
 	public void SentenceVerbCheck(chunkResult CR, int beg, EssayResult essayR) {
+		// check two VPs between
 		
+		// for the case, no VP error is already detected in the 1.b
+		ArrayList<Integer> VPlist=new ArrayList<Integer>();
+		for (int i=0; i<CR.sentenceSpan.length;i++){
+			if (CR.sentenceSpan[i].toString().contains("VP")) {
+				VPlist.add(i);
+			}
+		}
+		
+		if(VPlist.size()<2){ return;}
+		else {
+			for(int j=1; j<VPlist.size(); j++){
+				if(checkVPconnector(CR,j, VPlist)){
+					 printlog("NO connecting words between two VP");
+						essayR.addResult("1.c"); 
+				}
+			}
+			
+		}
 		
 		
 		
@@ -519,13 +575,16 @@ public class Grammar {
 	
 	
 	public static void getChunkPOS(String input, chunkResult CR) {
-		InputStream is;
+		InputStream is, pis;
 		ChunkerModel cModel;
 		ChunkerME chunkerME;
+		ParserModel pModel;
 			try {
 				is = new FileInputStream("en-chunker.bin");
+				pis = new FileInputStream("en-parser-chunking.bin");
 				try {
 					cModel = new ChunkerModel(is);
+					pModel = new ParserModel(pis);
 					 chunkerME = new ChunkerME(cModel);
 					 PerformanceMonitor perfMon = new PerformanceMonitor(System.err, "sent");
 					 
@@ -549,20 +608,24 @@ public class Grammar {
 						 
 								perfMon.incrementCounter();
 						}
-					  //	perfMon.stopAndPrintFinalResult();
-					 
+				 
 					 
 						String result[] = chunkerME.chunk(whitespaceTokenizerLine, tags);
 						 
 						for (String s : result)
 							    printlog(s);
-						//System.out.println("Result end ---------------------");
+			 
 						Span[] span = chunkerME.chunkAsSpans(whitespaceTokenizerLine, tags);
 						for (Span s : span)
 							   printlog(s.toString());
 				        CR.sentenceSpan=span;
 				        CR.sentenceChunk=result;
-					 
+				        
+				        Parser parser = ParserFactory.create(pModel);
+				        Parse topParses[] = ParserTool.parseLine(input, parser, 1);
+				        for (Parse p : topParses)
+				    		printlog(p.toString());
+					    CR.sentenceParse=topParses;
 				} catch (InvalidFormatException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
