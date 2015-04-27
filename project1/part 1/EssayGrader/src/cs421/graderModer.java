@@ -208,7 +208,7 @@ public class graderModer {
 				f.delete(); 
 			}
 			
-	    	outputStream = new PrintWriter(new FileOutputStream("testFile.txt"), true);
+	    	outputStream = new PrintWriter(new FileOutputStream("testFileRes.txt"), true);
 			for(int j = 0; j < size; j++)
 		   	{
 				TestEssaySet.get(j).outputEssayStat(outputStream);
