@@ -157,7 +157,32 @@ public class Grammar {
 			String[] sentenceChunk, Span[] sentenceSpan, int NPin, int VPin,  EssayResult essayR){
 		// check for case 3  neither or and or nor
 		// if contains and  VP is VPZ error
-		
+		for(int i=sentenceSpan[NPin].getStart(); i<sentenceSpan[VPin].getStart(); i++){
+			if(sentencePOS[i].toLowerCase().contains("and_cc")) {
+				for(int j=sentenceSpan[VPin].getStart(); j<sentenceSpan[VPin].getEnd(); j++){
+					if(sentencePOS[j].contains("VBZ")){
+		        		  printlog("checkNPvsVPcase3 for case 1");
+		        			essayR.addResult ("1.b") ; return;    	
+						
+					}
+				}	
+				
+			}
+			
+			if(sentencePOS[i].toLowerCase().contains("neither_cc")
+					||sentencePOS[i].toLowerCase().contains("or_cc")) {
+				
+				for(int j=sentenceSpan[VPin].getStart(); j<sentenceSpan[VPin].getEnd(); j++){
+					if(sentencePOS[j].contains("VBP")){
+		        		  printlog("checkNPvsVPcase3 for case 2");
+		        			essayR.addResult ("1.b") ; return;    	
+						
+					}
+				}	
+			}
+			
+			
+		}
 		// else neither nor , or   VP is VBP error
 		
 		
@@ -219,35 +244,54 @@ public class Grammar {
 		for(; spanbeg<sentenceSpan.length; spanbeg++) {
 			if(sentenceSpan[spanbeg].getStart()==beg) break;
 		}
+		
 		if(spanbeg>=sentenceSpan.length) return;
 		String[] pos=sentencePOS;
 		if(pos[beg].contains("_VB")||pos[beg].contains("_W")){}
 		else{
 		 // always NP --> VP
-		 
-			if (!(sentenceSpan[spanbeg].toString().contains("NP")
-					||sentenceSpan[spanbeg].toString().contains("SBAR")
-					||sentenceSpan[spanbeg].toString().contains("SBARQ"))){
-	printlog("SentenceSubCheckWithoutHead for type 1.c  " + pos[beg]+"   "+sentenceSpan[spanbeg]);
-				essayR.addResult("1.c"); return;
+		 // change the 
+			int start=spanbeg;
+			if(sentenceSpan[spanbeg].toString().contains("NP")) {
+				
+			}
+			else if(sentenceSpan[spanbeg].toString().contains("SBAR")
+					||sentenceSpan[spanbeg].toString().contains("SBARQ")) {
+				start=spanbeg+1;
 			}
 			else {
-				
-			
-				int start=spanbeg;
-				for(int j=spanbeg; j<sentenceSpan.length; j++){
-					if(sentenceSpan[j].toString().contains("VP")){
-						
-    	SentenceSubCheckNPVP(sentencePOS,sentenceChunk, sentenceSpan, start,j, essayR);
-    	start=j+1;
-					}	
+				for(int j=spanbeg+1; j<sentenceSpan.length; j++){
+					if (    ((sentenceSpan[j].getStart()-1>=0)&&(sentencePOS[sentenceSpan[j].getStart()-1].contains("_,")))&& 
+							(sentenceSpan[j].toString().contains("NP")
+							||sentenceSpan[j].toString().contains("SBAR")
+							||sentenceSpan[j].toString().contains("SBARQ")) ){
+				 if(sentenceSpan[j].toString().contains("NP")){
+					 start=j; break;
+					 
+				 }
+				 else {
+					 start=j+1; break;
+				 }
+	
+					}
 					
-					
-				}
-				
-				
-				
+				}	
 			}
+	
+			
+
+			 
+			for(int j=spanbeg; j<sentenceSpan.length; j++){
+				if(sentenceSpan[j].toString().contains("VP")){
+					
+	SentenceSubCheckNPVP(sentencePOS,sentenceChunk, sentenceSpan, start,j, essayR);
+	start=j+1;
+				}	
+				
+				
+			}	
+
+		
 			
 			
 		}
@@ -392,7 +436,7 @@ public class Grammar {
 				if(sentenceSpan[i].toString().contains("NP")&&ni==-1) {ni=i;}
 				if(sentenceSpan[i].toString().contains("VP")&&vi==-1) {vi=i;} 
 			 }
-			 if(ni==-1 || vi==-1 || vi>ni) {
+			 if(ni==-1 || vi==-1 ) {
 				 printlog("checkSubAgreeRule2 for type 1.c -----1");
 				 essayR.addResult("1.c");
 				 // something similar to "do it as soon as possible!"
