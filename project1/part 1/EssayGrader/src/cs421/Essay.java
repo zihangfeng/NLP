@@ -76,7 +76,7 @@ public class Essay {
 	public void outputEssayStat(PrintWriter outputStream)
 	{
 		finalScore = res.getFinalValue();
-		outputStream.println(fileName + " " + res.toString() + " " + markedLevel + " " + finalScore);
-		System.out.println(fileName + " " + res.toString() + " " + markedLevel + " " + finalScore);
+		outputStream.println(fileName + " " + essay.size() + res.toString() + " " + markedLevel + " " + finalScore);
+		
 	}
 }
