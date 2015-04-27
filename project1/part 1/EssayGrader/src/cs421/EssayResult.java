@@ -1,23 +1,25 @@
 package cs421;
 
-// 1.a 1.b 1.c 1.d  2.a 2.b 3.a
+// 1.a 1.b 1.c 1.d  2.a 2.b 3.a 3.b
 public class EssayResult {
+	private int sizeOfRes = 8;
 	private int[] resultLevel;
 	private double[] doubleValue;
 	private double sum;
 	 
 	public EssayResult()
 	{
-		resultLevel = new int[7];
-		doubleValue = new double[7];
+		resultLevel = new int[8];
+		doubleValue = new double[8];
 		sum = 0.0;
+		
 	}
 	
 	public void update(int numSentence)
 	{
 		if(numSentence > 0)
 		{
-			for(int i = 0; i < 7; i++)
+			for(int i = 0; i < sizeOfRes; i++)
 			{
 				doubleValue[i] = (double)resultLevel[i]/numSentence;
 			}
@@ -51,7 +53,9 @@ public class EssayResult {
 		 case "2.b" :
 			 resultLevel[5]=count; break;
 		 case "3.a" :
-			 resultLevel[6]=count; break;	
+			 resultLevel[6]=count; break;
+		 case "3.b" :
+			 resultLevel[7]=count; break;
 		 default:
 			 System.out.println("The input result type is not correct.");
 		 }
@@ -74,7 +78,9 @@ public class EssayResult {
 		 case "2.b" :
 			 resultLevel[5]++; break;
 		 case "3.a" :
-			 resultLevel[6]++; break;	
+			 resultLevel[6]++; break;
+		 case "3.b" :
+			 resultLevel[7]++; break;
 		 default:
 			 System.out.println("The input result type is not correct.");
 		 }
@@ -96,6 +102,8 @@ public class EssayResult {
 			 return resultLevel[5];
 		 case "3.a" :
 			 return resultLevel[6];
+		 case "3.b" :
+			 return resultLevel[7];
 		 default:
 			 System.out.println("The input result type is not correct.");
 			 return -1;
@@ -104,7 +112,7 @@ public class EssayResult {
 	 
 	public void addTwoResult(EssayResult res1)
 	{
-		for(int i = 0; i < 7; i++)
+		for(int i = 0; i < sizeOfRes; i++)
 		{
 			doubleValue[i]+= res1.getReslutDoubleValue()[i];
 		}
@@ -118,13 +126,14 @@ public class EssayResult {
 				Integer.toString(resultLevel[3]) + " " +
 				Integer.toString(resultLevel[4]) + " " +
 				Integer.toString(resultLevel[5]) + " " +
-				Integer.toString(resultLevel[6]);
+				Integer.toString(resultLevel[6]) + " " +
+				Integer.toString(resultLevel[7]);
 			   
 	}
 	
 	public double getFinalValue()
 	{
-		for(int i = 0; i < 7; i++)
+		for(int i = 0; i < sizeOfRes; i++)
 		{
 			sum += doubleValue[i]; 
 		}

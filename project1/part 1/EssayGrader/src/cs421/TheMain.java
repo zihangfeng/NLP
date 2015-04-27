@@ -24,6 +24,7 @@ public class TheMain {
 	    	 grader.updateAutoGraderModel();
 	    	 grader.updateModelFromfile();
 	    	 grader.examineTestFile("input\\test\\tokenized\\trainingFile");
+	    	 grader.outputTraingResult();
 	    	 grader.outputResult();
 	       	  
 	   }

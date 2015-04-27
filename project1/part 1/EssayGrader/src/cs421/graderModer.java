@@ -27,14 +27,14 @@ public class graderModer {
 	public void readTrainingData() throws IOException{
 		
 		String[] folderPath = new String[3]; 
-		folderPath[0] = "P5\\P5-tokenized\\testFiles\\high";
-		folderPath[1] = "P5\\P5-tokenized\\testFiles\\medium";
-		folderPath[2] = "P5\\P5-tokenized\\testFiles\\low";
+		folderPath[0] = "P5\\P5-tokenized\\high";
+		folderPath[1] = "P5\\P5-tokenized\\medium";
+		folderPath[2] = "P5\\P5-tokenized\\low";
 		
 		String[] folderName = new String[3];
 		folderName[0] = "high";
-		folderName[1] = "low";
-		folderName[2] = "medium";
+		folderName[1] = "medium";
+		folderName[2] = "low";
 		
 			for(int i = 0; i < 3; i++)
 		   	 {	   	 
@@ -113,13 +113,16 @@ public class graderModer {
 	    	outputStream = new PrintWriter(new FileOutputStream("trainingReslutAvg.txt"));
 	    	
 	    	double temp[] = high.getReslutDoubleValue();
-			outputStream.println("high	" + temp[0]/highSize + " " + temp[1]/highSize + " " + temp[2]/highSize + " " + temp[3]/highSize + " " + temp[4]/highSize + " " + temp[5]/highSize + " " + temp[6]/highSize);
+	    	//int doubleSize = high.getReslutDoubleValue().length;
+	    	
+	    	//for(int i = 0; i < doubleSize; i++)
+			outputStream.println("high	" + temp[0]/highSize + " " + temp[1]/highSize + " " + temp[2]/highSize + " " + temp[3]/highSize + " " + temp[4]/highSize + " " + temp[5]/highSize + " " + temp[6]/highSize + " " + temp[7]/highSize);
 			
 			temp = medium.getReslutDoubleValue();
-			outputStream.println("medium	" + temp[0]/mediumSize + " " + temp[1]/mediumSize + " " + temp[2]/mediumSize + " " + temp[3]/mediumSize + " " + temp[4]/mediumSize + " " + temp[5]/mediumSize + " " + temp[6]/mediumSize);
+			outputStream.println("medium	" + temp[0]/mediumSize + " " + temp[1]/mediumSize + " " + temp[2]/mediumSize + " " + temp[3]/mediumSize + " " + temp[4]/mediumSize + " " + temp[5]/mediumSize + " " + temp[6]/mediumSize + " " + temp[7]/mediumSize);
 
 			temp = low.getReslutDoubleValue();
-			outputStream.println("low		" + temp[0]/lowSize + " " + temp[1]/lowSize + " " + temp[2]/lowSize + " " + temp[3]/lowSize + " " + temp[4]/lowSize + " " + temp[5]/lowSize + " " + temp[6]/lowSize);
+			outputStream.println("low		" + temp[0]/lowSize + " " + temp[1]/lowSize + " " + temp[2]/lowSize + " " + temp[3]/lowSize + " " + temp[4]/lowSize + " " + temp[5]/lowSize + " " + temp[6]/lowSize + " " + temp[7]/lowSize);
 		}
 		catch(IOException e)
 		{
@@ -135,7 +138,7 @@ public class graderModer {
 	private void getTheAverage()
 	{
 		int size = TrainingEssaySet.size();
-	   	 
+	   	
         for(int i=0; i<size;i++)
         {
 	       	 TrainingEssaySet.get(i).getResultObject().update(TrainingEssaySet.get(i).getEssay().size());
@@ -155,7 +158,8 @@ public class graderModer {
 					String temp = inputStream.nextLine();
 					StringTokenizer tokens = new StringTokenizer(temp);
 					tokens.nextToken();// no need to get the level;
-					for(int j = 0; j < 7; j++)
+					int size = model[i].getReslutDoubleValue().length;
+					for(int j = 0; j < size; j++)
 					{	
 						model[i].getReslutDoubleValue()[j] = Double.parseDouble(tokens.nextToken());
 					}
@@ -204,10 +208,39 @@ public class graderModer {
 				f.delete(); 
 			}
 			
-	    	outputStream = new PrintWriter(new FileOutputStream("testFile.txt"), true);
+	    	outputStream = new PrintWriter(new FileOutputStream("testFileRes.txt"), true);
 			for(int j = 0; j < size; j++)
 		   	{
 				TestEssaySet.get(j).outputEssayStat(outputStream);
+		   	}
+		}
+		catch(IOException e)
+		{
+			e.printStackTrace();
+		}
+		finally
+		{
+			outputStream.close();
+		}
+		
+	}
+	
+	public void outputTraingResult(){
+		int size = TrainingEssaySet.size();
+		PrintWriter outputStream = null;
+		try
+		{
+			// check if the file exists and deletes
+			File f = new File("trainingFile.txt");
+			if(f.exists() && !f.isDirectory())
+			{
+				f.delete(); 
+			}
+			
+	    	outputStream = new PrintWriter(new FileOutputStream("trainingFile.txt"), true);
+			for(int j = 0; j < size; j++)
+		   	{
+				TrainingEssaySet.get(j).outputEssayStat(outputStream);
 		   	}
 		}
 		catch(IOException e)

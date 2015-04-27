@@ -14,7 +14,6 @@ import edu.stanford.nlp.tagger.maxent.MaxentTagger;
  */
 
 public class LengthAndWord {
-	private int LengthScores;
 	private static final LengthAndWord  LAWinstance= new LengthAndWord ();
 	MaxentTagger tagger;
 	private LengthAndWord(){
@@ -32,9 +31,9 @@ public class LengthAndWord {
 		int length, adAdj;
 		length = EssayLength(essay.getEssay());
 		adAdj = FindAdverbAdj(essay.getEssay());
-		LengthScores = length + adAdj;
 		EssayResult res = essay.getResultObject();
-		res.setResult("3.a", LengthScores);
+		res.setResult("3.a", length);
+		res.setResult("3.b", adAdj);
 	}
 	
 	private int EssayLength(ArrayList<String> essay)
