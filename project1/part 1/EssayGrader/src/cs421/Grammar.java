@@ -264,6 +264,7 @@ public class Grammar {
 				
 			}
 			else if(sentenceSpan[spanbeg].toString().contains("SBAR")
+					||sentenceSpan[spanbeg].toString().contains(" ADVP")
 					||sentenceSpan[spanbeg].toString().contains("SBARQ")) {
 				start=spanbeg+1;
 			}
@@ -271,6 +272,7 @@ public class Grammar {
 				for(int j=spanbeg+1; j<sentenceSpan.length; j++){
 					if (    ((sentenceSpan[j].getStart()-1>=0)&&(sentencePOS[sentenceSpan[j].getStart()-1].contains("_,")))&& 
 							(sentenceSpan[j].toString().contains(" NP")
+							||sentenceSpan[j].toString().contains(" ADVP")		
 							||sentenceSpan[j].toString().contains(" SBAR")
 							||sentenceSpan[j].toString().contains("SBARQ")) ){
 				 if(sentenceSpan[j].toString().contains(" NP")){
@@ -533,7 +535,8 @@ public class Grammar {
     	int VP1=VPlist.get(beg-1);
     	int VP2=VPlist.get(beg);
     	for(int i=VP1+1; i<VP2; i++ ){
-    		if(CR.sentenceSpan[i].toString().contains("SBAR")) 
+    		if(CR.sentenceSpan[i].toString().contains("SBAR")
+    				||CR.sentenceSpan[i].toString().contains("NP")) 
     			return false;
     	}
     	
