@@ -63,7 +63,7 @@ public class EssayResult {
 	
 	public void addResult(String result)
 	{
-		System.out.println("We find an error of type "+ result);
+		
 		 switch (result) {
 		 case "1.a" :
 			 resultLevel[0]++; break;
@@ -131,13 +131,25 @@ public class EssayResult {
 			   
 	}
 	
+	public String outputFinal()
+	{
+		return 	Double.toString(doubleValue[0]) + " " +
+				Double.toString(doubleValue[1]) + " " +
+				Double.toString(doubleValue[2]) + " " +
+				Double.toString(doubleValue[3]) + " " +
+				Double.toString(doubleValue[4]) + " " +
+				Double.toString(doubleValue[5]) + " " +
+				Double.toString(doubleValue[6]) + " " +
+				Double.toString(doubleValue[7]);
+			   
+	}
 	public double getFinalValue()
 	{
 		for(int i = 0; i < sizeOfRes; i++)
 		{
-			sum += resultLevel[i]; 
+			sum += doubleValue[i]; 
 		}
-		return sum;
+		return sum/sizeOfRes;
 	}
 
 }

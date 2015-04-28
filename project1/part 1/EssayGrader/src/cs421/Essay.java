@@ -84,7 +84,27 @@ public class Essay {
 	public void outputEssayStat(PrintWriter outputStream)
 	{
 		finalScore = res.getFinalValue();
-		outputStream.println(fileName + " " + essay.size() + res.toString() + " " + finalScore + " " + markedLevel);
+		outputStream.println(fileName + " " + res.toString() + " " + finalScore + " " + markedLevel);
+		
+	}
+	
+	public void outputFinaEssayStat(PrintWriter outputStream)
+	{
+		finalScore = res.getFinalValue();
+
+		if(finalScore >= 4.5)
+		{
+			markedLevel = "high";
+		}
+		else if(finalScore >= 3.5)
+		{
+			markedLevel = "medium";
+		}
+		else
+		{
+			markedLevel = "low";
+		}
+		outputStream.println(fileName + " " + res.outputFinal() + " " + finalScore + " " + markedLevel);
 		
 	}
 }

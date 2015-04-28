@@ -66,7 +66,7 @@ public class Grammar {
     }
 	
     private static void printlog(String s) {
-        	System.out.println(s);
+        	//System.out.println(s);
     }
     public void getSentenceScore(String sentence, EssayResult essayR) throws IOException{
        	

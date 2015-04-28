@@ -164,7 +164,6 @@ public class graderModer {
 			inputStream = new Scanner(new FileInputStream("trainingReslutAvg.txt"));
 			for(int i = 0; i < 3; i++)
 			{
-				System.out.println(model[i].getReslutDoubleValue()[0]);
 				if(inputStream.hasNextLine())
 				{
 					String temp = inputStream.nextLine();
@@ -406,7 +405,7 @@ public class graderModer {
 	    	outputStream = new PrintWriter(new FileOutputStream("output\\result.txt"), true);
 			for(int j = 0; j < size; j++)
 		   	{
-				TestEssaySet.get(j).outputEssayStat(outputStream);
+				TestEssaySet.get(j).outputFinaEssayStat(outputStream);
 		   	}
 		}
 		catch(IOException e)
