@@ -155,11 +155,11 @@ public class graderModer {
         }
 	}
 	
+
+	
 	public void updateModelFromfile(){
 		Scanner inputStream = null;
-		if(TrainingEssaySet.size() < 1)
-			return;
-		
+		 		
 		try{
 			inputStream = new Scanner(new FileInputStream("trainingReslutAvg.txt"));
 			for(int i = 0; i < 3; i++)
@@ -256,27 +256,139 @@ public class graderModer {
 		}
 	}
 	
+	private void updateEssayresult(EssayResult essayR){
+	   
+		 // update 1.a	
+		int keyflag=0;
+		int i=0;
+		double target =essayR.getReslutDoubleValue()[i];
+		if(target<=model[0].getReslutDoubleValue()[i]){
+			essayR.getReslutDoubleValue()[i]=5.0;
+			keyflag=5;
+		}else if(target<=model[1].getReslutDoubleValue()[i]){
+			essayR.getReslutDoubleValue()[i]=4.0; keyflag=4;
+		}else {
+			essayR.getReslutDoubleValue()[i]=3.0; keyflag=3;
+		}
+		// update 1.b
+		 i=1;
+		 target =essayR.getReslutDoubleValue()[i];
+			if(target<=model[0].getReslutDoubleValue()[i]){
+				essayR.getReslutDoubleValue()[i]=5;
+			}else if(target<=model[1].getReslutDoubleValue()[i]){
+				if(keyflag==5) {essayR.getReslutDoubleValue()[i]=4.5; }
+				else if(keyflag==4){essayR.getReslutDoubleValue()[i]=4.0; }
+				else {essayR.getReslutDoubleValue()[i]=3.5;}
+
+			}else {
+				if(keyflag==5) {essayR.getReslutDoubleValue()[i]=3.5; }
+				else if(keyflag==4){essayR.getReslutDoubleValue()[i]=3.0; }
+				else {essayR.getReslutDoubleValue()[i]=2.5;}
+			}
+
+		// update 1.c
+			 i=2;
+			 target =essayR.getReslutDoubleValue()[i];
+				if(target<=model[1].getReslutDoubleValue()[i]){
+					essayR.getReslutDoubleValue()[i]=5;
+				}else if(target<=model[0].getReslutDoubleValue()[i]){
+					if(keyflag==5) {essayR.getReslutDoubleValue()[i]=4.5; }
+					else if(keyflag==4){essayR.getReslutDoubleValue()[i]=4.0; }
+					else {essayR.getReslutDoubleValue()[i]=3.5;}
+
+				}else {
+					if(keyflag==5) {essayR.getReslutDoubleValue()[i]=3.5; }
+					else if(keyflag==4){essayR.getReslutDoubleValue()[i]=3.0; }
+					else {essayR.getReslutDoubleValue()[i]=2.5;}
+				}
+				
+		 // update 1.d
+				 i=3;
+				 target =essayR.getReslutDoubleValue()[i];
+					if(target<=model[0].getReslutDoubleValue()[i]){
+						essayR.getReslutDoubleValue()[i]=5;
+					}else if(target<=model[1].getReslutDoubleValue()[i]){
+						if(keyflag==5) {essayR.getReslutDoubleValue()[i]=4.5; }
+						else if(keyflag==4){essayR.getReslutDoubleValue()[i]=4.0; }
+						else {essayR.getReslutDoubleValue()[i]=3.5;}
+
+					}else {
+						if(keyflag==5) {essayR.getReslutDoubleValue()[i]=3.5; }
+						else if(keyflag==4){essayR.getReslutDoubleValue()[i]=3.0; }
+						else {essayR.getReslutDoubleValue()[i]=2.5;}
+					}	
+				//2.a
+					 i=4;
+					 target =essayR.getReslutDoubleValue()[i];
+						if(target>=model[2].getReslutDoubleValue()[i]){
+							if(keyflag==5) {essayR.getReslutDoubleValue()[i]=4.0; }
+							else if(keyflag==4){essayR.getReslutDoubleValue()[i]=3.5; }
+							else {essayR.getReslutDoubleValue()[i]=3.0;}
+						}else if(target<=model[1].getReslutDoubleValue()[i]){
+							if(keyflag==5) {essayR.getReslutDoubleValue()[i]=4.5; }
+							else if(keyflag==4){essayR.getReslutDoubleValue()[i]=4.0; }
+							else {essayR.getReslutDoubleValue()[i]=3.5;}
+
+						}else {
+							if(keyflag==5) {essayR.getReslutDoubleValue()[i]=5; }
+							else if(keyflag==4){essayR.getReslutDoubleValue()[i]=4.5; }
+							else {essayR.getReslutDoubleValue()[i]=3.5;}
+						}	
+		     
+			//2.b
+						 i=5;
+						 target =essayR.getReslutDoubleValue()[i];
+							if(target>=model[0].getReslutDoubleValue()[i]){
+								if(keyflag==5) {essayR.getReslutDoubleValue()[i]=5.0; }
+								else if(keyflag==4){essayR.getReslutDoubleValue()[i]=4.5; }
+								else {essayR.getReslutDoubleValue()[i]=4.0;}
+							}else {
+								if(keyflag==5) {essayR.getReslutDoubleValue()[i]=4.5; }
+								else if(keyflag==4){essayR.getReslutDoubleValue()[i]=4.0; }
+								else {essayR.getReslutDoubleValue()[i]=3.5;}
+
+							} 
+			     
+						
+			//3.a
+							 i=6;
+							 target =essayR.getReslutDoubleValue()[i];
+								if(target>=model[2].getReslutDoubleValue()[i]){
+									if(keyflag==5) {essayR.getReslutDoubleValue()[i]=3.5; }
+									else if(keyflag==4){essayR.getReslutDoubleValue()[i]=3.0; }
+									else {essayR.getReslutDoubleValue()[i]=2.5;}
+								}else  {
+									if(keyflag==5) {essayR.getReslutDoubleValue()[i]=5.0; }
+									else if(keyflag==4){essayR.getReslutDoubleValue()[i]=4.0; }
+									else {essayR.getReslutDoubleValue()[i]=3.0;}
+
+								} 	
+		   //3.b
+								 i=7;
+								 target =essayR.getReslutDoubleValue()[i];
+									if(target<=model[0].getReslutDoubleValue()[i]){
+										essayR.getReslutDoubleValue()[i]=5;
+									}else if(target<=model[1].getReslutDoubleValue()[i]){
+										if(keyflag==5) {essayR.getReslutDoubleValue()[i]=4.5; }
+										else if(keyflag==4){essayR.getReslutDoubleValue()[i]=4.0; }
+										else {essayR.getReslutDoubleValue()[i]=3.5;}
+
+									}else {
+										if(keyflag==5) {essayR.getReslutDoubleValue()[i]=3.5; }
+										else if(keyflag==4){essayR.getReslutDoubleValue()[i]=3.0; }
+										else {essayR.getReslutDoubleValue()[i]=2.5;}
+									}
+						
+		
+	}
+	
 	private void pridict()
 	{
-		BufferedReader inputStream = null;
-		try
-		{
-			inputStream = new BufferedReader(new FileReader("trainingReslutAvg.txt"));
-			
-			
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} 
-		finally
-		{
-			try {
-				inputStream.close();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-	    }
+		int size = TestEssaySet.size();
+		for (int i=0; i<size; i++) {
+			TestEssaySet.get(i).getResultObject().update(TestEssaySet.get(i).getEssay().size());
+			updateEssayresult(TestEssaySet.get(i).getResultObject());
+		}
 		
 	}
 	public void outputResult(){
