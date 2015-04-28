@@ -46,9 +46,7 @@ public class LengthAndWord {
 			StringTokenizer temp = new StringTokenizer(essay.get(i));
 			sum += temp.countTokens();
 		}
-		
-		int average = (sum/size);
-		return average;
+		return sum;
 	}
 	
 	private int FindAdverbAdj(ArrayList<String> essay)
@@ -95,13 +93,9 @@ public class LengthAndWord {
 		    while (m.find()) {
 		        j++;
 		    }
-		}
+		} 
 		
-		int average = j/size; 
-		
-		return average;
+		return j;
 	}
 	
-	
-
 }

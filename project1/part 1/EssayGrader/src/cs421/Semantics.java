@@ -40,7 +40,7 @@ public class Semantics {
 	        
 	        inputStream2 = new BufferedReader(new FileReader("coherenceWords.txt"));
 	        words = null;
-	        while((words = inputStream1.readLine()) != null)
+	        while((words = inputStream2.readLine()) != null)
 	        {
 	        	StringTokenizer tokens = new StringTokenizer(words);
 	        	while(tokens.hasMoreTokens())

@@ -6,29 +6,24 @@ import java.io.IOException;
 
 public class TheMain {
 
-	public static void main(String[] args) throws IOException {
-		//  
-
-		
-	//	chunkResult CR=new chunkResult();
-    //	EssayResult essayR=new EssayResult();
-	//	Grammar.getChunkPOS("why they like this room?", CR );
-	//    Grammar.getInstance().SentenceSubAgree(CR, 0, essayR);	
-	//    Grammar.getInstance().SentenceSpellingCheck( "ss", essayR);
-		
-	       	  
-	    	  
+	public static void main(String[] args) throws IOException {	    	  
 	    	 graderModer grader= new graderModer();
+	    	 
+	    	 
+	    	 System.out.println("Start the program!");
+	    	 System.out.println("Once it finishes, a message will display!");
+	    	 
+	    	 //get the training stats
 	    	 grader.readTrainingData();
 	    	 grader.analysisTrainingData();
 	    	 grader.updateAutoGraderModel();
 	    	 grader.updateModelFromfile();
-	    	 grader.examineTestFile("input\\test\\tokenized\\trainingFile");
-	    	 grader.outputTraingResult();
+	    	 
+	    	 //predict the test files
+	    	 grader.examineTestFile("input\\test\\tokenized");
 	    	 grader.outputResult();
-	       	  
-	   }
-		
-
+	    	 System.out.println("Finished!");
+	    	 
+	}
 }
 

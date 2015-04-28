@@ -1,9 +1,11 @@
 package cs421;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -27,9 +29,9 @@ public class graderModer {
 	public void readTrainingData() throws IOException{
 		
 		String[] folderPath = new String[3]; 
-		folderPath[0] = "P5\\P5-tokenized\\high";
-		folderPath[1] = "P5\\P5-tokenized\\medium";
-		folderPath[2] = "P5\\P5-tokenized\\low";
+		folderPath[0] = "input\\training\\tokenized\\high";
+		folderPath[1] = "input\\training\\tokenized\\medium";
+		folderPath[2] = "input\\training\\tokenized\\low";
 		
 		String[] folderName = new String[3];
 		folderName[0] = "high";
@@ -58,17 +60,25 @@ public class graderModer {
     
 	public void analysisTrainingData() throws IOException{
 
-	    EssayAnalysis analysisObj = EssayAnalysis.getEAinstance();
-	   	 try {
-			analysisObj.analysisAll(TrainingEssaySet);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		if(TrainingEssaySet.size() > 0)
+		{
+		    EssayAnalysis analysisObj = EssayAnalysis.getEAinstance();
+		   	 try {
+				analysisObj.analysisAll(TrainingEssaySet);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 	}
 	
 	
 	public void updateAutoGraderModel(){
+		
+		int size = TrainingEssaySet.size();
+		
+		if(size < 1)
+			return;
 		
 		getTheAverage();
 		
@@ -79,7 +89,7 @@ public class graderModer {
         int mediumSize = 0;
         int highSize = 0;
         
-        int size = TrainingEssaySet.size();
+        
    	 
         for(int i=0; i<size;i++)
         {
@@ -107,9 +117,9 @@ public class graderModer {
         
         
         PrintWriter outputStream = null;
+
 		try
-		{
-			
+		{		
 	    	outputStream = new PrintWriter(new FileOutputStream("trainingReslutAvg.txt"));
 	    	
 	    	double temp[] = high.getReslutDoubleValue();
@@ -147,7 +157,9 @@ public class graderModer {
 	
 	public void updateModelFromfile(){
 		Scanner inputStream = null;
-
+		if(TrainingEssaySet.size() < 1)
+			return;
+		
 		try{
 			inputStream = new Scanner(new FileInputStream("trainingReslutAvg.txt"));
 			for(int i = 0; i < 3; i++)
@@ -175,59 +187,14 @@ public class graderModer {
 		}
 	}
 
-	public void examineTestFile(String path)
-	{
-		File folder = new File(path);
-		   
-	    File[] listFiles = folder.listFiles();
-	    try {
-		         for(File pathname : listFiles)
-		         {	 	        	
-		        	 if(pathname.isFile())
-		        	 {   
-		        		Essay essay = new Essay();
-						essay.setEssay(pathname, "any");
-						TestEssaySet.add(essay);
-		        	 }
-		         }
-			}
-	    	catch (IOException e) {
-				e.printStackTrace();
-			}
-	}
-	
-	public void outputResult(){
-		int size = TestEssaySet.size();
-		PrintWriter outputStream = null;
-		try
-		{
-			// check if the file exists and deletes
-			File f = new File("testFile.txt");
-			if(f.exists() && !f.isDirectory())
-			{
-				f.delete(); 
-			}
-			
-	    	outputStream = new PrintWriter(new FileOutputStream("testFileRes.txt"), true);
-			for(int j = 0; j < size; j++)
-		   	{
-				TestEssaySet.get(j).outputEssayStat(outputStream);
-		   	}
-		}
-		catch(IOException e)
-		{
-			e.printStackTrace();
-		}
-		finally
-		{
-			outputStream.close();
-		}
-		
-	}
-	
 	public void outputTraingResult(){
 		int size = TrainingEssaySet.size();
+		
+		if(size < 1)
+			return;
+		
 		PrintWriter outputStream = null;
+		
 		try
 		{
 			// check if the file exists and deletes
@@ -253,4 +220,93 @@ public class graderModer {
 		}
 		
 	}
+	
+	public void examineTestFile(String path) throws IOException
+	{
+		File folder = new File(path);
+		   
+	    File[] listFiles = folder.listFiles();
+	    try {
+		         for(File pathname : listFiles)
+		         {	 	        	
+		        	 if(pathname.isFile())
+		        	 {   
+		        		Essay essay = new Essay();
+						essay.setEssay(pathname, "any");
+						TestEssaySet.add(essay);
+		        	 }
+		         }
+			}
+	    	catch (IOException e) {
+				e.printStackTrace();
+			}
+
+	    analysisTestData();
+	    pridict();
+	}
+	
+	private void analysisTestData() throws IOException{
+
+	    EssayAnalysis analysisObj = EssayAnalysis.getEAinstance();
+	   	 try {
+			analysisObj.analysisAll(TestEssaySet);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	private void pridict()
+	{
+		BufferedReader inputStream = null;
+		try
+		{
+			inputStream = new BufferedReader(new FileReader("trainingReslutAvg.txt"));
+			
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
+		finally
+		{
+			try {
+				inputStream.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+	    }
+		
+	}
+	public void outputResult(){
+		int size = TestEssaySet.size();
+		PrintWriter outputStream = null;
+		try
+		{
+			// check if the file exists and deletes
+			File f = new File("output\\result.txt");
+			if(f.exists() && !f.isDirectory())
+			{
+				f.delete(); 
+			}
+			
+	    	outputStream = new PrintWriter(new FileOutputStream("output\\result.txt"), true);
+			for(int j = 0; j < size; j++)
+		   	{
+				TestEssaySet.get(j).outputEssayStat(outputStream);
+		   	}
+		}
+		catch(IOException e)
+		{
+			e.printStackTrace();
+		}
+		finally
+		{
+			outputStream.close();
+		}
+		
+	}
+	
+	
 }

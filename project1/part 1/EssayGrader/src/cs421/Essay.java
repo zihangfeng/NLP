@@ -7,6 +7,7 @@ import java.io.PrintWriter;
 import java.util.StringTokenizer;
 import java.io.FileReader;
 import java.io.IOException;
+
 import java.util.ArrayList;
 // the class for each essay
 public class Essay {
@@ -29,11 +30,18 @@ public class Essay {
 	{
 		return markedLevel;
 	}
+	
+	public void setMarkedResult(String newLevel)
+	{
+		markedLevel = newLevel;
+	}
+	
 	public void setEssay(File file, String level) throws IOException
 	{
 		// we also need to update the file's final result
 		markedLevel = level;
 		BufferedReader inputStream = null;
+		
 
         try {
             inputStream = new BufferedReader(new FileReader(file));
@@ -76,7 +84,7 @@ public class Essay {
 	public void outputEssayStat(PrintWriter outputStream)
 	{
 		finalScore = res.getFinalValue();
-		outputStream.println(fileName + " " + essay.size() + res.toString() + " " + markedLevel + " " + finalScore);
+		outputStream.println(fileName + " " + essay.size() + res.toString() + " " + finalScore + " " + markedLevel);
 		
 	}
 }

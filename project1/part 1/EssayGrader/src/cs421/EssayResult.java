@@ -135,7 +135,7 @@ public class EssayResult {
 	{
 		for(int i = 0; i < sizeOfRes; i++)
 		{
-			sum += doubleValue[i]; 
+			sum += resultLevel[i]; 
 		}
 		return sum;
 	}
