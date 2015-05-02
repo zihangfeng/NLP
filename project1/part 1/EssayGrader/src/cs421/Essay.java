@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
-import java.util.StringTokenizer;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -81,13 +80,6 @@ public class Essay {
 		return res;
 	}
 	
-	public void outputEssayStat(PrintWriter outputStream)
-	{
-		finalScore = res.getFinalValue();
-		outputStream.println(fileName + " " + res.toString() + " " + finalScore + " " + markedLevel);
-		
-	}
-	
 	public void outputFinaEssayStat(PrintWriter outputStream)
 	{
 		finalScore = res.getFinalValue();
@@ -104,7 +96,7 @@ public class Essay {
 		{
 			markedLevel = "low";
 		}
-		outputStream.println(fileName + " " + res.outputFinal() + " " + finalScore + " " + markedLevel);
+		outputStream.println(fileName + " " + res.toString() + " " + finalScore + " " + markedLevel);
 		
 	}
 }

@@ -1,11 +1,10 @@
 package cs421;
 
-import java.io.BufferedReader;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -186,39 +185,6 @@ public class graderModer {
 		}
 	}
 
-	public void outputTraingResult(){
-		int size = TrainingEssaySet.size();
-		
-		if(size < 1)
-			return;
-		
-		PrintWriter outputStream = null;
-		
-		try
-		{
-			// check if the file exists and deletes
-			File f = new File("trainingFile.txt");
-			if(f.exists() && !f.isDirectory())
-			{
-				f.delete(); 
-			}
-			
-	    	outputStream = new PrintWriter(new FileOutputStream("trainingFile.txt"), true);
-			for(int j = 0; j < size; j++)
-		   	{
-				TrainingEssaySet.get(j).outputEssayStat(outputStream);
-		   	}
-		}
-		catch(IOException e)
-		{
-			e.printStackTrace();
-		}
-		finally
-		{
-			outputStream.close();
-		}
-		
-	}
 	
 	public void examineTestFile(String path) throws IOException
 	{
@@ -244,6 +210,7 @@ public class graderModer {
 	    pridict();
 	}
 	
+	
 	private void analysisTestData() throws IOException{
 
 	    EssayAnalysis analysisObj = EssayAnalysis.getEAinstance();
@@ -253,6 +220,16 @@ public class graderModer {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	
+	private void pridict()
+	{
+		int size = TestEssaySet.size();
+		for (int i=0; i<size; i++) {
+			TestEssaySet.get(i).getResultObject().update(TestEssaySet.get(i).getEssay().size());
+			updateEssayresult(TestEssaySet.get(i).getResultObject());
+		}
+		
 	}
 	
 	private void updateEssayresult(EssayResult essayR){
@@ -381,15 +358,7 @@ public class graderModer {
 		
 	}
 	
-	private void pridict()
-	{
-		int size = TestEssaySet.size();
-		for (int i=0; i<size; i++) {
-			TestEssaySet.get(i).getResultObject().update(TestEssaySet.get(i).getEssay().size());
-			updateEssayresult(TestEssaySet.get(i).getResultObject());
-		}
-		
-	}
+
 	public void outputResult(){
 		int size = TestEssaySet.size();
 		PrintWriter outputStream = null;

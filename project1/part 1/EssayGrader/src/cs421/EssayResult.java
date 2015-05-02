@@ -117,21 +117,17 @@ public class EssayResult {
 			doubleValue[i]+= res1.getReslutDoubleValue()[i];
 		}
 	}
-	
-	public String toString()
+
+	public double getFinalValue()
 	{
-		return 	Integer.toString(resultLevel[0]) + " " +
-				Integer.toString(resultLevel[1]) + " " +
-				Integer.toString(resultLevel[2]) + " " +
-				Integer.toString(resultLevel[3]) + " " +
-				Integer.toString(resultLevel[4]) + " " +
-				Integer.toString(resultLevel[5]) + " " +
-				Integer.toString(resultLevel[6]) + " " +
-				Integer.toString(resultLevel[7]);
-			   
+		for(int i = 0; i < sizeOfRes; i++)
+		{
+			sum += doubleValue[i]; 
+		}
+		return sum/sizeOfRes;
 	}
 	
-	public String outputFinal()
+	public String toString()
 	{
 		return 	Double.toString(doubleValue[0]) + " " +
 				Double.toString(doubleValue[1]) + " " +
@@ -143,13 +139,4 @@ public class EssayResult {
 				Double.toString(doubleValue[7]);
 			   
 	}
-	public double getFinalValue()
-	{
-		for(int i = 0; i < sizeOfRes; i++)
-		{
-			sum += doubleValue[i]; 
-		}
-		return sum/sizeOfRes;
-	}
-
 }
