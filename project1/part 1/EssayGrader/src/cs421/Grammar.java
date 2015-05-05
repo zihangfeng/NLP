@@ -183,7 +183,6 @@ public class Grammar {
 					if(sentencePOS[j].contains("VBP")){
 		        		  printlog("checkNPvsVPcase3 for case 2");
 		        			essayR.addResult ("1.b") ; return;    	
-						
 					}
 				}	
 			}

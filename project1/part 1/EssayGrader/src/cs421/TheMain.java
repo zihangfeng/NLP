@@ -17,13 +17,15 @@ public class TheMain {
 	    	 grader.readTrainingData();
 	    	 grader.analysisTrainingData();
 	    	 grader.updateAutoGraderModel();
+	    	 System.out.println("The trainning is completed!");	    	 
 	    	 grader.updateModelFromfile();
 	    	 
 	    	 //predict the test files
+	    	 System.out.println("Reading the test files..................");	
 	    	 grader.examineTestFile("input\\test\\tokenized");
 	    	 grader.outputResult();
 	    	 System.out.println("Finished!");
-	    	 
+	    	 System.out.println("Please check the output result for the test files");
 	}
 }
 
